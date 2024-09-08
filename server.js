@@ -4,34 +4,32 @@ const videoQueue = require('./queue');
 const path = require('path');
 const app = express();
 const port = 3000;
+const fs = require('fs').promises;
 
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));  // To serve videos after generation
 
 app.post('/generate-video', async (req, res) => {
-    const { text } = req.body;
-    console.log('Hello, Node.js!');
-
-    
+    const text  = req.body;
+    console.log(text)
     // Add the job to the queue
-    const job = await videoQueue.add({ text });
+    const job = await videoQueue.add(text);
 
     // Respond with the job ID
     res.json({ jobId: job.id });
 });
+const VIDEO_DIR = '/home/dani/workspaces/video-generator'; // Define the directory path
 
 app.get('/video-status/:id', async (req, res) => {
     const jobId = req.params.id;
-    const job = await videoQueue.getJob(jobId);
+    const filePath = path.join(VIDEO_DIR, `rendered_video${jobId}.mp4`); // Use template literals
 
-    if (job) {
-        const state = await job.getState();
-        const result = await job.finished().catch(() => null);
-
-        res.json({ state, result });
-    } else {
-        res.status(404).json({ message: 'Job not found' });
+    try {
+        await fs.access(filePath);
+        res.json({ state: 'ready', message: 'Video is ready' });
+    } catch {
+        res.json({ state: 'processing', message: 'Video is still being processed' });
     }
 });
 

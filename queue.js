@@ -5,10 +5,8 @@ const { spawn } = require('child_process');
 const videoQueue = new Bull('videoQueue', 'redis://127.0.0.1:6379');
 
 videoQueue.process(async (job) => {
-    const { text } = job.data;
-    console.log('Hello, Node.js!');
-
-    // Path to your Python script
+    const text = job.data.text;
+    console.log(text);
     const pythonScriptPath = path.join(__dirname, '../Text-To-Video-AI/app.py');
 
     return new Promise((resolve, reject) => {
@@ -21,7 +19,6 @@ videoQueue.process(async (job) => {
 
         pythonProcess.stderr.on('data', (data) => {
             console.error(`stderr: ${data}`);
-            reject(new Error('Video generation failed'));
         });
 
         pythonProcess.on('close', (code) => {
