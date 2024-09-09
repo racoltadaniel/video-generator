@@ -3,8 +3,8 @@ const cors = require('cors');
 const videoQueue = require('./queue');
 const path = require('path');
 const app = express();
+const fs = require('fs');
 const port = 3000;
-const fs = require('fs').promises;
 const winston = require('winston');
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('jobs.db');
@@ -74,23 +74,36 @@ app.get('/video-status/:id', async (req, res) => {
     });
 });
 
-// app.get('/video/:id', (req, res) => {
-//     const jobId = req.params.id;
-//     const fileName = `rendered_video${jobId}.mp4`;
-//     const filePath = path.join(__dirname, fileName);
-//     logger.info(`Stream video ${filePath}`);
-//     res.setHeader('Content-Type', 'video/mp4');
-//     logger.info(`Sending video file: ${filePath}`);
-    
-//     res.sendFile(filePath, (err) => {
-//         if (err) {
-//             logger.error(`Error sending video file ${filePath}: ${err.message}`);
-//             res.status(500).json({ message: 'Error sending video' });
-//         } else {
-//             logger.info(`Video file ${filePath} sent successfully`);
-//         }
-//     });
-// });
+app.get('/video/:id', (req, res) => {
+    const videoId = req.params.id;
+    const videoPath = path.join(__dirname, `rendered_video${videoId}.mp4`);
+    const stat = fs.statSync(videoPath);
+    const fileSize = stat.size;
+    const range = req.headers.range;
+
+    if (range) {
+        const parts = range.replace(/bytes=/, "").split("-");
+        const start = parseInt(parts[0], 10);
+        const end = parts[1] ? parseInt(parts[1], 10) : fileSize - 1;
+        const chunkSize = (end - start) + 1;
+        const file = fs.createReadStream(videoPath, { start, end });
+        const head = {
+            'Content-Range': `bytes ${start}-${end}/${fileSize}`,
+            'Accept-Ranges': 'bytes',
+            'Content-Length': chunkSize,
+            'Content-Type': 'video/mp4',
+        };
+        res.writeHead(206, head);
+        file.pipe(res);
+    } else {
+        const head = {
+            'Content-Length': fileSize,
+            'Content-Type': 'video/mp4',
+        };
+        res.writeHead(200, head);
+        fs.createReadStream(videoPath).pipe(res);
+    }
+});
 
 app.listen(port, () => {
     logger.info(`Video generation API listening at http://localhost:${port}`);
