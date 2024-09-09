@@ -2150,3 +2150,247 @@ Moviepy - video ready /home/dani/workspaces/video-generator/rendered_video38.mp4
 2024-09-09 13:42:27,712 - DEBUG - Using selector: EpollSelector
 2024-09-09T10:42:28.211Z [Express API] info: Job ID 39 status from database: processing
 2024-09-09T10:42:30.213Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:31.895Z [Bull Queue Processor] info: Python script output (video path): Detected language: English
+2024-09-09T10:42:31.897Z [Bull Queue Processor] error: Python script stderr:   0%|          | 0/960 [00:00<?, ?frames/s]
+2024-09-09T10:42:32.215Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:34.226Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09 13:42:35,057 - DEBUG - Add segment 1 at step 22:
+	<|transcribe|><|0.00|> I Danny met my now ex, 34F, a little over two years ago.<|4.28|>
+2024-09-09T10:42:36.215Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:36.289Z [Bull Queue Processor] error: Python script stderr: 100%|██████████| 960/960 [00:04<00:00, 218.47frames/s]
+2024-09-09T10:42:36.290Z [Bull Queue Processor] error: Python script stderr: 100%|██████████| 960/960 [00:04<00:00, 218.44frames/s]
+2024-09-09T10:42:36.290Z [Bull Queue Processor] error: Python script stderr: 
+
+2024-09-09 13:42:36,290 - DEBUG - Add segment 2 at step 43:
+	<|4.28|><|4.28|> During that time, the idea of her getting a boob job has come up a few times.<|8.88|>
+2024-09-09 13:42:36,334 - DEBUG - Compile results
+2024-09-09 13:42:36,359 - INFO - Timed captions generated: [((0, 2.82), 'I Danny met my now ex 34F a little'), ((2.82, 5.2), 'over two years ago During that'), ((5.2, 6.68), 'time the idea of her getting a'), ((6.68, 8.56), 'boob job has come up a few times')]
+2024-09-09 13:42:36,366 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': '# Instructions\n\nGiven the following video script and timed captions, extract three visually concrete and specific keywords for each time segment that can be used to search for background videos. The keywords should be short and capture the main essence of the sentence. They can be synonyms or related terms. If a caption is vague or general, consider the next timed caption for more context. If a keyword is a single word, try to return a two-word keyword that is visually concrete. If a time frame contains two or more important pieces of information, divide it into shorter time frames with one keyword each. Ensure that the time periods are strictly consecutive and cover the entire length of the video. Each keyword should cover between 2-4 seconds. The output should be in JSON format, like this: [[[t1, t2], ["keyword1", "keyword2", "keyword3"]], [[t2, t3], ["keyword4", "keyword5", "keyword6"]], ...]. Please handle all edge cases, such as overlapping time segments, vague or general captions, and single-word keywords.\n\nFor example, if the caption is \'The cheetah is the fastest land animal, capable of running at speeds up to 75 mph\', the keywords should include \'cheetah running\', \'fastest animal\', and \'75 mph\'. Similarly, for \'The Great Wall of China is one of the most iconic landmarks in the world\', the keywords should be \'Great Wall of China\', \'iconic landmark\', and \'China landmark\'.\n\nImportant Guidelines:\n\nUse only English in your text queries.\nEach search string must depict something visual.\nThe depictions have to be extremely visually concrete, like rainy street, or cat sleeping.\n\'emotional moment\' <= BAD, because it doesn\'t depict something visually.\n\'crying child\' <= GOOD, because it depicts something visual.\nThe list must always contain the most relevant and appropriate query searches.\n[\'Car\', \'Car driving\', \'Car racing\', \'Car parked\'] <= BAD, because it\'s 4 strings.\n[\'Fast car\'] <= GOOD, because it\'s 1 string.\n[\'Un chien\', \'une voiture rapide\', \'une maison rouge\'] <= BAD, because the text query is NOT in English.\n  '}, {'role': 'user', 'content': "Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.\nTimed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')\n"}], 'model': 'gpt-4o-mini', 'temperature': 1}}
+2024-09-09 13:42:36,372 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-09-09 13:42:36,372 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-09-09 13:42:36,428 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f4a3d503650>
+2024-09-09 13:42:36,428 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f4a3f34c8c0> server_hostname='api.openai.com' timeout=5.0
+2024-09-09 13:42:36,448 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f4a3d503d10>
+2024-09-09 13:42:36,449 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-09 13:42:36,449 - DEBUG - send_request_headers.complete
+2024-09-09 13:42:36,449 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-09 13:42:36,449 - DEBUG - send_request_body.complete
+2024-09-09 13:42:36,450 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-09 13:42:37,908 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Mon, 09 Sep 2024 10:42:37 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-expose-headers', b'X-Request-ID'), (b'openai-organization', b'user-coogycxmxdecuft25r4ao3er'), (b'openai-processing-ms', b'1099'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15552000; includeSubDomains; preload'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'200000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'199381'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'185ms'), (b'x-request-id', b'req_4471f846e95028e25d69e9617f592667'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=8fSfZowSfeKD2b0GhxJEm3eBsK1DjeVktU9Usp9npI8-1725878557-1.0.1.1-f.pgaLCUwAOajnPxy67LvUWLp2C09ZsAiCG0Vc9kYd1RByPTu9vPuVCnRZSyo.fBxfLkhLFC0g0syguQYZjFMA; path=/; expires=Mon, 09-Sep-24 11:12:37 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=6pAF.vjbLZZcMKmNOpFZZ2JK4yfyVADFMOqrWIUHRWY-1725878557856-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8c069291dfc2c9cd-OTP'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-09-09 13:42:37,910 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-09 13:42:37,911 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-09-09 13:42:37,911 - DEBUG - receive_response_body.complete
+2024-09-09 13:42:37,912 - DEBUG - response_closed.started
+2024-09-09 13:42:37,912 - DEBUG - response_closed.complete
+2024-09-09 13:42:37,912 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "200 OK" Headers([('date', 'Mon, 09 Sep 2024 10:42:37 GMT'), ('content-type', 'application/json'), ('transfer-encoding', 'chunked'), ('connection', 'keep-alive'), ('access-control-expose-headers', 'X-Request-ID'), ('openai-organization', 'user-coogycxmxdecuft25r4ao3er'), ('openai-processing-ms', '1099'), ('openai-version', '2020-10-01'), ('strict-transport-security', 'max-age=15552000; includeSubDomains; preload'), ('x-ratelimit-limit-requests', '10000'), ('x-ratelimit-limit-tokens', '200000'), ('x-ratelimit-remaining-requests', '9999'), ('x-ratelimit-remaining-tokens', '199381'), ('x-ratelimit-reset-requests', '8.64s'), ('x-ratelimit-reset-tokens', '185ms'), ('x-request-id', 'req_4471f846e95028e25d69e9617f592667'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=8fSfZowSfeKD2b0GhxJEm3eBsK1DjeVktU9Usp9npI8-1725878557-1.0.1.1-f.pgaLCUwAOajnPxy67LvUWLp2C09ZsAiCG0Vc9kYd1RByPTu9vPuVCnRZSyo.fBxfLkhLFC0g0syguQYZjFMA; path=/; expires=Mon, 09-Sep-24 11:12:37 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=6pAF.vjbLZZcMKmNOpFZZ2JK4yfyVADFMOqrWIUHRWY-1725878557856-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8c069291dfc2c9cd-OTP'), ('content-encoding', 'gzip'), ('alt-svc', 'h3=":443"; ma=86400')])
+2024-09-09 13:42:37,912 - DEBUG - request_id: req_4471f846e95028e25d69e9617f592667
+2024-09-09 13:42:37,920 - INFO - ChatGPT Text: ```json [ [[0, 2.82], ["Dani ex", "34 years", "2 years"]], [[2.82, 5.2], ["past relationship", "time passed", "memories"]], [[5.2, 6.68], ["idea discussion", "topic conversation", "future plans"]], [[6.68, 8.56], ["boob job", "plastic surgery", "body modification"]] ] ```
+2024-09-09 13:42:37,921 - ERROR - Expecting value: line 1 column 1 (char 0)
+2024-09-09 13:42:37,921 - INFO - Search terms generated: [[[0, 2.82], ['Dani ex', '34 years', '2 years']], [[2.82, 5.2], ['past relationship', 'time passed', 'memories']], [[5.2, 6.68], ['idea discussion', 'topic conversation', 'future plans']], [[6.68, 8.56], ['boob job', 'plastic surgery', 'body modification']]]
+2024-09-09 13:42:37,925 - DEBUG - Starting new HTTPS connection (1): api.pexels.com:443
+2024-09-09T10:42:38.208Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09 13:42:38,216 - DEBUG - https://api.pexels.com:443 "GET /videos/search?query=Dani+ex&orientation=portrait&per_page=15 HTTP/1.1" 200 None
+2024-09-09 13:42:38,267 - DEBUG - Starting new HTTPS connection (1): api.pexels.com:443
+2024-09-09 13:42:38,607 - DEBUG - https://api.pexels.com:443 "GET /videos/search?query=past+relationship&orientation=portrait&per_page=15 HTTP/1.1" 200 None
+2024-09-09 13:42:38,646 - DEBUG - Starting new HTTPS connection (1): api.pexels.com:443
+2024-09-09 13:42:38,879 - DEBUG - https://api.pexels.com:443 "GET /videos/search?query=idea+discussion&orientation=portrait&per_page=15 HTTP/1.1" 200 None
+2024-09-09 13:42:38,924 - DEBUG - Starting new HTTPS connection (1): api.pexels.com:443
+2024-09-09 13:42:39,240 - DEBUG - https://api.pexels.com:443 "GET /videos/search?query=boob+job&orientation=portrait&per_page=15 HTTP/1.1" 200 None
+2024-09-09 13:42:39,273 - INFO - Background videos generated: [[[0, 2.82], 'https://videos.pexels.com/video-files/19956220/19956220-hd_1080_1920_60fps.mp4'], [[2.82, 5.2], 'https://videos.pexels.com/video-files/4873454/4873454-hd_1080_1920_25fps.mp4'], [[5.2, 6.68], 'https://videos.pexels.com/video-files/6914901/6914901-hd_1080_1920_25fps.mp4'], [[6.68, 8.56], 'https://videos.pexels.com/video-files/8348724/8348724-hd_1080_1920_25fps.mp4']]
+2024-09-09 13:42:39,278 - DEBUG - Starting new HTTPS connection (1): videos.pexels.com:443
+2024-09-09 13:42:39,382 - DEBUG - https://videos.pexels.com:443 "GET /video-files/19956220/19956220-hd_1080_1920_60fps.mp4 HTTP/1.1" 200 8198114
+2024-09-09T10:42:40.209Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09 13:42:41,801 - DEBUG - Starting new HTTPS connection (1): videos.pexels.com:443
+2024-09-09 13:42:41,879 - DEBUG - https://videos.pexels.com:443 "GET /video-files/4873454/4873454-hd_1080_1920_25fps.mp4 HTTP/1.1" 200 9323407
+2024-09-09T10:42:42.209Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:44.217Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09 13:42:44,500 - DEBUG - Starting new HTTPS connection (1): videos.pexels.com:443
+2024-09-09 13:42:44,575 - DEBUG - https://videos.pexels.com:443 "GET /video-files/6914901/6914901-hd_1080_1920_25fps.mp4 HTTP/1.1" 200 3215012
+2024-09-09 13:42:45,591 - DEBUG - Starting new HTTPS connection (1): videos.pexels.com:443
+2024-09-09 13:42:45,668 - DEBUG - https://videos.pexels.com:443 "GET /video-files/8348724/8348724-hd_1080_1920_25fps.mp4 HTTP/1.1" 200 5634593
+2024-09-09T10:42:46.212Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09 13:42:47,595 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-09 13:42:47,595 - DEBUG - STREAM b'gAMA' 41 4
+2024-09-09 13:42:47,595 - DEBUG - STREAM b'cHRM' 57 32
+2024-09-09 13:42:47,595 - DEBUG - STREAM b'bKGD' 101 6
+2024-09-09 13:42:47,595 - DEBUG - b'bKGD' 101 6 (unknown)
+2024-09-09 13:42:47,595 - DEBUG - STREAM b'IDAT' 119 21552
+2024-09-09 13:42:47,595 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-09 13:42:47,595 - DEBUG - STREAM b'gAMA' 41 4
+2024-09-09 13:42:47,595 - DEBUG - STREAM b'cHRM' 57 32
+2024-09-09 13:42:47,595 - DEBUG - STREAM b'bKGD' 101 6
+2024-09-09 13:42:47,595 - DEBUG - b'bKGD' 101 6 (unknown)
+2024-09-09 13:42:47,596 - DEBUG - STREAM b'IDAT' 119 21552
+2024-09-09 13:42:47,598 - DEBUG - STREAM b'tEXt' 21683 37
+2024-09-09 13:42:47,598 - DEBUG - STREAM b'tEXt' 21732 37
+2024-09-09 13:42:47,598 - DEBUG - STREAM b'tEXt' 21781 40
+2024-09-09 13:42:47,599 - DEBUG - Error closing: Operation on closed image
+2024-09-09 13:42:47,698 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-09 13:42:47,698 - DEBUG - STREAM b'gAMA' 41 4
+2024-09-09 13:42:47,698 - DEBUG - STREAM b'cHRM' 57 32
+2024-09-09 13:42:47,698 - DEBUG - STREAM b'bKGD' 101 6
+2024-09-09 13:42:47,698 - DEBUG - b'bKGD' 101 6 (unknown)
+2024-09-09 13:42:47,698 - DEBUG - STREAM b'IDAT' 119 22396
+2024-09-09 13:42:47,698 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-09 13:42:47,698 - DEBUG - STREAM b'gAMA' 41 4
+2024-09-09 13:42:47,698 - DEBUG - STREAM b'cHRM' 57 32
+2024-09-09 13:42:47,698 - DEBUG - STREAM b'bKGD' 101 6
+2024-09-09 13:42:47,699 - DEBUG - b'bKGD' 101 6 (unknown)
+2024-09-09 13:42:47,699 - DEBUG - STREAM b'IDAT' 119 22396
+2024-09-09 13:42:47,701 - DEBUG - STREAM b'tEXt' 22527 37
+2024-09-09 13:42:47,701 - DEBUG - STREAM b'tEXt' 22576 37
+2024-09-09 13:42:47,701 - DEBUG - STREAM b'tEXt' 22625 36
+2024-09-09 13:42:47,701 - DEBUG - Error closing: Operation on closed image
+2024-09-09 13:42:47,794 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-09 13:42:47,795 - DEBUG - STREAM b'gAMA' 41 4
+2024-09-09 13:42:47,795 - DEBUG - STREAM b'cHRM' 57 32
+2024-09-09 13:42:47,795 - DEBUG - STREAM b'bKGD' 101 6
+2024-09-09 13:42:47,795 - DEBUG - b'bKGD' 101 6 (unknown)
+2024-09-09 13:42:47,795 - DEBUG - STREAM b'IDAT' 119 19007
+2024-09-09 13:42:47,795 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-09 13:42:47,795 - DEBUG - STREAM b'gAMA' 41 4
+2024-09-09 13:42:47,795 - DEBUG - STREAM b'cHRM' 57 32
+2024-09-09 13:42:47,795 - DEBUG - STREAM b'bKGD' 101 6
+2024-09-09 13:42:47,795 - DEBUG - b'bKGD' 101 6 (unknown)
+2024-09-09 13:42:47,795 - DEBUG - STREAM b'IDAT' 119 19007
+2024-09-09 13:42:47,797 - DEBUG - STREAM b'tEXt' 19138 37
+2024-09-09 13:42:47,797 - DEBUG - STREAM b'tEXt' 19187 37
+2024-09-09 13:42:47,797 - DEBUG - STREAM b'tEXt' 19236 36
+2024-09-09 13:42:47,798 - DEBUG - Error closing: Operation on closed image
+2024-09-09 13:42:47,900 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-09 13:42:47,901 - DEBUG - STREAM b'gAMA' 41 4
+2024-09-09 13:42:47,901 - DEBUG - STREAM b'cHRM' 57 32
+2024-09-09 13:42:47,901 - DEBUG - STREAM b'bKGD' 101 6
+2024-09-09 13:42:47,901 - DEBUG - b'bKGD' 101 6 (unknown)
+2024-09-09 13:42:47,901 - DEBUG - STREAM b'IDAT' 119 22732
+2024-09-09 13:42:47,901 - DEBUG - STREAM b'IHDR' 16 13
+2024-09-09 13:42:47,901 - DEBUG - STREAM b'gAMA' 41 4
+2024-09-09 13:42:47,901 - DEBUG - STREAM b'cHRM' 57 32
+2024-09-09 13:42:47,901 - DEBUG - STREAM b'bKGD' 101 6
+2024-09-09 13:42:47,901 - DEBUG - b'bKGD' 101 6 (unknown)
+2024-09-09 13:42:47,901 - DEBUG - STREAM b'IDAT' 119 22732
+2024-09-09 13:42:47,903 - DEBUG - STREAM b'tEXt' 22863 37
+2024-09-09 13:42:47,903 - DEBUG - STREAM b'tEXt' 22912 37
+2024-09-09 13:42:47,903 - DEBUG - STREAM b'tEXt' 22961 38
+2024-09-09 13:42:47,904 - DEBUG - Error closing: Operation on closed image
+2024-09-09T10:42:47.940Z [Bull Queue Processor] info: Python script output (video path): Content Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+Timed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')
+
+None
+Moviepy - Building video /home/dani/workspaces/video-generator/rendered_video39.mp4.
+MoviePy - Writing audio in rendered_video39TEMP_MPY_wvf_snd.mp4
+2024-09-09T10:42:47.941Z [Bull Queue Processor] error: Python script stderr: chunk:   0%|          | 0/212 [00:00<?, ?it/s, now=None]
+2024-09-09T10:42:48.043Z [Bull Queue Processor] error: Python script stderr: chunk:  42%|████▏     | 88/212 [00:00<00:00, 870.21it/s, now=None]
+2024-09-09T10:42:48.143Z [Bull Queue Processor] error: Python script stderr: chunk:  89%|████████▉ | 189/212 [00:00<00:00, 949.79it/s, now=None]
+2024-09-09T10:42:48.159Z [Bull Queue Processor] error: Python script stderr:                                                                    
+2024-09-09T10:42:48.161Z [Bull Queue Processor] info: Python script output (video path): MoviePy - Done.
+Moviepy - Writing video /home/dani/workspaces/video-generator/rendered_video39.mp4
+2024-09-09T10:42:48.161Z [Bull Queue Processor] error: Python script stderr: t:   0%|          | 0/240 [00:00<?, ?it/s, now=None]
+2024-09-09T10:42:48.207Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:48.294Z [Bull Queue Processor] error: Python script stderr: t:   1%|▏         | 3/240 [00:00<00:10, 22.70it/s, now=None]
+2024-09-09T10:42:48.489Z [Bull Queue Processor] error: Python script stderr: t:   2%|▎         | 6/240 [00:00<00:13, 17.75it/s, now=None]
+2024-09-09T10:42:48.640Z [Bull Queue Processor] error: Python script stderr: t:   3%|▎         | 8/240 [00:00<00:14, 15.79it/s, now=None]
+2024-09-09T10:42:48.782Z [Bull Queue Processor] error: Python script stderr: t:   4%|▍         | 10/240 [00:00<00:15, 15.21it/s, now=None]
+2024-09-09T10:42:48.937Z [Bull Queue Processor] error: Python script stderr: t:   5%|▌         | 12/240 [00:00<00:15, 14.35it/s, now=None]
+2024-09-09T10:42:49.111Z [Bull Queue Processor] error: Python script stderr: t:   6%|▌         | 14/240 [00:00<00:16, 13.37it/s, now=None]
+2024-09-09T10:42:49.281Z [Bull Queue Processor] error: Python script stderr: t:   7%|▋         | 16/240 [00:01<00:17, 12.76it/s, now=None]
+2024-09-09T10:42:49.400Z [Bull Queue Processor] error: Python script stderr: t:   8%|▊         | 18/240 [00:01<00:16, 13.77it/s, now=None]
+2024-09-09T10:42:49.581Z [Bull Queue Processor] error: Python script stderr: t:   8%|▊         | 20/240 [00:01<00:17, 12.82it/s, now=None]
+2024-09-09T10:42:49.695Z [Bull Queue Processor] error: Python script stderr: t:   9%|▉         | 22/240 [00:01<00:15, 13.96it/s, now=None]
+2024-09-09T10:42:49.846Z [Bull Queue Processor] error: Python script stderr: t:  10%|█         | 24/240 [00:01<00:15, 13.73it/s, now=None]
+2024-09-09T10:42:49.971Z [Bull Queue Processor] error: Python script stderr: t:  11%|█         | 26/240 [00:01<00:14, 14.33it/s, now=None]
+2024-09-09T10:42:50.118Z [Bull Queue Processor] error: Python script stderr: t:  12%|█▏        | 28/240 [00:01<00:15, 14.11it/s, now=None]
+2024-09-09T10:42:50.205Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:50.291Z [Bull Queue Processor] error: Python script stderr: t:  12%|█▎        | 30/240 [00:02<00:15, 13.25it/s, now=None]
+2024-09-09T10:42:50.454Z [Bull Queue Processor] error: Python script stderr: t:  13%|█▎        | 32/240 [00:02<00:16, 12.94it/s, now=None]
+2024-09-09T10:42:50.587Z [Bull Queue Processor] error: Python script stderr: t:  14%|█▍        | 34/240 [00:02<00:15, 13.50it/s, now=None]
+2024-09-09T10:42:50.730Z [Bull Queue Processor] error: Python script stderr: t:  15%|█▌        | 36/240 [00:02<00:14, 13.65it/s, now=None]
+2024-09-09T10:42:50.849Z [Bull Queue Processor] error: Python script stderr: t:  16%|█▌        | 38/240 [00:02<00:13, 14.45it/s, now=None]
+2024-09-09T10:42:50.985Z [Bull Queue Processor] error: Python script stderr: t:  17%|█▋        | 40/240 [00:02<00:13, 14.54it/s, now=None]
+2024-09-09T10:42:51.097Z [Bull Queue Processor] error: Python script stderr: t:  18%|█▊        | 42/240 [00:02<00:12, 15.37it/s, now=None]
+2024-09-09T10:42:51.233Z [Bull Queue Processor] error: Python script stderr: t:  18%|█▊        | 44/240 [00:03<00:12, 15.18it/s, now=None]
+2024-09-09T10:42:51.351Z [Bull Queue Processor] error: Python script stderr: t:  19%|█▉        | 46/240 [00:03<00:12, 15.68it/s, now=None]
+2024-09-09T10:42:51.539Z [Bull Queue Processor] error: Python script stderr: t:  20%|██        | 48/240 [00:03<00:13, 13.74it/s, now=None]
+2024-09-09T10:42:51.728Z [Bull Queue Processor] error: Python script stderr: t:  21%|██        | 50/240 [00:03<00:15, 12.58it/s, now=None]
+2024-09-09T10:42:51.861Z [Bull Queue Processor] error: Python script stderr: t:  22%|██▏       | 52/240 [00:03<00:14, 13.25it/s, now=None]
+2024-09-09T10:42:52.003Z [Bull Queue Processor] error: Python script stderr: t:  22%|██▎       | 54/240 [00:03<00:13, 13.50it/s, now=None]
+2024-09-09T10:42:52.157Z [Bull Queue Processor] error: Python script stderr: t:  23%|██▎       | 56/240 [00:03<00:13, 13.46it/s, now=None]
+2024-09-09T10:42:52.208Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:52.295Z [Bull Queue Processor] error: Python script stderr: t:  24%|██▍       | 58/240 [00:04<00:13, 13.62it/s, now=None]
+2024-09-09T10:42:52.425Z [Bull Queue Processor] error: Python script stderr: t:  25%|██▌       | 60/240 [00:04<00:12, 14.21it/s, now=None]
+2024-09-09T10:42:52.535Z [Bull Queue Processor] error: Python script stderr: t:  26%|██▌       | 62/240 [00:04<00:11, 15.09it/s, now=None]
+2024-09-09T10:42:52.655Z [Bull Queue Processor] error: Python script stderr: t:  27%|██▋       | 64/240 [00:04<00:11, 15.51it/s, now=None]
+2024-09-09T10:42:52.775Z [Bull Queue Processor] error: Python script stderr: t:  28%|██▊       | 66/240 [00:04<00:10, 15.87it/s, now=None]
+2024-09-09T10:42:52.909Z [Bull Queue Processor] error: Python script stderr: t:  28%|██▊       | 68/240 [00:04<00:11, 15.54it/s, now=None]
+2024-09-09T10:42:53.041Z [Bull Queue Processor] error: Python script stderr: t:  29%|██▉       | 70/240 [00:04<00:10, 15.52it/s, now=None]
+2024-09-09T10:42:53.208Z [Bull Queue Processor] error: Python script stderr: t:  30%|███       | 72/240 [00:05<00:11, 14.19it/s, now=None]
+2024-09-09T10:42:53.311Z [Bull Queue Processor] error: Python script stderr: t:  31%|███       | 74/240 [00:05<00:10, 15.53it/s, now=None]
+2024-09-09T10:42:53.511Z [Bull Queue Processor] error: Python script stderr: t:  32%|███▏      | 76/240 [00:05<00:12, 13.23it/s, now=None]
+2024-09-09T10:42:53.663Z [Bull Queue Processor] error: Python script stderr: t:  33%|███▎      | 79/240 [00:05<00:10, 15.29it/s, now=None]
+2024-09-09T10:42:53.769Z [Bull Queue Processor] error: Python script stderr: t:  34%|███▍      | 81/240 [00:05<00:09, 16.03it/s, now=None]
+2024-09-09T10:42:53.925Z [Bull Queue Processor] error: Python script stderr: t:  35%|███▌      | 84/240 [00:05<00:09, 17.07it/s, now=None]
+2024-09-09T10:42:54.026Z [Bull Queue Processor] error: Python script stderr: t:  36%|███▌      | 86/240 [00:05<00:08, 17.68it/s, now=None]
+2024-09-09T10:42:54.160Z [Bull Queue Processor] error: Python script stderr: t:  37%|███▋      | 89/240 [00:05<00:07, 19.12it/s, now=None]
+2024-09-09T10:42:54.208Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:54.286Z [Bull Queue Processor] error: Python script stderr: t:  38%|███▊      | 91/240 [00:06<00:08, 18.21it/s, now=None]
+2024-09-09T10:42:54.399Z [Bull Queue Processor] error: Python script stderr: t:  39%|███▉      | 93/240 [00:06<00:08, 18.05it/s, now=None]
+2024-09-09T10:42:54.538Z [Bull Queue Processor] error: Python script stderr: t:  40%|███▉      | 95/240 [00:06<00:08, 16.91it/s, now=None]
+2024-09-09T10:42:54.652Z [Bull Queue Processor] error: Python script stderr: t:  40%|████      | 97/240 [00:06<00:08, 17.03it/s, now=None]
+2024-09-09T10:42:54.782Z [Bull Queue Processor] error: Python script stderr: t:  41%|████▏     | 99/240 [00:06<00:08, 17.09it/s, now=None]
+2024-09-09T10:42:54.908Z [Bull Queue Processor] error: Python script stderr: t:  42%|████▏     | 101/240 [00:06<00:08, 16.19it/s, now=None]
+2024-09-09T10:42:55.039Z [Bull Queue Processor] error: Python script stderr: t:  43%|████▎     | 103/240 [00:06<00:08, 16.04it/s, now=None]
+2024-09-09T10:42:55.174Z [Bull Queue Processor] error: Python script stderr: t:  44%|████▍     | 105/240 [00:07<00:08, 15.54it/s, now=None]
+2024-09-09T10:42:55.305Z [Bull Queue Processor] error: Python script stderr: t:  45%|████▍     | 107/240 [00:07<00:08, 15.42it/s, now=None]
+2024-09-09T10:42:55.440Z [Bull Queue Processor] error: Python script stderr: t:  46%|████▌     | 110/240 [00:07<00:07, 17.51it/s, now=None]
+2024-09-09T10:42:55.579Z [Bull Queue Processor] error: Python script stderr: t:  47%|████▋     | 113/240 [00:07<00:06, 18.77it/s, now=None]
+2024-09-09T10:42:55.681Z [Bull Queue Processor] error: Python script stderr: t:  48%|████▊     | 115/240 [00:07<00:06, 18.98it/s, now=None]
+2024-09-09T10:42:55.820Z [Bull Queue Processor] error: Python script stderr: t:  49%|████▉     | 118/240 [00:07<00:06, 19.84it/s, now=None]
+2024-09-09T10:42:55.962Z [Bull Queue Processor] error: Python script stderr: t:  50%|█████     | 121/240 [00:07<00:05, 20.32it/s, now=None]
+2024-09-09T10:42:56.118Z [Bull Queue Processor] error: Python script stderr: t:  52%|█████▏    | 124/240 [00:07<00:05, 19.88it/s, now=None]
+2024-09-09T10:42:56.205Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:56.296Z [Bull Queue Processor] error: Python script stderr: t:  53%|█████▎    | 127/240 [00:08<00:06, 18.82it/s, now=None]
+2024-09-09T10:42:56.400Z [Bull Queue Processor] error: Python script stderr: t:  54%|█████▍    | 129/240 [00:08<00:05, 18.92it/s, now=None]
+2024-09-09T10:42:56.503Z [Bull Queue Processor] error: Python script stderr: t:  55%|█████▍    | 131/240 [00:08<00:05, 19.04it/s, now=None]
+2024-09-09T10:42:56.622Z [Bull Queue Processor] error: Python script stderr: t:  56%|█████▌    | 134/240 [00:08<00:05, 20.81it/s, now=None]
+2024-09-09T10:42:56.774Z [Bull Queue Processor] error: Python script stderr: t:  57%|█████▋    | 137/240 [00:08<00:05, 20.44it/s, now=None]
+2024-09-09T10:42:56.983Z [Bull Queue Processor] error: Python script stderr: t:  58%|█████▊    | 140/240 [00:08<00:05, 17.97it/s, now=None]
+2024-09-09T10:42:57.101Z [Bull Queue Processor] error: Python script stderr: t:  59%|█████▉    | 142/240 [00:08<00:05, 17.75it/s, now=None]
+2024-09-09T10:42:57.237Z [Bull Queue Processor] error: Python script stderr: t:  60%|██████    | 145/240 [00:09<00:05, 18.97it/s, now=None]
+2024-09-09T10:42:57.372Z [Bull Queue Processor] error: Python script stderr: t:  62%|██████▏   | 148/240 [00:09<00:04, 20.13it/s, now=None]
+2024-09-09T10:42:57.495Z [Bull Queue Processor] error: Python script stderr: t:  63%|██████▎   | 151/240 [00:09<00:04, 21.08it/s, now=None]
+2024-09-09T10:42:57.618Z [Bull Queue Processor] error: Python script stderr: t:  64%|██████▍   | 154/240 [00:09<00:03, 22.00it/s, now=None]
+2024-09-09T10:42:57.754Z [Bull Queue Processor] error: Python script stderr: t:  65%|██████▌   | 157/240 [00:09<00:03, 22.02it/s, now=None]
+2024-09-09T10:42:57.878Z [Bull Queue Processor] error: Python script stderr: t:  67%|██████▋   | 160/240 [00:09<00:03, 22.65it/s, now=None]
+2024-09-09T10:42:58.005Z [Bull Queue Processor] error: Python script stderr: t:  68%|██████▊   | 163/240 [00:09<00:03, 22.94it/s, now=None]
+2024-09-09T10:42:58.137Z [Bull Queue Processor] error: Python script stderr: t:  69%|██████▉   | 166/240 [00:09<00:03, 22.88it/s, now=None]
+2024-09-09T10:42:58.211Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:58.271Z [Bull Queue Processor] error: Python script stderr: t:  70%|███████   | 169/240 [00:10<00:03, 22.73it/s, now=None]
+2024-09-09T10:42:58.452Z [Bull Queue Processor] error: Python script stderr: t:  72%|███████▏  | 172/240 [00:10<00:03, 20.42it/s, now=None]
+2024-09-09T10:42:58.593Z [Bull Queue Processor] error: Python script stderr: t:  73%|███████▎  | 175/240 [00:10<00:03, 20.94it/s, now=None]
+2024-09-09T10:42:58.818Z [Bull Queue Processor] error: Python script stderr: t:  74%|███████▍  | 178/240 [00:10<00:03, 17.68it/s, now=None]
+2024-09-09T10:42:58.968Z [Bull Queue Processor] error: Python script stderr: t:  75%|███████▌  | 181/240 [00:10<00:03, 18.31it/s, now=None]
+2024-09-09T10:42:59.081Z [Bull Queue Processor] error: Python script stderr: t:  76%|███████▋  | 183/240 [00:10<00:03, 18.19it/s, now=None]
+2024-09-09T10:42:59.182Z [Bull Queue Processor] error: Python script stderr: t:  77%|███████▋  | 185/240 [00:11<00:02, 18.57it/s, now=None]
+2024-09-09T10:42:59.293Z [Bull Queue Processor] error: Python script stderr: t:  78%|███████▊  | 187/240 [00:11<00:02, 18.42it/s, now=None]
+2024-09-09T10:42:59.413Z [Bull Queue Processor] error: Python script stderr: t:  79%|███████▉  | 189/240 [00:11<00:02, 17.88it/s, now=None]
+2024-09-09T10:42:59.537Z [Bull Queue Processor] error: Python script stderr: t:  80%|███████▉  | 191/240 [00:11<00:02, 17.39it/s, now=None]
+2024-09-09T10:42:59.677Z [Bull Queue Processor] error: Python script stderr: t:  81%|████████  | 194/240 [00:11<00:02, 18.68it/s, now=None]
+2024-09-09T10:42:59.811Z [Bull Queue Processor] error: Python script stderr: t:  82%|████████▏ | 197/240 [00:11<00:02, 19.82it/s, now=None]
+2024-09-09T10:42:59.958Z [Bull Queue Processor] error: Python script stderr: t:  83%|████████▎ | 200/240 [00:11<00:01, 20.02it/s, now=None]
+2024-09-09T10:43:00.112Z [Bull Queue Processor] error: Python script stderr: t:  85%|████████▍ | 203/240 [00:11<00:01, 19.85it/s, now=None]
+2024-09-09T10:43:00.207Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:43:00.246Z [Bull Queue Processor] error: Python script stderr: t:  85%|████████▌ | 205/240 [00:12<00:01, 18.42it/s, now=None]
+2024-09-09T10:43:00.405Z [Bull Queue Processor] error: Python script stderr: t:  86%|████████▋ | 207/240 [00:12<00:02, 16.49it/s, now=None]
+2024-09-09T10:43:00.575Z [Bull Queue Processor] error: Python script stderr: t:  88%|████████▊ | 210/240 [00:12<00:01, 16.88it/s, now=None]
+2024-09-09T10:43:00.731Z [Bull Queue Processor] error: Python script stderr: t:  89%|████████▉ | 213/240 [00:12<00:01, 17.70it/s, now=None]
+2024-09-09T10:43:00.833Z [Bull Queue Processor] error: Python script stderr: t:  90%|████████▉ | 215/240 [00:12<00:01, 18.04it/s, now=None]
+2024-09-09T10:43:00.934Z [Bull Queue Processor] error: Python script stderr: t:  92%|█████████▏| 221/240 [00:12<00:00, 27.87it/s, now=None]
+2024-09-09T10:43:01.049Z [Bull Queue Processor] error: Python script stderr: t:  95%|█████████▌| 228/240 [00:12<00:00, 37.10it/s, now=None]
+2024-09-09T10:43:01.160Z [Bull Queue Processor] error: Python script stderr: t:  98%|█████████▊| 235/240 [00:12<00:00, 44.31it/s, now=None]
+2024-09-09T10:43:01.273Z [Bull Queue Processor] error: Python script stderr:                                                               
+2024-09-09 13:43:01,403 - INFO - Video generation completed
+2024-09-09 13:43:01,403 - INFO - Process completed for topic: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+2024-09-09T10:43:01.403Z [Bull Queue Processor] info: Python script output (video path): Moviepy - Done !
+Moviepy - video ready /home/dani/workspaces/video-generator/rendered_video39.mp4
+2024-09-09T10:43:02.099Z [Bull Queue Processor] info: Python script finished successfully for job ID: 39
+2024-09-09T10:43:02.213Z [Express API] info: Job ID 39 status from database: finished

@@ -68,7 +68,7 @@ app.get('/video-status/:id', async (req, res) => {
             }
         } else {
             // If no status is found in the database
-            logger.warning(`Database query for not found job: ${jobId}`);
+            logger.error(`Database query for not found job: ${jobId}`);
             res.json({ state: 'invalid', message: 'Video is not present' });
         }
     });
