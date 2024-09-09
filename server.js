@@ -85,7 +85,7 @@ app.get('/video/:id', (req, res) => {
     res.sendFile(filePath, (err) => {
         if (err) {
             logger.error(`Error sending video file ${filePath}: ${err.message}`);
-            res.status(500).json({ message: 'Error sending video' });
+            res.status(500).json({ message: 'Error sending video' }).end();
         } else {
             logger.info(`Video file ${filePath} sent successfully`);
         }
