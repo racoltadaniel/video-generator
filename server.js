@@ -5,6 +5,7 @@ const path = require('path');
 const app = express();
 const port = 3000;
 const fs = require('fs').promises;
+const fsFile = require('fs');
 const winston = require('winston');
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('jobs.db');
@@ -31,7 +32,7 @@ app.use(express.static('public'));  // To serve videos after generation
 function readPropertiesFile(filePath) {
     const properties = {};
     try {
-        const data = fs.readFileSync(filePath, 'utf8');
+        const data = fsFile.readFileSync(filePath, 'utf8');
         data.split('\n').forEach(line => {
             const [key, value] = line.split('=');
             if (key && value) {
