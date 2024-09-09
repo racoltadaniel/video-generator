@@ -82,7 +82,7 @@ app.get('/video/:id', (req, res) => {
     res.setHeader('Content-Type', 'video/mp4');
     logger.info(`Sending video file: ${filePath}`);
 
-    fs.access(filePath, fs.constants.F_OK, (err) => {
+    fs.access(filePath, fs.F_OK, (err) => {
         if (err) {
             // File does not exist
             logger.error(`File not found: ${filePath}`);
