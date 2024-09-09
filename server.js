@@ -76,6 +76,7 @@ app.get('/video-status/:id', async (req, res) => {
 // Endpoint to stream video
 app.get('/video/:id', (req, res) => {
     const jobId = req.params.id;
+    logger.info(`Stream video ${jobId}`);
     const fileName = `rendered_video${jobId}.mp4`;
     const filePath = path.join(__dirname, fileName);
 
