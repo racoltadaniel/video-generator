@@ -81,14 +81,25 @@ app.get('/video/:id', (req, res) => {
 
     res.setHeader('Content-Type', 'video/mp4');
     logger.info(`Sending video file: ${filePath}`);
-    
-    res.sendFile(filePath, (err) => {
+
+    fs.access(filePath, fs.constants.F_OK, (err) => {
         if (err) {
-            logger.error(`Error sending video file ${filePath}: ${err.message}`);
-            res.status(500).json({ message: 'Error sending video' }).end();
-        } else {
-            logger.info(`Video file ${filePath} sent successfully`);
+            // File does not exist
+            logger.error(`File not found: ${filePath}`);
+            return res.status(404).json({ message: 'File not found' });
         }
+
+        // File exists, send the file
+        res.sendFile(filePath, (err) => {
+            if (err) {
+                logger.error(`Error sending video file ${filePath}: ${err.message}`);
+                if (!res.headersSent) {
+                    res.status(500).json({ message: 'Error sending video' });
+                }
+            } else {
+                logger.info(`Video file ${filePath} sent successfully`);
+            }
+        });
     });
 });
 
