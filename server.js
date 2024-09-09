@@ -73,52 +73,21 @@ app.get('/video-status/:id', async (req, res) => {
         }
     });
 });
-// Endpoint to stream video
+
 app.get('/video/:id', (req, res) => {
     const jobId = req.params.id;
-    logger.info(`Stream video ${jobId}`);
     const fileName = `rendered_video${jobId}.mp4`;
     const filePath = path.join(__dirname, fileName);
     logger.info(`Stream video ${filePath}`);
-    fs.access(filePath, fs.F_OK, (err) => {
+    res.setHeader('Content-Type', 'video/mp4');
+    logger.info(`Sending video file: ${filePath}`);
+    
+    res.sendFile(filePath, (err) => {
         if (err) {
-            logger.error(`File not found: ${filePath}`);
-            return res.status(404).json({ message: 'File not found' });
-        }
-
-        const stat = fs.statSync(filePath);
-        const fileSize = stat.size;
-        const range = req.headers.range;
-
-        if (range) {
-            const parts = range.replace(/bytes=/, '').split('-');
-            const start = parseInt(parts[0], 10);
-            const end = parts[1] ? parseInt(parts[1], 10) : fileSize - 1;
-
-            if (start >= fileSize) {
-                res.status(416).send('Requested range not satisfiable');
-                return;
-            }
-
-            const chunkSize = (end - start) + 1;
-            const file = fs.createReadStream(filePath, { start, end });
-            const head = {
-                'Content-Range': `bytes ${start}-${end}/${fileSize}`,
-                'Accept-Ranges': 'bytes',
-                'Content-Length': chunkSize,
-                'Content-Type': 'video/mp4',
-            };
-
-            res.writeHead(206, head);
-            file.pipe(res);
+            logger.error(`Error sending video file ${filePath}: ${err.message}`);
+            res.status(500).json({ message: 'Error sending video' });
         } else {
-            const head = {
-                'Content-Length': fileSize,
-                'Content-Type': 'video/mp4',
-            };
-
-            res.writeHead(200, head);
-            fs.createReadStream(filePath).pipe(res);
+            logger.info(`Video file ${filePath} sent successfully`);
         }
     });
 });
