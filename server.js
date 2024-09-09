@@ -79,7 +79,7 @@ app.get('/video/:id', (req, res) => {
     logger.info(`Stream video ${jobId}`);
     const fileName = `rendered_video${jobId}.mp4`;
     const filePath = path.join(__dirname, fileName);
-
+    logger.info(`Stream video ${filePath}`);
     fs.access(filePath, fs.F_OK, (err) => {
         if (err) {
             logger.error(`File not found: ${filePath}`);
