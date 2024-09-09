@@ -74,35 +74,23 @@ app.get('/video-status/:id', async (req, res) => {
     });
 });
 
-app.get('/video/:videoId', (req, res) => {
-    const videoId = req.params.videoId;
-    const videoPath = path.join(__dirname, 'rendered_videos', `${videoId}.mp4`);
+app.get('/video/:id', (req, res) => {
+    const jobId = req.params.id;
+    const fileName = `rendered_video${jobId}.mp4`;
+    const filePath = path.join(__dirname, fileName);
 
-    fs.stat(videoPath, (err, stats) => {
+    res.setHeader('Content-Type', 'video/mp4');
+    logger.info(`Sending video file: ${filePath}`);
+    
+    res.sendFile(filePath, (err) => {
         if (err) {
-            console.error('Error reading file:', err);
-            return res.status(404).json({ error: 'File not found' });
+            logger.error(`Error sending video file ${filePath}: ${err.message}`);
+            res.status(500).json({ message: 'Error sending video' }).end();
+        } else {
+            logger.info(`Video file ${filePath} sent successfully`);
         }
-
-        res.setHeader('Content-Type', 'video/mp4');
-        res.setHeader('Content-Length', stats.size);
-
-        // Create a read stream and pipe it to the response
-        const readStream = fs.createReadStream(videoPath);
-        readStream.pipe(res);
-
-        readStream.on('error', (streamErr) => {
-            console.error('Error streaming file:', streamErr);
-            res.status(500).json({ error: 'Error streaming file' });
-        });
-
-        // Handle case where headers might have already been sent
-        res.on('finish', () => {
-            console.log('Response finished');
-        });
     });
 });
-
 
 app.listen(port, () => {
     logger.info(`Video generation API listening at http://localhost:${port}`);
