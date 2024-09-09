@@ -74,23 +74,23 @@ app.get('/video-status/:id', async (req, res) => {
     });
 });
 
-app.get('/video/:id', (req, res) => {
-    const jobId = req.params.id;
-    const fileName = `rendered_video${jobId}.mp4`;
-    const filePath = path.join(__dirname, fileName);
-    logger.info(`Stream video ${filePath}`);
-    res.setHeader('Content-Type', 'video/mp4');
-    logger.info(`Sending video file: ${filePath}`);
+// app.get('/video/:id', (req, res) => {
+//     const jobId = req.params.id;
+//     const fileName = `rendered_video${jobId}.mp4`;
+//     const filePath = path.join(__dirname, fileName);
+//     logger.info(`Stream video ${filePath}`);
+//     res.setHeader('Content-Type', 'video/mp4');
+//     logger.info(`Sending video file: ${filePath}`);
     
-    res.sendFile(filePath, (err) => {
-        if (err) {
-            logger.error(`Error sending video file ${filePath}: ${err.message}`);
-            res.status(500).json({ message: 'Error sending video' });
-        } else {
-            logger.info(`Video file ${filePath} sent successfully`);
-        }
-    });
-});
+//     res.sendFile(filePath, (err) => {
+//         if (err) {
+//             logger.error(`Error sending video file ${filePath}: ${err.message}`);
+//             res.status(500).json({ message: 'Error sending video' });
+//         } else {
+//             logger.info(`Video file ${filePath} sent successfully`);
+//         }
+//     });
+// });
 
 app.listen(port, () => {
     logger.info(`Video generation API listening at http://localhost:${port}`);
