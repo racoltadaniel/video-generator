@@ -27,6 +27,30 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));  // To serve videos after generation
 
+// Read properties file
+function readPropertiesFile(filePath) {
+    const properties = {};
+    try {
+        const data = fs.readFileSync(filePath, 'utf8');
+        data.split('\n').forEach(line => {
+            const [key, value] = line.split('=');
+            if (key && value) {
+                properties[key.trim()] = value.trim();
+            }
+        });
+    } catch (error) {
+        console.error(`Error reading properties file: ${error}`);
+    }
+    return properties;
+}
+
+const properties = readPropertiesFile('/etc/properties/videogen.properties');
+
+// Serve the properties as JSON
+app.get('/config', (req, res) => {
+    res.json(properties); 
+});
+
 app.post('/generate-video', async (req, res) => {
     const text  = req.body;
     logger.info(`Received request to generate video with text: ${JSON.stringify(text)}`);
