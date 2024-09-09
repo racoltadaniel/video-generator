@@ -1345,3 +1345,568 @@ Moviepy - video ready /home/dani/workspaces/video-generator/rendered_video35.mp4
 2024-09-09T10:09:59.226Z [Express API] info: Video file /home/dani/workspaces/video-generator/rendered_video35.mp4 sent successfully
 2024-09-09T10:09:59.686Z [Express API] info: Sending video file: /home/dani/workspaces/video-generator/rendered_video35.mp4
 2024-09-09T10:09:59.708Z [Express API] info: Video file /home/dani/workspaces/video-generator/rendered_video35.mp4 sent successfully
+2024-09-09T10:12:51.577Z [Express API] info: Received request to generate video with text: {"text":"I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times."}
+2024-09-09T10:12:51.578Z [Express API] info: Video generation job added to queue with ID: 36
+2024-09-09T10:12:51.580Z [Bull Queue Processor] info: Processing job with ID: 36, Text: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+2024-09-09T10:12:53.587Z [Express API] info: Job ID 36 status from database: processing
+2024-09-09 13:12:54,733 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-09 13:12:54,734 - DEBUG - load_verify_locations cafile='/home/dani/.local/lib/python3.11/site-packages/certifi/cacert.pem'
+2024-09-09 13:12:54,790 - INFO - Generating script for topic: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+2024-09-09 13:12:54,790 - DEBUG - Using selector: EpollSelector
+2024-09-09T10:12:55.589Z [Express API] info: Job ID 36 status from database: processing
+2024-09-09T10:12:57.594Z [Express API] info: Job ID 36 status from database: processing
+2024-09-09T10:12:58.425Z [Bull Queue Processor] info: Python script output (video path): Detected language: English
+2024-09-09T10:12:58.425Z [Bull Queue Processor] error: Python script stderr:   0%|          | 0/960 [00:00<?, ?frames/s]
+2024-09-09T10:12:59.590Z [Express API] info: Job ID 36 status from database: processing
+2024-09-09 13:13:00,221 - DEBUG - Add segment 1 at step 22:
+	<|transcribe|><|0.00|> I Danny met my now ex, 34F, a little over two years ago.<|4.28|>
+2024-09-09T10:13:01.131Z [Bull Queue Processor] error: Python script stderr: 100%|██████████| 960/960 [00:02<00:00, 354.85frames/s]
+2024-09-09T10:13:01.132Z [Bull Queue Processor] error: Python script stderr: 100%|██████████| 960/960 [00:02<00:00, 354.71frames/s]
+2024-09-09T10:13:01.132Z [Bull Queue Processor] error: Python script stderr: 
+
+2024-09-09 13:13:01,132 - DEBUG - Add segment 2 at step 43:
+	<|4.28|><|4.28|> During that time, the idea of her getting a boob job has come up a few times.<|8.88|>
+2024-09-09 13:13:01,153 - DEBUG - Compile results
+2024-09-09 13:13:01,171 - INFO - Timed captions generated: [((0, 2.82), 'I Danny met my now ex 34F a little'), ((2.82, 5.2), 'over two years ago During that'), ((5.2, 6.68), 'time the idea of her getting a'), ((6.68, 8.56), 'boob job has come up a few times')]
+2024-09-09 13:13:01,175 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': '# Instructions\n\nGiven the following video script and timed captions, extract three visually concrete and specific keywords for each time segment that can be used to search for background videos. The keywords should be short and capture the main essence of the sentence. They can be synonyms or related terms. If a caption is vague or general, consider the next timed caption for more context. If a keyword is a single word, try to return a two-word keyword that is visually concrete. If a time frame contains two or more important pieces of information, divide it into shorter time frames with one keyword each. Ensure that the time periods are strictly consecutive and cover the entire length of the video. Each keyword should cover between 2-4 seconds. The output should be in JSON format, like this: [[[t1, t2], ["keyword1", "keyword2", "keyword3"]], [[t2, t3], ["keyword4", "keyword5", "keyword6"]], ...]. Please handle all edge cases, such as overlapping time segments, vague or general captions, and single-word keywords.\n\nFor example, if the caption is \'The cheetah is the fastest land animal, capable of running at speeds up to 75 mph\', the keywords should include \'cheetah running\', \'fastest animal\', and \'75 mph\'. Similarly, for \'The Great Wall of China is one of the most iconic landmarks in the world\', the keywords should be \'Great Wall of China\', \'iconic landmark\', and \'China landmark\'.\n\nImportant Guidelines:\n\nUse only English in your text queries.\nEach search string must depict something visual.\nThe depictions have to be extremely visually concrete, like rainy street, or cat sleeping.\n\'emotional moment\' <= BAD, because it doesn\'t depict something visually.\n\'crying child\' <= GOOD, because it depicts something visual.\nThe list must always contain the most relevant and appropriate query searches.\n[\'Car\', \'Car driving\', \'Car racing\', \'Car parked\'] <= BAD, because it\'s 4 strings.\n[\'Fast car\'] <= GOOD, because it\'s 1 string.\n[\'Un chien\', \'une voiture rapide\', \'une maison rouge\'] <= BAD, because the text query is NOT in English.\n  '}, {'role': 'user', 'content': "Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.\nTimed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')\n"}], 'model': 'gpt-4o-mini', 'temperature': 1}}
+2024-09-09 13:13:01,183 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-09-09 13:13:01,184 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-09-09 13:13:01,222 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f508a5bfb50>
+2024-09-09 13:13:01,222 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f508a5548c0> server_hostname='api.openai.com' timeout=5.0
+2024-09-09 13:13:01,249 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f508a5bf590>
+2024-09-09 13:13:01,249 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-09 13:13:01,249 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-09-09 13:13:01,250 - DEBUG - response_closed.started
+2024-09-09 13:13:01,250 - DEBUG - response_closed.complete
+2024-09-09 13:13:01,250 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
+    raise exc
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 93, in handle_request
+    self._send_request_headers(**kwargs)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 151, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/openai/_base_client.py", line 952, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-09-09 13:13:01,257 - DEBUG - 1 retry left
+2024-09-09 13:13:01,257 - INFO - Retrying request to /chat/completions in 0.988361 seconds
+2024-09-09T10:13:01.588Z [Express API] info: Job ID 36 status from database: processing
+2024-09-09 13:13:02,246 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': '# Instructions\n\nGiven the following video script and timed captions, extract three visually concrete and specific keywords for each time segment that can be used to search for background videos. The keywords should be short and capture the main essence of the sentence. They can be synonyms or related terms. If a caption is vague or general, consider the next timed caption for more context. If a keyword is a single word, try to return a two-word keyword that is visually concrete. If a time frame contains two or more important pieces of information, divide it into shorter time frames with one keyword each. Ensure that the time periods are strictly consecutive and cover the entire length of the video. Each keyword should cover between 2-4 seconds. The output should be in JSON format, like this: [[[t1, t2], ["keyword1", "keyword2", "keyword3"]], [[t2, t3], ["keyword4", "keyword5", "keyword6"]], ...]. Please handle all edge cases, such as overlapping time segments, vague or general captions, and single-word keywords.\n\nFor example, if the caption is \'The cheetah is the fastest land animal, capable of running at speeds up to 75 mph\', the keywords should include \'cheetah running\', \'fastest animal\', and \'75 mph\'. Similarly, for \'The Great Wall of China is one of the most iconic landmarks in the world\', the keywords should be \'Great Wall of China\', \'iconic landmark\', and \'China landmark\'.\n\nImportant Guidelines:\n\nUse only English in your text queries.\nEach search string must depict something visual.\nThe depictions have to be extremely visually concrete, like rainy street, or cat sleeping.\n\'emotional moment\' <= BAD, because it doesn\'t depict something visually.\n\'crying child\' <= GOOD, because it depicts something visual.\nThe list must always contain the most relevant and appropriate query searches.\n[\'Car\', \'Car driving\', \'Car racing\', \'Car parked\'] <= BAD, because it\'s 4 strings.\n[\'Fast car\'] <= GOOD, because it\'s 1 string.\n[\'Un chien\', \'une voiture rapide\', \'une maison rouge\'] <= BAD, because the text query is NOT in English.\n  '}, {'role': 'user', 'content': "Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.\nTimed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')\n"}], 'model': 'gpt-4o-mini', 'temperature': 1}}
+2024-09-09 13:13:02,247 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-09-09 13:13:02,248 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-09-09 13:13:02,268 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f50883d3fd0>
+2024-09-09 13:13:02,268 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f508a5548c0> server_hostname='api.openai.com' timeout=5.0
+2024-09-09 13:13:02,294 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f50883d3e90>
+2024-09-09 13:13:02,294 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-09 13:13:02,295 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-09-09 13:13:02,295 - DEBUG - response_closed.started
+2024-09-09 13:13:02,295 - DEBUG - response_closed.complete
+2024-09-09 13:13:02,295 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
+    raise exc
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 93, in handle_request
+    self._send_request_headers(**kwargs)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 151, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/openai/_base_client.py", line 952, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-09-09 13:13:02,299 - DEBUG - 0 retries left
+2024-09-09 13:13:02,299 - INFO - Retrying request to /chat/completions in 1.764520 seconds
+2024-09-09T10:13:03.592Z [Express API] info: Job ID 36 status from database: processing
+2024-09-09 13:13:04,064 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': '# Instructions\n\nGiven the following video script and timed captions, extract three visually concrete and specific keywords for each time segment that can be used to search for background videos. The keywords should be short and capture the main essence of the sentence. They can be synonyms or related terms. If a caption is vague or general, consider the next timed caption for more context. If a keyword is a single word, try to return a two-word keyword that is visually concrete. If a time frame contains two or more important pieces of information, divide it into shorter time frames with one keyword each. Ensure that the time periods are strictly consecutive and cover the entire length of the video. Each keyword should cover between 2-4 seconds. The output should be in JSON format, like this: [[[t1, t2], ["keyword1", "keyword2", "keyword3"]], [[t2, t3], ["keyword4", "keyword5", "keyword6"]], ...]. Please handle all edge cases, such as overlapping time segments, vague or general captions, and single-word keywords.\n\nFor example, if the caption is \'The cheetah is the fastest land animal, capable of running at speeds up to 75 mph\', the keywords should include \'cheetah running\', \'fastest animal\', and \'75 mph\'. Similarly, for \'The Great Wall of China is one of the most iconic landmarks in the world\', the keywords should be \'Great Wall of China\', \'iconic landmark\', and \'China landmark\'.\n\nImportant Guidelines:\n\nUse only English in your text queries.\nEach search string must depict something visual.\nThe depictions have to be extremely visually concrete, like rainy street, or cat sleeping.\n\'emotional moment\' <= BAD, because it doesn\'t depict something visually.\n\'crying child\' <= GOOD, because it depicts something visual.\nThe list must always contain the most relevant and appropriate query searches.\n[\'Car\', \'Car driving\', \'Car racing\', \'Car parked\'] <= BAD, because it\'s 4 strings.\n[\'Fast car\'] <= GOOD, because it\'s 1 string.\n[\'Un chien\', \'une voiture rapide\', \'une maison rouge\'] <= BAD, because the text query is NOT in English.\n  '}, {'role': 'user', 'content': "Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.\nTimed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')\n"}], 'model': 'gpt-4o-mini', 'temperature': 1}}
+2024-09-09 13:13:04,065 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-09-09 13:13:04,066 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-09-09 13:13:04,097 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f50883d6310>
+2024-09-09 13:13:04,098 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f508a5548c0> server_hostname='api.openai.com' timeout=5.0
+2024-09-09 13:13:04,124 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f50883d6450>
+2024-09-09 13:13:04,125 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-09 13:13:04,125 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-09-09 13:13:04,125 - DEBUG - response_closed.started
+2024-09-09 13:13:04,126 - DEBUG - response_closed.complete
+2024-09-09 13:13:04,126 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
+    raise exc
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 93, in handle_request
+    self._send_request_headers(**kwargs)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 151, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/openai/_base_client.py", line 952, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-09-09 13:13:04,130 - DEBUG - Raising connection error
+2024-09-09 13:13:04,130 - ERROR - error in response Connection error.
+2024-09-09 13:13:04,133 - INFO - Search terms generated: None
+2024-09-09 13:13:04,133 - WARNING - No background video found
+2024-09-09T10:13:04.133Z [Bull Queue Processor] info: Python script output (video path): Content Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+Timed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')
+2024-09-09T10:13:04.134Z [Bull Queue Processor] error: Python script stderr: Traceback (most recent call last):
+  File "/home/dani/workspaces/Text-To-Video-AI/app.py", line 55, in <module>
+
+2024-09-09T10:13:04.134Z [Bull Queue Processor] error: Python script stderr:     background_video_urls = merge_empty_intervals(background_video_urls)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/workspaces/Text-To-Video-AI/utility/video/video_search_query_generator.py", line 93, in merge_empty_intervals
+
+2024-09-09T10:13:04.134Z [Bull Queue Processor] error: Python script stderr:     while i < len(segments):
+
+2024-09-09T10:13:04.134Z [Bull Queue Processor] error: Python script stderr:               ^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+
+2024-09-09T10:13:04.806Z [Bull Queue Processor] error: Python script exited with error code 1 for job ID: 36
+2024-09-09T10:13:05.587Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:07.592Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:09.592Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:11.590Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:13.593Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:15.593Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:18.320Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:19.593Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:21.592Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:23.592Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:25.592Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:27.589Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:29.594Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:31.592Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:33.593Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:35.606Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:37.593Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:39.592Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:41.593Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:43.592Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:45.646Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:47.589Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:49.592Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:51.596Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:54.319Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:55.602Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:13:57.591Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:00.318Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:02.313Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:04.324Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:06.321Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:08.320Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:10.324Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:12.316Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:14.317Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:16.316Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:18.317Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:20.319Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:22.318Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:24.314Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:26.315Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:28.310Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:30.316Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:32.317Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:34.316Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:36.311Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:38.327Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:40.313Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:42.314Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:44.317Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:46.312Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:14:48.040Z [Express API] info: Job ID 36 status from database: failed
+2024-09-09T10:15:13.133Z [Express API] info: Received request to generate video with text: {"text":"I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times."}
+2024-09-09T10:15:13.139Z [Express API] info: Video generation job added to queue with ID: 37
+2024-09-09T10:15:13.141Z [Bull Queue Processor] info: Processing job with ID: 37, Text: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+2024-09-09T10:15:15.154Z [Express API] info: Job ID 37 status from database: processing
+2024-09-09 13:15:16,519 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-09 13:15:16,520 - DEBUG - load_verify_locations cafile='/home/dani/.local/lib/python3.11/site-packages/certifi/cacert.pem'
+2024-09-09 13:15:16,577 - INFO - Generating script for topic: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+2024-09-09 13:15:16,577 - DEBUG - Using selector: EpollSelector
+2024-09-09T10:15:17.159Z [Express API] info: Job ID 37 status from database: processing
+2024-09-09T10:15:19.160Z [Express API] info: Job ID 37 status from database: processing
+2024-09-09T10:15:20.786Z [Bull Queue Processor] info: Python script output (video path): Detected language: English
+2024-09-09T10:15:20.787Z [Bull Queue Processor] error: Python script stderr:   0%|          | 0/960 [00:00<?, ?frames/s]
+2024-09-09T10:15:21.165Z [Express API] info: Job ID 37 status from database: processing
+2024-09-09 13:15:22,778 - DEBUG - Add segment 1 at step 22:
+	<|transcribe|><|0.00|> I Danny met my now ex, 34F, a little over two years ago.<|4.28|>
+2024-09-09T10:15:23.168Z [Express API] info: Job ID 37 status from database: processing
+2024-09-09T10:15:23.912Z [Bull Queue Processor] error: Python script stderr: 100%|██████████| 960/960 [00:03<00:00, 307.19frames/s]
+2024-09-09T10:15:23.913Z [Bull Queue Processor] error: Python script stderr: 100%|██████████| 960/960 [00:03<00:00, 307.08frames/s]
+2024-09-09T10:15:23.913Z [Bull Queue Processor] error: Python script stderr: 
+
+2024-09-09 13:15:23,913 - DEBUG - Add segment 2 at step 43:
+	<|4.28|><|4.28|> During that time, the idea of her getting a boob job has come up a few times.<|8.88|>
+2024-09-09 13:15:23,937 - DEBUG - Compile results
+2024-09-09 13:15:23,956 - INFO - Timed captions generated: [((0, 2.82), 'I Danny met my now ex 34F a little'), ((2.82, 5.2), 'over two years ago During that'), ((5.2, 6.68), 'time the idea of her getting a'), ((6.68, 8.56), 'boob job has come up a few times')]
+2024-09-09 13:15:23,960 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': '# Instructions\n\nGiven the following video script and timed captions, extract three visually concrete and specific keywords for each time segment that can be used to search for background videos. The keywords should be short and capture the main essence of the sentence. They can be synonyms or related terms. If a caption is vague or general, consider the next timed caption for more context. If a keyword is a single word, try to return a two-word keyword that is visually concrete. If a time frame contains two or more important pieces of information, divide it into shorter time frames with one keyword each. Ensure that the time periods are strictly consecutive and cover the entire length of the video. Each keyword should cover between 2-4 seconds. The output should be in JSON format, like this: [[[t1, t2], ["keyword1", "keyword2", "keyword3"]], [[t2, t3], ["keyword4", "keyword5", "keyword6"]], ...]. Please handle all edge cases, such as overlapping time segments, vague or general captions, and single-word keywords.\n\nFor example, if the caption is \'The cheetah is the fastest land animal, capable of running at speeds up to 75 mph\', the keywords should include \'cheetah running\', \'fastest animal\', and \'75 mph\'. Similarly, for \'The Great Wall of China is one of the most iconic landmarks in the world\', the keywords should be \'Great Wall of China\', \'iconic landmark\', and \'China landmark\'.\n\nImportant Guidelines:\n\nUse only English in your text queries.\nEach search string must depict something visual.\nThe depictions have to be extremely visually concrete, like rainy street, or cat sleeping.\n\'emotional moment\' <= BAD, because it doesn\'t depict something visually.\n\'crying child\' <= GOOD, because it depicts something visual.\nThe list must always contain the most relevant and appropriate query searches.\n[\'Car\', \'Car driving\', \'Car racing\', \'Car parked\'] <= BAD, because it\'s 4 strings.\n[\'Fast car\'] <= GOOD, because it\'s 1 string.\n[\'Un chien\', \'une voiture rapide\', \'une maison rouge\'] <= BAD, because the text query is NOT in English.\n  '}, {'role': 'user', 'content': "Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.\nTimed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')\n"}], 'model': 'gpt-4o-mini', 'temperature': 1}}
+2024-09-09 13:15:23,967 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-09-09 13:15:23,967 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-09-09 13:15:24,026 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f2903ff9b50>
+2024-09-09 13:15:24,026 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f2903f6c8c0> server_hostname='api.openai.com' timeout=5.0
+2024-09-09 13:15:24,045 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f2903fd52d0>
+2024-09-09 13:15:24,045 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-09 13:15:24,046 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-09-09 13:15:24,046 - DEBUG - response_closed.started
+2024-09-09 13:15:24,046 - DEBUG - response_closed.complete
+2024-09-09 13:15:24,046 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
+    raise exc
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 93, in handle_request
+    self._send_request_headers(**kwargs)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 151, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/openai/_base_client.py", line 952, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-09-09 13:15:24,048 - DEBUG - 1 retry left
+2024-09-09 13:15:24,048 - INFO - Retrying request to /chat/completions in 0.949249 seconds
+2024-09-09 13:15:24,998 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': '# Instructions\n\nGiven the following video script and timed captions, extract three visually concrete and specific keywords for each time segment that can be used to search for background videos. The keywords should be short and capture the main essence of the sentence. They can be synonyms or related terms. If a caption is vague or general, consider the next timed caption for more context. If a keyword is a single word, try to return a two-word keyword that is visually concrete. If a time frame contains two or more important pieces of information, divide it into shorter time frames with one keyword each. Ensure that the time periods are strictly consecutive and cover the entire length of the video. Each keyword should cover between 2-4 seconds. The output should be in JSON format, like this: [[[t1, t2], ["keyword1", "keyword2", "keyword3"]], [[t2, t3], ["keyword4", "keyword5", "keyword6"]], ...]. Please handle all edge cases, such as overlapping time segments, vague or general captions, and single-word keywords.\n\nFor example, if the caption is \'The cheetah is the fastest land animal, capable of running at speeds up to 75 mph\', the keywords should include \'cheetah running\', \'fastest animal\', and \'75 mph\'. Similarly, for \'The Great Wall of China is one of the most iconic landmarks in the world\', the keywords should be \'Great Wall of China\', \'iconic landmark\', and \'China landmark\'.\n\nImportant Guidelines:\n\nUse only English in your text queries.\nEach search string must depict something visual.\nThe depictions have to be extremely visually concrete, like rainy street, or cat sleeping.\n\'emotional moment\' <= BAD, because it doesn\'t depict something visually.\n\'crying child\' <= GOOD, because it depicts something visual.\nThe list must always contain the most relevant and appropriate query searches.\n[\'Car\', \'Car driving\', \'Car racing\', \'Car parked\'] <= BAD, because it\'s 4 strings.\n[\'Fast car\'] <= GOOD, because it\'s 1 string.\n[\'Un chien\', \'une voiture rapide\', \'une maison rouge\'] <= BAD, because the text query is NOT in English.\n  '}, {'role': 'user', 'content': "Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.\nTimed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')\n"}], 'model': 'gpt-4o-mini', 'temperature': 1}}
+2024-09-09 13:15:24,999 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-09-09 13:15:25,000 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-09-09 13:15:25,031 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f29019e09d0>
+2024-09-09 13:15:25,032 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f2903f6c8c0> server_hostname='api.openai.com' timeout=5.0
+2024-09-09 13:15:25,057 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f29019e0b10>
+2024-09-09 13:15:25,057 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-09 13:15:25,057 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-09-09 13:15:25,058 - DEBUG - response_closed.started
+2024-09-09 13:15:25,058 - DEBUG - response_closed.complete
+2024-09-09 13:15:25,059 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
+    raise exc
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 93, in handle_request
+    self._send_request_headers(**kwargs)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 151, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/openai/_base_client.py", line 952, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-09-09 13:15:25,062 - DEBUG - 0 retries left
+2024-09-09 13:15:25,063 - INFO - Retrying request to /chat/completions in 1.619475 seconds
+2024-09-09T10:15:25.155Z [Express API] info: Job ID 37 status from database: processing
+2024-09-09 13:15:26,683 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': '# Instructions\n\nGiven the following video script and timed captions, extract three visually concrete and specific keywords for each time segment that can be used to search for background videos. The keywords should be short and capture the main essence of the sentence. They can be synonyms or related terms. If a caption is vague or general, consider the next timed caption for more context. If a keyword is a single word, try to return a two-word keyword that is visually concrete. If a time frame contains two or more important pieces of information, divide it into shorter time frames with one keyword each. Ensure that the time periods are strictly consecutive and cover the entire length of the video. Each keyword should cover between 2-4 seconds. The output should be in JSON format, like this: [[[t1, t2], ["keyword1", "keyword2", "keyword3"]], [[t2, t3], ["keyword4", "keyword5", "keyword6"]], ...]. Please handle all edge cases, such as overlapping time segments, vague or general captions, and single-word keywords.\n\nFor example, if the caption is \'The cheetah is the fastest land animal, capable of running at speeds up to 75 mph\', the keywords should include \'cheetah running\', \'fastest animal\', and \'75 mph\'. Similarly, for \'The Great Wall of China is one of the most iconic landmarks in the world\', the keywords should be \'Great Wall of China\', \'iconic landmark\', and \'China landmark\'.\n\nImportant Guidelines:\n\nUse only English in your text queries.\nEach search string must depict something visual.\nThe depictions have to be extremely visually concrete, like rainy street, or cat sleeping.\n\'emotional moment\' <= BAD, because it doesn\'t depict something visually.\n\'crying child\' <= GOOD, because it depicts something visual.\nThe list must always contain the most relevant and appropriate query searches.\n[\'Car\', \'Car driving\', \'Car racing\', \'Car parked\'] <= BAD, because it\'s 4 strings.\n[\'Fast car\'] <= GOOD, because it\'s 1 string.\n[\'Un chien\', \'une voiture rapide\', \'une maison rouge\'] <= BAD, because the text query is NOT in English.\n  '}, {'role': 'user', 'content': "Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.\nTimed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')\n"}], 'model': 'gpt-4o-mini', 'temperature': 1}}
+2024-09-09 13:15:26,685 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-09-09 13:15:26,686 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-09-09 13:15:26,707 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f29019e2f50>
+2024-09-09 13:15:26,708 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f2903f6c8c0> server_hostname='api.openai.com' timeout=5.0
+2024-09-09 13:15:26,734 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f29019e3090>
+2024-09-09 13:15:26,735 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-09 13:15:26,736 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-09-09 13:15:26,736 - DEBUG - response_closed.started
+2024-09-09 13:15:26,736 - DEBUG - response_closed.complete
+2024-09-09 13:15:26,737 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 69, in map_httpcore_exceptions
+    yield
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 233, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 216, in handle_request
+    raise exc from None
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 143, in handle_request
+    raise exc
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 93, in handle_request
+    self._send_request_headers(**kwargs)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_sync/http11.py", line 151, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dani/.local/lib/python3.11/site-packages/openai/_base_client.py", line 952, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_client.py", line 1015, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 232, in handle_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/dani/.local/lib/python3.11/site-packages/httpx/_transports/default.py", line 86, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-09-09 13:15:26,740 - DEBUG - Raising connection error
+2024-09-09 13:15:26,740 - ERROR - error in response Connection error.
+2024-09-09 13:15:26,741 - INFO - Search terms generated: None
+2024-09-09 13:15:26,741 - WARNING - No background video found
+2024-09-09T10:15:26.742Z [Bull Queue Processor] info: Python script output (video path): Content Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+Timed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')
+2024-09-09T10:15:26.742Z [Bull Queue Processor] error: Python script stderr: Traceback (most recent call last):
+  File "/home/dani/workspaces/Text-To-Video-AI/app.py", line 55, in <module>
+
+2024-09-09T10:15:26.742Z [Bull Queue Processor] error: Python script stderr:     background_video_urls = merge_empty_intervals(background_video_urls)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dani/workspaces/Text-To-Video-AI/utility/video/video_search_query_generator.py", line 93, in merge_empty_intervals
+    while i < len(segments):
+
+2024-09-09T10:15:26.743Z [Bull Queue Processor] error: Python script stderr:               ^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+
+2024-09-09T10:15:27.157Z [Express API] info: Job ID 37 status from database: processing
+2024-09-09T10:15:27.422Z [Bull Queue Processor] error: Python script exited with error code 1 for job ID: 37
+2024-09-09T10:15:29.159Z [Express API] info: Job ID 37 status from database: failed
+2024-09-09T10:15:31.160Z [Express API] info: Job ID 37 status from database: failed
+2024-09-09T10:15:33.172Z [Express API] info: Job ID 37 status from database: failed
+2024-09-09T10:15:35.159Z [Express API] info: Job ID 37 status from database: failed
+2024-09-09T10:15:37.159Z [Express API] info: Job ID 37 status from database: failed
+2024-09-09T10:15:39.165Z [Express API] info: Job ID 37 status from database: failed
+2024-09-09T10:15:41.157Z [Express API] info: Job ID 37 status from database: failed
+2024-09-09T10:15:43.160Z [Express API] info: Job ID 37 status from database: failed
+2024-09-09T10:15:45.155Z [Express API] info: Job ID 37 status from database: failed
+2024-09-09T10:28:40.743Z [Express API] info: Video generation API listening at http://localhost:3000
+2024-09-09T10:28:59.161Z [Express API] info: Received request to generate video with text: {"text":"I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times."}
+2024-09-09T10:28:59.167Z [Bull Queue Processor] info: Processing job with ID: 38, Text: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+2024-09-09T10:28:59.167Z [Express API] info: Video generation job added to queue with ID: 38
+2024-09-09T10:29:01.186Z [Express API] info: Job ID 38 status from database: processing
+2024-09-09 13:29:02,430 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-09 13:29:02,431 - DEBUG - load_verify_locations cafile='/home/dani/.local/lib/python3.11/site-packages/certifi/cacert.pem'
+2024-09-09 13:29:02,488 - INFO - Generating script for topic: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+2024-09-09 13:29:02,488 - DEBUG - Using selector: EpollSelector
+2024-09-09T10:29:03.181Z [Express API] info: Job ID 38 status from database: processing
+2024-09-09T10:29:05.191Z [Express API] info: Job ID 38 status from database: processing
+2024-09-09T10:29:06.818Z [Bull Queue Processor] info: Python script output (video path): Detected language: English
+2024-09-09T10:29:06.819Z [Bull Queue Processor] error: Python script stderr:   0%|          | 0/960 [00:00<?, ?frames/s]
+2024-09-09T10:29:07.180Z [Express API] info: Job ID 38 status from database: processing
+2024-09-09T10:29:09.192Z [Express API] info: Job ID 38 status from database: processing
+2024-09-09 13:29:09,436 - DEBUG - Add segment 1 at step 22:
+	<|transcribe|><|0.00|> I Danny met my now ex, 34F, a little over two years ago.<|4.28|>
+2024-09-09T10:29:10.611Z [Bull Queue Processor] error: Python script stderr: 100%|██████████| 960/960 [00:03<00:00, 253.12frames/s]
+2024-09-09 13:29:10,611 - DEBUG - Add segment 2 at step 43:
+	<|4.28|><|4.28|> During that time, the idea of her getting a boob job has come up a few times.<|8.88|>
+2024-09-09T10:29:10.611Z [Bull Queue Processor] error: Python script stderr: 100%|██████████| 960/960 [00:03<00:00, 253.11frames/s]
+
+2024-09-09 13:29:10,641 - DEBUG - Compile results
+2024-09-09 13:29:10,663 - INFO - Timed captions generated: [((0, 2.82), 'I Danny met my now ex 34F a little'), ((2.82, 5.2), 'over two years ago During that'), ((5.2, 6.68), 'time the idea of her getting a'), ((6.68, 8.56), 'boob job has come up a few times')]
+2024-09-09 13:29:10,669 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': '# Instructions\n\nGiven the following video script and timed captions, extract three visually concrete and specific keywords for each time segment that can be used to search for background videos. The keywords should be short and capture the main essence of the sentence. They can be synonyms or related terms. If a caption is vague or general, consider the next timed caption for more context. If a keyword is a single word, try to return a two-word keyword that is visually concrete. If a time frame contains two or more important pieces of information, divide it into shorter time frames with one keyword each. Ensure that the time periods are strictly consecutive and cover the entire length of the video. Each keyword should cover between 2-4 seconds. The output should be in JSON format, like this: [[[t1, t2], ["keyword1", "keyword2", "keyword3"]], [[t2, t3], ["keyword4", "keyword5", "keyword6"]], ...]. Please handle all edge cases, such as overlapping time segments, vague or general captions, and single-word keywords.\n\nFor example, if the caption is \'The cheetah is the fastest land animal, capable of running at speeds up to 75 mph\', the keywords should include \'cheetah running\', \'fastest animal\', and \'75 mph\'. Similarly, for \'The Great Wall of China is one of the most iconic landmarks in the world\', the keywords should be \'Great Wall of China\', \'iconic landmark\', and \'China landmark\'.\n\nImportant Guidelines:\n\nUse only English in your text queries.\nEach search string must depict something visual.\nThe depictions have to be extremely visually concrete, like rainy street, or cat sleeping.\n\'emotional moment\' <= BAD, because it doesn\'t depict something visually.\n\'crying child\' <= GOOD, because it depicts something visual.\nThe list must always contain the most relevant and appropriate query searches.\n[\'Car\', \'Car driving\', \'Car racing\', \'Car parked\'] <= BAD, because it\'s 4 strings.\n[\'Fast car\'] <= GOOD, because it\'s 1 string.\n[\'Un chien\', \'une voiture rapide\', \'une maison rouge\'] <= BAD, because the text query is NOT in English.\n  '}, {'role': 'user', 'content': "Script: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.\nTimed Captions:((0, 2.82), 'I Danny met my now ex 34F a little')((2.82, 5.2), 'over two years ago During that')((5.2, 6.68), 'time the idea of her getting a')((6.68, 8.56), 'boob job has come up a few times')\n"}], 'model': 'gpt-4o-mini', 'temperature': 1}}
+2024-09-09 13:29:10,676 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-09-09 13:29:10,676 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-09-09 13:29:10,739 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f444773a3d0>
+2024-09-09 13:29:10,739 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7f44450d88c0> server_hostname='api.openai.com' timeout=5.0
+2024-09-09 13:29:10,761 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7f44455841d0>
+2024-09-09 13:29:10,761 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-09-09 13:29:10,761 - DEBUG - send_request_headers.complete
+2024-09-09 13:29:10,761 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-09-09 13:29:10,762 - DEBUG - send_request_body.complete
+2024-09-09 13:29:10,762 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-09-09T10:29:11.196Z [Express API] info: Job ID 38 status from database: processing
