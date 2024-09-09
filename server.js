@@ -5,7 +5,6 @@ const path = require('path');
 const app = express();
 const port = 3000;
 const fs = require('fs').promises;
-const fsFile = require('fs');
 const winston = require('winston');
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('jobs.db');
@@ -27,30 +26,6 @@ const logger = winston.createLogger({
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));  // To serve videos after generation
-
-// Read properties file
-function readPropertiesFile(filePath) {
-    const properties = {};
-    try {
-        const data = fsFile.readFileSync(filePath, 'utf8');
-        data.split('\n').forEach(line => {
-            const [key, value] = line.split('=');
-            if (key && value) {
-                properties[key.trim()] = value.trim();
-            }
-        });
-    } catch (error) {
-        console.error(`Error reading properties file: ${error}`);
-    }
-    return properties;
-}
-
-const properties = readPropertiesFile('/etc/properties/videogen.properties');
-
-// Serve the properties as JSON
-app.get('/config', (req, res) => {
-    res.json(properties); 
-});
 
 app.post('/generate-video', async (req, res) => {
     const text  = req.body;

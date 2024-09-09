@@ -2140,3 +2140,13 @@ Moviepy - video ready /home/dani/workspaces/video-generator/rendered_video38.mp4
 2024-09-09T10:29:37.184Z [Express API] info: Job ID 38 status from database: processing
 2024-09-09T10:29:37.534Z [Bull Queue Processor] info: Python script finished successfully for job ID: 38
 2024-09-09T10:29:39.187Z [Express API] info: Job ID 38 status from database: finished
+2024-09-09T10:42:24.194Z [Express API] info: Received request to generate video with text: {"text":"I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times."}
+2024-09-09T10:42:24.195Z [Express API] info: Video generation job added to queue with ID: 39
+2024-09-09T10:42:24.196Z [Bull Queue Processor] info: Processing job with ID: 39, Text: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+2024-09-09T10:42:26.209Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09 13:42:27,645 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-09 13:42:27,646 - DEBUG - load_verify_locations cafile='/home/dani/.local/lib/python3.11/site-packages/certifi/cacert.pem'
+2024-09-09 13:42:27,711 - INFO - Generating script for topic: I Dani met my now ex (34F) a little over 2 years ago. During that time, the idea of her getting a boob job has come up a few times.
+2024-09-09 13:42:27,712 - DEBUG - Using selector: EpollSelector
+2024-09-09T10:42:28.211Z [Express API] info: Job ID 39 status from database: processing
+2024-09-09T10:42:30.213Z [Express API] info: Job ID 39 status from database: processing
