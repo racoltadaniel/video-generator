@@ -76,7 +76,7 @@ app.get('/video-status/:id', async (req, res) => {
 
 app.get('/video/:id', (req, res) => {
     const videoId = req.params.id;
-    const videoPath = path.join(__dirname, `rendered_video${videoId}.mp4`);
+    const videoPath = path.join(__dirname, `rendered_video${videoId}_caption.mp4`);
     const stat = fs.statSync(videoPath);
     const fileSize = stat.size;
     const range = req.headers.range;
