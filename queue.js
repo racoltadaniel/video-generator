@@ -4,7 +4,38 @@ const { spawn } = require('child_process');
 const winston = require('winston');
 const sqlite3 = require('sqlite3').verbose();
 const videoQueue = new Bull('videoQueue', 'redis://127.0.0.1:6379');
+const fs = require('fs');
 
+// Define the path to the property file
+const propertiesFilePath = '/etc/properties/videogen.properties';
+
+// Function to read and parse the properties file
+function loadProperties(filePath) {
+    const properties = {};
+    try {
+        const data = fs.readFileSync(filePath, 'utf8');
+        const lines = data.split('\n');
+
+        lines.forEach(line => {
+            // Skip empty lines and lines starting with # (comments)
+            if (line.trim() === '' || line.trim().startsWith('#')) return;
+
+            const [key, value] = line.split('=');
+            if (key && value) {
+                properties[key.trim()] = value.trim();
+            }
+        });
+    } catch (err) {
+        console.error(`Error reading properties file: ${err}`);
+    }
+    return properties;
+}
+
+// Load properties
+const properties = loadProperties(propertiesFilePath);
+
+// Access the pythonScriptPath property
+const pythonScriptPath = properties['pythonScriptPath'] ? properties['pythonScriptPath'] : path.join(__dirname, '../Text-To-Video-AI/app.py');
 
 // Create a logger for the Bull queue processor
 const logger = winston.createLogger({
@@ -27,8 +58,10 @@ const updateJobStatus = (jobId, status) => {
     return new Promise((resolve, reject) => {
         db.run(`INSERT OR REPLACE INTO job_statuses (job_id, status) VALUES (?, ?)`, [jobId, status], function(err) {
             if (err) {
+                logger.error("Error ocurred inserting in db for job id %s", jobId)
                 reject(err);
             } else {
+                logger.info("Inserting in db for job id %s", jobId)
                 resolve();
             }
         });
@@ -38,8 +71,7 @@ const updateJobStatus = (jobId, status) => {
 videoQueue.process(async (job) => {
     const text = job.data.text;
     const jobId = job.id;
-    logger.info(`Processing job with ID: ${job.id}, Text: ${text}`);
-    const pythonScriptPath = path.join(__dirname, '../Text-To-Video-AI/app.py');
+    logger.info(`Processing job with ID: ${job.id}, Text: ${text}, scriptUsed ${pythonScriptPath}`);
 
     await updateJobStatus(jobId, 'processing');
 
