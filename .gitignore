@@ -2,3 +2,5 @@
 *.wav
 .logs/
 *.log
+*.ass
+*.db
