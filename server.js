@@ -64,12 +64,12 @@ app.get('/video-status/:id', async (req, res) => {
             } else if (row.status === 'finished') {
                 res.json({ state: 'ready', message: 'Video is ready' });
             } else {
-                res.json({ state: 'unknown', message: 'Unknown status' });
+                res.json({ state: 'error', message: 'Unknown status' });
             }
         } else {
             // If no status is found in the database
             logger.error(`Database query for not found job: ${jobId}`);
-            res.json({ state: 'invalid', message: 'Video is not present' });
+            res.json({ state: 'error', message: 'Video is not present' });
         }
     });
 });
