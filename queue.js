@@ -72,12 +72,13 @@ videoQueue.process(async (job) => {
     const text = job.data.text;
     const jobId = job.id;
     const language = job.data.language;
-    logger.info(`Processing job with ID: ${job.id}, Text: ${text}, Language: ${language}, scriptUsed ${pythonScriptPath}`);
+    const youtubeUrl = job.data.youtubeLink;
+    logger.info(`Processing job with ID: ${job.id}, Text: ${text}, Language: ${language}, scriptUsed ${pythonScriptPath}, youtubeUrl ${youtubeUrl}`);
 
     await updateJobStatus(jobId, 'processing');
 
     return new Promise((resolve, reject) => {
-        const pythonProcess = spawn('python3', [pythonScriptPath, text, job.id, language]);
+        const pythonProcess = spawn('python3', [pythonScriptPath, text, job.id, language, youtubeUrl]);
 
         pythonProcess.stdout.on('data', (data) => {
             const videoPath = data.toString().trim();
