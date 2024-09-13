@@ -4286,3 +4286,1150 @@ Moviepy - video ready /home/dani/workspaces/video-generator/rendered_video59.mp4
 2024-09-11 21:29:13,579 - INFO - Created video /tmp/tmpaktp0swq
 2024-09-11 21:29:56,341 - INFO - Video generation completed
 2024-09-11 21:29:56,342 - INFO - Process completed for topic: Credeți că prietenul meu ar fi trebuit să fie alături de mine în spital?L-am întâlnit pe prietenul meu, Andrei, acum 5 ani, în timpul unui proiect școlar. Am devenit foarte buni prieteni și am început să ne întâlnim acum un an, pentru că mi-a spus că are sentimente pentru mine de mult timp și și-ar dori să ducem relația la un nivel romantic.
+2024-09-13 15:48:25,848 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 15:48:25,849 - DEBUG - load_verify_locations cafile='/home/dani/.local/lib/python3.11/site-packages/certifi/cacert.pem'
+2024-09-13 15:48:25,903 - INFO - Generating script for topic: În deșertul arzător, un tânăr păstor pe nume David The Shepherd stătea în fața uriașului Goliat. Inima îi bătea cu putere, nu de frică, ci din convingerea că credința sa va triumfa. Armatele lui Israel tremurau în umbra războinicului filistean, care părea de neînvins cu armura sa de fier și vocea tunătoare. Zi de zi, Goliat își bătea joc de israeliți, provocându-i să-l înfrunte. Nimeni nu îndrăznea, până când David The Shepherd, înarmat doar cu o praștie și o credință de neclintit, a pășit înainte. „Sunt eu câine, de vii la mine cu bețe?” tună Goliat, râsul său răsunând în vale. Dar David The Shepherd, cu mâinile neclintite, și-a băgat mâna în traistă și a scos o piatră netedă. A șoptit o rugăciune către Dumnezeu, nu pentru putere, ci pentru îndrumare. Cu o mișcare rapidă, a aruncat piatra în aer. Timpul părea să se oprească în timp ce piatra zbura prin cer, lovindu-l pe Goliat drept în frunte. Uriașul s-a clătinat, genunchii i s-au înmuiat, și cu un zgomot asurzitor, a căzut la pământ. Mulțimea a rămas fără cuvinte, neîncrezătoare în ceea ce tocmai văzuse. David The Shepherd, ținând încă praștia în mână, s-a apropiat de uriașul căzut, ridicând sabia masivă a lui Goliat și tăindu-i capul, semnalând victoria lui Israel. Filistenii, paralizați de înfrângerea neașteptată, au fugit de pe câmpul de luptă. Victoria lui David The Shepherd nu a fost doar una de forță, ci de credință. El a demonstrat că, oricât de mic sau nesemnificativ ai părea, cu curaj și încredere într-o putere mai mare, chiar și cei mai mari uriași pot cădea. Povestea lui David The Shepherd și Goliat a devenit un simbol al speranței de-a lungul vremurilor, o amintire că prin credință, imposibilul poate deveni realitate.
+2024-09-13 15:48:25,904 - DEBUG - Using selector: EpollSelector
+2024-09-13 15:48:30,877 - INFO - Line În deșertul arzător un tânăr păstor pe nume David The
+2024-09-13 15:48:30,877 - INFO - Line 
+2024-09-13 15:48:30,877 - INFO - Line Shepherd stătea în fața uriașului Goliat Inima îi bătea cu
+2024-09-13 15:48:30,877 - INFO - Line 
+2024-09-13 15:48:30,877 - INFO - Line putere nu de frică ci din convingerea că credința sa
+2024-09-13 15:48:30,878 - INFO - Line 
+2024-09-13 15:48:30,878 - INFO - Line va triumfa Armatele lui Israel tremurau în umbra războinicului filistean
+2024-09-13 15:48:30,878 - INFO - Line 
+2024-09-13 15:48:30,878 - INFO - Line care părea de neînvins cu armura sa de fier și
+2024-09-13 15:48:30,878 - INFO - Line 
+2024-09-13 15:48:30,878 - INFO - Line vocea tunătoare Zi de zi Goliat își bătea joc de
+2024-09-13 15:48:30,878 - INFO - Line 
+2024-09-13 15:48:30,878 - INFO - Line israeliți provocându-i să-l înfrunte Nimeni nu îndrăznea până când David
+2024-09-13 15:48:30,879 - INFO - Line 
+2024-09-13 15:48:30,879 - INFO - Line The Shepherd înarmat doar cu o praștie și o credință
+2024-09-13 15:48:30,879 - INFO - Line 
+2024-09-13 15:48:30,879 - INFO - Line de neclintit a pășit înainte Sunt eu câine de vii
+2024-09-13 15:48:30,879 - INFO - Line 
+2024-09-13 15:48:30,879 - INFO - Line la mine cu bețe tună Goliat râsul său răsunând în
+2024-09-13 15:48:30,879 - INFO - Line 
+2024-09-13 15:48:30,879 - INFO - Line vale Dar David The Shepherd cu mâinile neclintite și-a băgat
+2024-09-13 15:48:30,880 - INFO - Line 
+2024-09-13 15:48:30,880 - INFO - Line mâna în traistă și a scos o piatră netedă A
+2024-09-13 15:48:30,880 - INFO - Line 
+2024-09-13 15:48:30,880 - INFO - Line șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru
+2024-09-13 15:48:30,880 - INFO - Line 
+2024-09-13 15:48:30,880 - INFO - Line îndrumare Cu o mișcare rapidă a aruncat piatra în aer
+2024-09-13 15:48:30,880 - INFO - Line 
+2024-09-13 15:48:30,880 - INFO - Line Timpul părea să se oprească în timp ce piatra zbura
+2024-09-13 15:48:30,880 - INFO - Line 
+2024-09-13 15:48:30,881 - INFO - Line prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a
+2024-09-13 15:48:30,881 - INFO - Line 
+2024-09-13 15:48:30,881 - INFO - Line clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor
+2024-09-13 15:48:30,881 - INFO - Line 
+2024-09-13 15:48:30,881 - INFO - Line a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare
+2024-09-13 15:48:30,881 - INFO - Line 
+2024-09-13 15:48:30,881 - INFO - Line în ceea ce tocmai văzuse David The Shepherd ținând încă
+2024-09-13 15:48:30,881 - INFO - Line 
+2024-09-13 15:48:30,882 - INFO - Line praștia în mână s-a apropiat de uriașul căzut ridicând sabia
+2024-09-13 15:48:30,882 - INFO - Line 
+2024-09-13 15:48:30,882 - INFO - Line masivă a lui Goliat și tăindu-i capul semnalând victoria lui
+2024-09-13 15:48:30,882 - INFO - Line 
+2024-09-13 15:48:30,882 - INFO - Line Israel Filistenii paralizați de înfrângerea neașteptată au fugit de pe
+2024-09-13 15:48:30,882 - INFO - Line 
+2024-09-13 15:48:30,882 - INFO - Line câmpul de luptă Victoria lui David The Shepherd nu a
+2024-09-13 15:48:30,882 - INFO - Line 
+2024-09-13 15:48:30,883 - INFO - Line fost doar una de forță ci de credință El a
+2024-09-13 15:48:30,883 - INFO - Line 
+2024-09-13 15:48:30,883 - INFO - Line demonstrat că oricât de mic sau nesemnificativ ai părea cu
+2024-09-13 15:48:30,883 - INFO - Line 
+2024-09-13 15:48:30,883 - INFO - Line curaj și încredere într-o putere mai mare chiar și cei
+2024-09-13 15:48:30,885 - INFO - Line 
+2024-09-13 15:48:30,886 - INFO - Line mai mari uriași pot cădea Povestea lui David The Shepherd
+2024-09-13 15:48:30,886 - INFO - Line 
+2024-09-13 15:48:30,886 - INFO - Line și Goliat a devenit un simbol al speranței de-a lungul
+2024-09-13 15:48:30,886 - INFO - Line 
+2024-09-13 15:48:30,886 - INFO - Line vremurilor o amintire că prin credință imposibilul poate deveni realitate
+2024-09-13 15:48:30,886 - INFO - Line 
+2024-09-13 15:48:30,887 - INFO - [(('0:00:00.10', '0:00:03.20'), 'În deșertul arzător un tânăr păstor pe nume David The'), (('0:00:03.20', '0:00:07.19'), 'Shepherd stătea în fața uriașului Goliat Inima îi bătea cu'), (('0:00:07.19', '0:00:10.61'), 'putere nu de frică ci din convingerea că credința sa'), (('0:00:10.61', '0:00:15.51'), 'va triumfa Armatele lui Israel tremurau în umbra războinicului filistean'), (('0:00:15.70', '0:00:18.05'), 'care părea de neînvins cu armura sa de fier și'), (('0:00:18.05', '0:00:21.91'), 'vocea tunătoare Zi de zi Goliat își bătea joc de'), (('0:00:21.91', '0:00:27.09'), 'israeliți provocându-i să-l înfrunte Nimeni nu îndrăznea până când David'), (('0:00:27.09', '0:00:30.20'), 'The Shepherd înarmat doar cu o praștie și o credință'), (('0:00:30.20', '0:00:34.42'), 'de neclintit a pășit înainte Sunt eu câine de vii'), (('0:00:34.42', '0:00:38.88'), 'la mine cu bețe tună Goliat râsul său răsunând în'), (('0:00:38.88', '0:00:43.60'), 'vale Dar David The Shepherd cu mâinile neclintite și-a băgat'), (('0:00:43.60', '0:00:46.79'), 'mâna în traistă și a scos o piatră netedă A'), (('0:00:46.79', '0:00:50.54'), 'șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru'), (('0:00:50.54', '0:00:54.76'), 'îndrumare Cu o mișcare rapidă a aruncat piatra în aer'), (('0:00:55.60', '0:00:57.91'), 'Timpul părea să se oprească în timp ce piatra zbura'), (('0:00:57.91', '0:01:02.21'), 'prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a'), (('0:01:02.21', '0:01:06.16'), 'clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor'), (('0:01:06.35', '0:01:11.10'), 'a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare'), (('0:01:11.10', '0:01:15.14'), 'în ceea ce tocmai văzuse David The Shepherd ținând încă'), (('0:01:15.14', '0:01:18.85'), 'praștia în mână s-a apropiat de uriașul căzut ridicând sabia'), (('0:01:18.85', '0:01:22.25'), 'masivă a lui Goliat și tăindu-i capul semnalând victoria lui'), (('0:01:22.25', '0:01:27.51'), 'Israel Filistenii paralizați de înfrângerea neașteptată au fugit de pe'), (('0:01:27.51', '0:01:31.34'), 'câmpul de luptă Victoria lui David The Shepherd nu a'), (('0:01:31.34', '0:01:35.01'), 'fost doar una de forță ci de credință El a'), (('0:01:35.01', '0:01:38.69'), 'demonstrat că oricât de mic sau nesemnificativ ai părea cu'), (('0:01:38.69', '0:01:41.41'), 'curaj și încredere într-o putere mai mare chiar și cei'), (('0:01:41.41', '0:01:45.23'), 'mai mari uriași pot cădea Povestea lui David The Shepherd'), (('0:01:45.23', '0:01:47.89'), 'și Goliat a devenit un simbol al speranței de-a lungul'), (('0:01:47.89', '0:01:52.56'), 'vremurilor o amintire că prin credință imposibilul poate deveni realitate')]
+2024-09-13 15:48:30,887 - INFO - new captiosn: [(('0:00:00.10', '0:00:03.20'), 'În deșertul arzător un tânăr păstor pe nume David The'), (('0:00:03.20', '0:00:07.19'), 'Shepherd stătea în fața uriașului Goliat Inima îi bătea cu'), (('0:00:07.19', '0:00:10.61'), 'putere nu de frică ci din convingerea că credința sa'), (('0:00:10.61', '0:00:15.70'), 'va triumfa Armatele lui Israel tremurau în umbra războinicului filistean'), (('0:00:15.70', '0:00:18.05'), 'care părea de neînvins cu armura sa de fier și'), (('0:00:18.05', '0:00:21.91'), 'vocea tunătoare Zi de zi Goliat își bătea joc de'), (('0:00:21.91', '0:00:27.09'), 'israeliți provocându-i să-l înfrunte Nimeni nu îndrăznea până când David'), (('0:00:27.09', '0:00:30.20'), 'The Shepherd înarmat doar cu o praștie și o credință'), (('0:00:30.20', '0:00:34.42'), 'de neclintit a pășit înainte Sunt eu câine de vii'), (('0:00:34.42', '0:00:38.88'), 'la mine cu bețe tună Goliat râsul său răsunând în'), (('0:00:38.88', '0:00:43.60'), 'vale Dar David The Shepherd cu mâinile neclintite și-a băgat'), (('0:00:43.60', '0:00:46.79'), 'mâna în traistă și a scos o piatră netedă A'), (('0:00:46.79', '0:00:50.54'), 'șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru'), (('0:00:50.54', '0:00:55.60'), 'îndrumare Cu o mișcare rapidă a aruncat piatra în aer'), (('0:00:55.60', '0:00:57.91'), 'Timpul părea să se oprească în timp ce piatra zbura'), (('0:00:57.91', '0:01:02.21'), 'prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a'), (('0:01:02.21', '0:01:06.35'), 'clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor'), (('0:01:06.35', '0:01:11.10'), 'a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare'), (('0:01:11.10', '0:01:15.14'), 'în ceea ce tocmai văzuse David The Shepherd ținând încă'), (('0:01:15.14', '0:01:18.85'), 'praștia în mână s-a apropiat de uriașul căzut ridicând sabia'), (('0:01:18.85', '0:01:22.25'), 'masivă a lui Goliat și tăindu-i capul semnalând victoria lui'), (('0:01:22.25', '0:01:27.51'), 'Israel Filistenii paralizați de înfrângerea neașteptată au fugit de pe'), (('0:01:27.51', '0:01:31.34'), 'câmpul de luptă Victoria lui David The Shepherd nu a'), (('0:01:31.34', '0:01:35.01'), 'fost doar una de forță ci de credință El a'), (('0:01:35.01', '0:01:38.69'), 'demonstrat că oricât de mic sau nesemnificativ ai părea cu'), (('0:01:38.69', '0:01:41.41'), 'curaj și încredere într-o putere mai mare chiar și cei'), (('0:01:41.41', '0:01:45.23'), 'mai mari uriași pot cădea Povestea lui David The Shepherd'), (('0:01:45.23', '0:01:47.89'), 'și Goliat a devenit un simbol al speranței de-a lungul'), (('0:01:47.89', '0:01:53.56'), 'vremurilor o amintire că prin credință imposibilul poate deveni realitate')]
+2024-09-13 15:48:30,887 - INFO - Timed captions generated: [(('0:00:00.10', '0:00:03.20'), 'În deșertul arzător un tânăr păstor pe nume David The'), (('0:00:03.20', '0:00:07.19'), 'Shepherd stătea în fața uriașului Goliat Inima îi bătea cu'), (('0:00:07.19', '0:00:10.61'), 'putere nu de frică ci din convingerea că credința sa'), (('0:00:10.61', '0:00:15.70'), 'va triumfa Armatele lui Israel tremurau în umbra războinicului filistean'), (('0:00:15.70', '0:00:18.05'), 'care părea de neînvins cu armura sa de fier și'), (('0:00:18.05', '0:00:21.91'), 'vocea tunătoare Zi de zi Goliat își bătea joc de'), (('0:00:21.91', '0:00:27.09'), 'israeliți provocându-i să-l înfrunte Nimeni nu îndrăznea până când David'), (('0:00:27.09', '0:00:30.20'), 'The Shepherd înarmat doar cu o praștie și o credință'), (('0:00:30.20', '0:00:34.42'), 'de neclintit a pășit înainte Sunt eu câine de vii'), (('0:00:34.42', '0:00:38.88'), 'la mine cu bețe tună Goliat râsul său răsunând în'), (('0:00:38.88', '0:00:43.60'), 'vale Dar David The Shepherd cu mâinile neclintite și-a băgat'), (('0:00:43.60', '0:00:46.79'), 'mâna în traistă și a scos o piatră netedă A'), (('0:00:46.79', '0:00:50.54'), 'șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru'), (('0:00:50.54', '0:00:55.60'), 'îndrumare Cu o mișcare rapidă a aruncat piatra în aer'), (('0:00:55.60', '0:00:57.91'), 'Timpul părea să se oprească în timp ce piatra zbura'), (('0:00:57.91', '0:01:02.21'), 'prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a'), (('0:01:02.21', '0:01:06.35'), 'clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor'), (('0:01:06.35', '0:01:11.10'), 'a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare'), (('0:01:11.10', '0:01:15.14'), 'în ceea ce tocmai văzuse David The Shepherd ținând încă'), (('0:01:15.14', '0:01:18.85'), 'praștia în mână s-a apropiat de uriașul căzut ridicând sabia'), (('0:01:18.85', '0:01:22.25'), 'masivă a lui Goliat și tăindu-i capul semnalând victoria lui'), (('0:01:22.25', '0:01:27.51'), 'Israel Filistenii paralizați de înfrângerea neașteptată au fugit de pe'), (('0:01:27.51', '0:01:31.34'), 'câmpul de luptă Victoria lui David The Shepherd nu a'), (('0:01:31.34', '0:01:35.01'), 'fost doar una de forță ci de credință El a'), (('0:01:35.01', '0:01:38.69'), 'demonstrat că oricât de mic sau nesemnificativ ai părea cu'), (('0:01:38.69', '0:01:41.41'), 'curaj și încredere într-o putere mai mare chiar și cei'), (('0:01:41.41', '0:01:45.23'), 'mai mari uriași pot cădea Povestea lui David The Shepherd'), (('0:01:45.23', '0:01:47.89'), 'și Goliat a devenit un simbol al speranței de-a lungul'), (('0:01:47.89', '0:01:53.56'), 'vremurilor o amintire că prin credință imposibilul poate deveni realitate')]
+2024-09-13 15:48:30,888 - INFO - Line În deșertul
+2024-09-13 15:48:30,888 - INFO - Line 
+2024-09-13 15:48:30,888 - INFO - Line arzător un
+2024-09-13 15:48:30,888 - INFO - Line 
+2024-09-13 15:48:30,888 - INFO - Line tânăr păstor
+2024-09-13 15:48:30,888 - INFO - Line 
+2024-09-13 15:48:30,888 - INFO - Line pe nume
+2024-09-13 15:48:30,889 - INFO - Line 
+2024-09-13 15:48:30,889 - INFO - Line David The
+2024-09-13 15:48:30,889 - INFO - Line 
+2024-09-13 15:48:30,889 - INFO - Line Shepherd stătea
+2024-09-13 15:48:30,889 - INFO - Line 
+2024-09-13 15:48:30,889 - INFO - Line în fața
+2024-09-13 15:48:30,889 - INFO - Line 
+2024-09-13 15:48:30,889 - INFO - Line uriașului Goliat
+2024-09-13 15:48:30,889 - INFO - Line 
+2024-09-13 15:48:30,890 - INFO - Line Inima îi
+2024-09-13 15:48:30,890 - INFO - Line 
+2024-09-13 15:48:30,890 - INFO - Line bătea cu
+2024-09-13 15:48:30,890 - INFO - Line 
+2024-09-13 15:48:30,890 - INFO - Line putere nu
+2024-09-13 15:48:30,890 - INFO - Line 
+2024-09-13 15:48:30,890 - INFO - Line de frică
+2024-09-13 15:48:30,890 - INFO - Line 
+2024-09-13 15:48:30,891 - INFO - Line ci din
+2024-09-13 15:48:30,891 - INFO - Line 
+2024-09-13 15:48:30,891 - INFO - Line convingerea că
+2024-09-13 15:48:30,891 - INFO - Line 
+2024-09-13 15:48:30,891 - INFO - Line credința sa
+2024-09-13 15:48:30,891 - INFO - Line 
+2024-09-13 15:48:30,891 - INFO - Line va triumfa
+2024-09-13 15:48:30,891 - INFO - Line 
+2024-09-13 15:48:30,892 - INFO - Line Armatele lui
+2024-09-13 15:48:30,892 - INFO - Line 
+2024-09-13 15:48:30,892 - INFO - Line Israel tremurau
+2024-09-13 15:48:30,892 - INFO - Line 
+2024-09-13 15:48:30,892 - INFO - Line în umbra
+2024-09-13 15:48:30,892 - INFO - Line 
+2024-09-13 15:48:30,892 - INFO - Line războinicului filistean
+2024-09-13 15:48:30,892 - INFO - Line 
+2024-09-13 15:48:30,893 - INFO - Line care părea
+2024-09-13 15:48:30,893 - INFO - Line 
+2024-09-13 15:48:30,893 - INFO - Line de neînvins
+2024-09-13 15:48:30,893 - INFO - Line 
+2024-09-13 15:48:30,893 - INFO - Line cu armura
+2024-09-13 15:48:30,895 - INFO - Line 
+2024-09-13 15:48:30,895 - INFO - Line sa de
+2024-09-13 15:48:30,895 - INFO - Line 
+2024-09-13 15:48:30,895 - INFO - Line fier și
+2024-09-13 15:48:30,895 - INFO - Line 
+2024-09-13 15:48:30,895 - INFO - Line vocea tunătoare
+2024-09-13 15:48:30,896 - INFO - Line 
+2024-09-13 15:48:30,896 - INFO - Line Zi de
+2024-09-13 15:48:30,896 - INFO - Line 
+2024-09-13 15:48:30,896 - INFO - Line zi Goliat
+2024-09-13 15:48:30,896 - INFO - Line 
+2024-09-13 15:48:30,896 - INFO - Line își bătea
+2024-09-13 15:48:30,896 - INFO - Line 
+2024-09-13 15:48:30,896 - INFO - Line joc de
+2024-09-13 15:48:30,897 - INFO - Line 
+2024-09-13 15:48:30,897 - INFO - Line israeliți provocându-i
+2024-09-13 15:48:30,897 - INFO - Line 
+2024-09-13 15:48:30,897 - INFO - Line să-l înfrunte
+2024-09-13 15:48:30,897 - INFO - Line 
+2024-09-13 15:48:30,897 - INFO - Line Nimeni nu
+2024-09-13 15:48:30,897 - INFO - Line 
+2024-09-13 15:48:30,897 - INFO - Line îndrăznea până
+2024-09-13 15:48:30,898 - INFO - Line 
+2024-09-13 15:48:30,898 - INFO - Line când David
+2024-09-13 15:48:30,898 - INFO - Line 
+2024-09-13 15:48:30,898 - INFO - Line The Shepherd
+2024-09-13 15:48:30,898 - INFO - Line 
+2024-09-13 15:48:30,898 - INFO - Line înarmat doar
+2024-09-13 15:48:30,898 - INFO - Line 
+2024-09-13 15:48:30,898 - INFO - Line cu o
+2024-09-13 15:48:30,899 - INFO - Line 
+2024-09-13 15:48:30,899 - INFO - Line praștie și
+2024-09-13 15:48:30,899 - INFO - Line 
+2024-09-13 15:48:30,899 - INFO - Line o credință
+2024-09-13 15:48:30,899 - INFO - Line 
+2024-09-13 15:48:30,899 - INFO - Line de neclintit
+2024-09-13 15:48:30,899 - INFO - Line 
+2024-09-13 15:48:30,899 - INFO - Line a pășit
+2024-09-13 15:48:30,899 - INFO - Line 
+2024-09-13 15:48:30,900 - INFO - Line înainte Sunt
+2024-09-13 15:48:30,900 - INFO - Line 
+2024-09-13 15:48:30,900 - INFO - Line eu câine
+2024-09-13 15:48:30,900 - INFO - Line 
+2024-09-13 15:48:30,900 - INFO - Line de vii
+2024-09-13 15:48:30,900 - INFO - Line 
+2024-09-13 15:48:30,900 - INFO - Line la mine
+2024-09-13 15:48:30,900 - INFO - Line 
+2024-09-13 15:48:30,901 - INFO - Line cu bețe
+2024-09-13 15:48:30,901 - INFO - Line 
+2024-09-13 15:48:30,901 - INFO - Line tună Goliat
+2024-09-13 15:48:30,901 - INFO - Line 
+2024-09-13 15:48:30,901 - INFO - Line râsul său
+2024-09-13 15:48:30,901 - INFO - Line 
+2024-09-13 15:48:30,901 - INFO - Line răsunând în
+2024-09-13 15:48:30,901 - INFO - Line 
+2024-09-13 15:48:30,902 - INFO - Line vale Dar
+2024-09-13 15:48:30,902 - INFO - Line 
+2024-09-13 15:48:30,902 - INFO - Line David The
+2024-09-13 15:48:30,902 - INFO - Line 
+2024-09-13 15:48:30,902 - INFO - Line Shepherd cu
+2024-09-13 15:48:30,902 - INFO - Line 
+2024-09-13 15:48:30,902 - INFO - Line mâinile neclintite
+2024-09-13 15:48:30,902 - INFO - Line 
+2024-09-13 15:48:30,902 - INFO - Line și-a băgat
+2024-09-13 15:48:30,903 - INFO - Line 
+2024-09-13 15:48:30,903 - INFO - Line mâna în
+2024-09-13 15:48:30,903 - INFO - Line 
+2024-09-13 15:48:30,903 - INFO - Line traistă și
+2024-09-13 15:48:30,904 - INFO - Line 
+2024-09-13 15:48:30,904 - INFO - Line a scos
+2024-09-13 15:48:30,904 - INFO - Line 
+2024-09-13 15:48:30,904 - INFO - Line o piatră
+2024-09-13 15:48:30,904 - INFO - Line 
+2024-09-13 15:48:30,904 - INFO - Line netedă A
+2024-09-13 15:48:30,904 - INFO - Line 
+2024-09-13 15:48:30,905 - INFO - Line șoptit o
+2024-09-13 15:48:30,905 - INFO - Line 
+2024-09-13 15:48:30,905 - INFO - Line rugăciune către
+2024-09-13 15:48:30,905 - INFO - Line 
+2024-09-13 15:48:30,905 - INFO - Line Dumnezeu nu
+2024-09-13 15:48:30,905 - INFO - Line 
+2024-09-13 15:48:30,905 - INFO - Line pentru putere
+2024-09-13 15:48:30,905 - INFO - Line 
+2024-09-13 15:48:30,906 - INFO - Line ci pentru
+2024-09-13 15:48:30,906 - INFO - Line 
+2024-09-13 15:48:30,906 - INFO - Line îndrumare Cu
+2024-09-13 15:48:30,906 - INFO - Line 
+2024-09-13 15:48:30,906 - INFO - Line o mișcare
+2024-09-13 15:48:30,906 - INFO - Line 
+2024-09-13 15:48:30,906 - INFO - Line rapidă a
+2024-09-13 15:48:30,906 - INFO - Line 
+2024-09-13 15:48:30,907 - INFO - Line aruncat piatra
+2024-09-13 15:48:30,907 - INFO - Line 
+2024-09-13 15:48:30,907 - INFO - Line în aer
+2024-09-13 15:48:30,907 - INFO - Line 
+2024-09-13 15:48:30,907 - INFO - Line Timpul părea
+2024-09-13 15:48:30,907 - INFO - Line 
+2024-09-13 15:48:30,907 - INFO - Line să se
+2024-09-13 15:48:30,907 - INFO - Line 
+2024-09-13 15:48:30,908 - INFO - Line oprească în
+2024-09-13 15:48:30,908 - INFO - Line 
+2024-09-13 15:48:30,908 - INFO - Line timp ce
+2024-09-13 15:48:30,908 - INFO - Line 
+2024-09-13 15:48:30,908 - INFO - Line piatra zbura
+2024-09-13 15:48:30,908 - INFO - Line 
+2024-09-13 15:48:30,908 - INFO - Line prin cer
+2024-09-13 15:48:30,908 - INFO - Line 
+2024-09-13 15:48:30,909 - INFO - Line lovindu-l pe
+2024-09-13 15:48:30,909 - INFO - Line 
+2024-09-13 15:48:30,909 - INFO - Line Goliat drept
+2024-09-13 15:48:30,909 - INFO - Line 
+2024-09-13 15:48:30,909 - INFO - Line în frunte
+2024-09-13 15:48:30,909 - INFO - Line 
+2024-09-13 15:48:30,909 - INFO - Line Uriașul s-a
+2024-09-13 15:48:30,910 - INFO - Line 
+2024-09-13 15:48:30,910 - INFO - Line clătinat genunchii
+2024-09-13 15:48:30,910 - INFO - Line 
+2024-09-13 15:48:30,910 - INFO - Line i s-au
+2024-09-13 15:48:30,910 - INFO - Line 
+2024-09-13 15:48:30,910 - INFO - Line înmuiat și
+2024-09-13 15:48:30,910 - INFO - Line 
+2024-09-13 15:48:30,910 - INFO - Line cu un
+2024-09-13 15:48:30,911 - INFO - Line 
+2024-09-13 15:48:30,911 - INFO - Line zgomot asurzitor
+2024-09-13 15:48:30,911 - INFO - Line 
+2024-09-13 15:48:30,911 - INFO - Line a căzut
+2024-09-13 15:48:30,911 - INFO - Line 
+2024-09-13 15:48:30,911 - INFO - Line la pământ
+2024-09-13 15:48:30,911 - INFO - Line 
+2024-09-13 15:48:30,912 - INFO - Line Mulțimea a
+2024-09-13 15:48:30,912 - INFO - Line 
+2024-09-13 15:48:30,912 - INFO - Line rămas fără
+2024-09-13 15:48:30,912 - INFO - Line 
+2024-09-13 15:48:30,912 - INFO - Line cuvinte neîncrezătoare
+2024-09-13 15:48:30,912 - INFO - Line 
+2024-09-13 15:48:30,912 - INFO - Line în ceea
+2024-09-13 15:48:30,913 - INFO - Line 
+2024-09-13 15:48:30,913 - INFO - Line ce tocmai
+2024-09-13 15:48:30,913 - INFO - Line 
+2024-09-13 15:48:30,913 - INFO - Line văzuse David
+2024-09-13 15:48:30,913 - INFO - Line 
+2024-09-13 15:48:30,913 - INFO - Line The Shepherd
+2024-09-13 15:48:30,913 - INFO - Line 
+2024-09-13 15:48:30,913 - INFO - Line ținând încă
+2024-09-13 15:48:30,914 - INFO - Line 
+2024-09-13 15:48:30,914 - INFO - Line praștia în
+2024-09-13 15:48:30,914 - INFO - Line 
+2024-09-13 15:48:30,914 - INFO - Line mână s-a
+2024-09-13 15:48:30,914 - INFO - Line 
+2024-09-13 15:48:30,914 - INFO - Line apropiat de
+2024-09-13 15:48:30,914 - INFO - Line 
+2024-09-13 15:48:30,914 - INFO - Line uriașul căzut
+2024-09-13 15:48:30,914 - INFO - Line 
+2024-09-13 15:48:30,915 - INFO - Line ridicând sabia
+2024-09-13 15:48:30,915 - INFO - Line 
+2024-09-13 15:48:30,915 - INFO - Line masivă a
+2024-09-13 15:48:30,915 - INFO - Line 
+2024-09-13 15:48:30,915 - INFO - Line lui Goliat
+2024-09-13 15:48:30,915 - INFO - Line 
+2024-09-13 15:48:30,915 - INFO - Line și tăindu-i
+2024-09-13 15:48:30,915 - INFO - Line 
+2024-09-13 15:48:30,916 - INFO - Line capul semnalând
+2024-09-13 15:48:30,916 - INFO - Line 
+2024-09-13 15:48:30,916 - INFO - Line victoria lui
+2024-09-13 15:48:30,916 - INFO - Line 
+2024-09-13 15:48:30,916 - INFO - Line Israel Filistenii
+2024-09-13 15:48:30,916 - INFO - Line 
+2024-09-13 15:48:30,916 - INFO - Line paralizați de
+2024-09-13 15:48:30,916 - INFO - Line 
+2024-09-13 15:48:30,916 - INFO - Line înfrângerea neașteptată
+2024-09-13 15:48:30,917 - INFO - Line 
+2024-09-13 15:48:30,917 - INFO - Line au fugit
+2024-09-13 15:48:30,917 - INFO - Line 
+2024-09-13 15:48:30,917 - INFO - Line de pe
+2024-09-13 15:48:30,917 - INFO - Line 
+2024-09-13 15:48:30,917 - INFO - Line câmpul de
+2024-09-13 15:48:30,917 - INFO - Line 
+2024-09-13 15:48:30,917 - INFO - Line luptă Victoria
+2024-09-13 15:48:30,918 - INFO - Line 
+2024-09-13 15:48:30,918 - INFO - Line lui David
+2024-09-13 15:48:30,918 - INFO - Line 
+2024-09-13 15:48:30,918 - INFO - Line The Shepherd
+2024-09-13 15:48:30,918 - INFO - Line 
+2024-09-13 15:48:30,918 - INFO - Line nu a
+2024-09-13 15:48:30,918 - INFO - Line 
+2024-09-13 15:48:30,918 - INFO - Line fost doar
+2024-09-13 15:48:30,919 - INFO - Line 
+2024-09-13 15:48:30,919 - INFO - Line una de
+2024-09-13 15:48:30,919 - INFO - Line 
+2024-09-13 15:48:30,919 - INFO - Line forță ci
+2024-09-13 15:48:30,919 - INFO - Line 
+2024-09-13 15:48:30,919 - INFO - Line de credință
+2024-09-13 15:48:30,919 - INFO - Line 
+2024-09-13 15:48:30,919 - INFO - Line El a
+2024-09-13 15:48:30,919 - INFO - Line 
+2024-09-13 15:48:30,920 - INFO - Line demonstrat că
+2024-09-13 15:48:30,920 - INFO - Line 
+2024-09-13 15:48:30,920 - INFO - Line oricât de
+2024-09-13 15:48:30,920 - INFO - Line 
+2024-09-13 15:48:30,920 - INFO - Line mic sau
+2024-09-13 15:48:30,920 - INFO - Line 
+2024-09-13 15:48:30,920 - INFO - Line nesemnificativ ai
+2024-09-13 15:48:30,921 - INFO - Line 
+2024-09-13 15:48:30,921 - INFO - Line părea cu
+2024-09-13 15:48:30,921 - INFO - Line 
+2024-09-13 15:48:30,921 - INFO - Line curaj și
+2024-09-13 15:48:30,921 - INFO - Line 
+2024-09-13 15:48:30,921 - INFO - Line încredere într-o
+2024-09-13 15:48:30,921 - INFO - Line 
+2024-09-13 15:48:30,921 - INFO - Line putere mai
+2024-09-13 15:48:30,922 - INFO - Line 
+2024-09-13 15:48:30,922 - INFO - Line mare chiar
+2024-09-13 15:48:30,922 - INFO - Line 
+2024-09-13 15:48:30,922 - INFO - Line și cei
+2024-09-13 15:48:30,922 - INFO - Line 
+2024-09-13 15:48:30,922 - INFO - Line mai mari
+2024-09-13 15:48:30,922 - INFO - Line 
+2024-09-13 15:48:30,922 - INFO - Line uriași pot
+2024-09-13 15:48:30,922 - INFO - Line 
+2024-09-13 15:48:30,923 - INFO - Line cădea Povestea
+2024-09-13 15:48:30,923 - INFO - Line 
+2024-09-13 15:48:30,923 - INFO - Line lui David
+2024-09-13 15:48:30,923 - INFO - Line 
+2024-09-13 15:48:30,923 - INFO - Line The Shepherd
+2024-09-13 15:48:30,923 - INFO - Line 
+2024-09-13 15:48:30,923 - INFO - Line și Goliat
+2024-09-13 15:48:30,923 - INFO - Line 
+2024-09-13 15:48:30,924 - INFO - Line a devenit
+2024-09-13 15:48:30,924 - INFO - Line 
+2024-09-13 15:48:30,924 - INFO - Line un simbol
+2024-09-13 15:48:30,924 - INFO - Line 
+2024-09-13 15:48:30,924 - INFO - Line al speranței
+2024-09-13 15:48:30,924 - INFO - Line 
+2024-09-13 15:48:30,924 - INFO - Line de-a lungul
+2024-09-13 15:48:30,924 - INFO - Line 
+2024-09-13 15:48:30,925 - INFO - Line vremurilor o
+2024-09-13 15:48:30,925 - INFO - Line 
+2024-09-13 15:48:30,925 - INFO - Line amintire că
+2024-09-13 15:48:30,925 - INFO - Line 
+2024-09-13 15:48:30,925 - INFO - Line prin credință
+2024-09-13 15:48:30,925 - INFO - Line 
+2024-09-13 15:48:30,925 - INFO - Line imposibilul poate
+2024-09-13 15:48:30,925 - INFO - Line 
+2024-09-13 15:48:30,925 - INFO - Line deveni realitate
+2024-09-13 15:48:30,926 - INFO - Line 
+2024-09-13 15:48:30,926 - INFO - [(('0:00:00.10', '0:00:00.71'), 'În deșertul'), (('0:00:00.71', '0:00:01.81'), 'arzător un'), (('0:00:01.81', '0:00:02.44'), 'tânăr păstor'), (('0:00:02.44', '0:00:02.77'), 'pe nume'), (('0:00:02.77', '0:00:03.20'), 'David The'), (('0:00:03.20', '0:00:04.12'), 'Shepherd stătea'), (('0:00:04.12', '0:00:04.47'), 'în fața'), (('0:00:04.47', '0:00:05.61'), 'uriașului Goliat'), (('0:00:06.45', '0:00:06.81'), 'Inima îi'), (('0:00:06.81', '0:00:07.19'), 'bătea cu'), (('0:00:07.19', '0:00:08.14'), 'putere nu'), (('0:00:08.14', '0:00:08.75'), 'de frică'), (('0:00:08.95', '0:00:09.22'), 'ci din'), (('0:00:09.22', '0:00:09.93'), 'convingerea că'), (('0:00:09.93', '0:00:10.61'), 'credința sa'), (('0:00:10.61', '0:00:11.34'), 'va triumfa'), (('0:00:12.18', '0:00:12.81'), 'Armatele lui'), (('0:00:12.81', '0:00:13.82'), 'Israel tremurau'), (('0:00:13.82', '0:00:14.16'), 'în umbra'), (('0:00:14.16', '0:00:15.51'), 'războinicului filistean'), (('0:00:15.70', '0:00:16.19'), 'care părea'), (('0:00:16.19', '0:00:16.75'), 'de neînvins'), (('0:00:16.75', '0:00:17.20'), 'cu armura'), (('0:00:17.20', '0:00:17.50'), 'sa de'), (('0:00:17.50', '0:00:18.05'), 'fier și'), (('0:00:18.05', '0:00:18.98'), 'vocea tunătoare'), (('0:00:19.81', '0:00:20.23'), 'Zi de'), (('0:00:20.23', '0:00:21.16'), 'zi Goliat'), (('0:00:21.16', '0:00:21.57'), 'își bătea'), (('0:00:21.57', '0:00:21.91'), 'joc de'), (('0:00:21.91', '0:00:23.52'), 'israeliți provocându-i'), (('0:00:23.52', '0:00:24.31'), 'să-l înfrunte'), (('0:00:25.15', '0:00:25.56'), 'Nimeni nu'), (('0:00:25.56', '0:00:26.61'), 'îndrăznea până'), (('0:00:26.61', '0:00:27.09'), 'când David'), (('0:00:27.09', '0:00:27.82'), 'The Shepherd'), (('0:00:28.04', '0:00:28.89'), 'înarmat doar'), (('0:00:28.89', '0:00:29.02'), 'cu o'), (('0:00:29.02', '0:00:29.71'), 'praștie și'), (('0:00:29.71', '0:00:30.20'), 'o credință'), (('0:00:30.20', '0:00:30.94'), 'de neclintit'), (('0:00:31.12', '0:00:31.56'), 'a pășit'), (('0:00:31.56', '0:00:33.21'), 'înainte Sunt'), (('0:00:33.21', '0:00:33.88'), 'eu câine'), (('0:00:34.16', '0:00:34.42'), 'de vii'), (('0:00:34.42', '0:00:34.75'), 'la mine'), (('0:00:34.75', '0:00:35.34'), 'cu bețe'), (('0:00:36.52', '0:00:37.38'), 'tună Goliat'), (('0:00:37.56', '0:00:38.21'), 'râsul său'), (('0:00:38.21', '0:00:38.88'), 'răsunând în'), (('0:00:38.88', '0:00:40.31'), 'vale Dar'), (('0:00:40.31', '0:00:40.77'), 'David The'), (('0:00:40.77', '0:00:41.77'), 'Shepherd cu'), (('0:00:41.77', '0:00:42.90'), 'mâinile neclintite'), (('0:00:43.08', '0:00:43.60'), 'și-a băgat'), (('0:00:43.60', '0:00:43.94'), 'mâna în'), (('0:00:43.94', '0:00:44.52'), 'traistă și'), (('0:00:44.52', '0:00:44.91'), 'a scos'), (('0:00:44.91', '0:00:45.31'), 'o piatră'), (('0:00:45.31', '0:00:46.79'), 'netedă A'), (('0:00:46.79', '0:00:47.21'), 'șoptit o'), (('0:00:47.21', '0:00:48.01'), 'rugăciune către'), (('0:00:48.01', '0:00:49.10'), 'Dumnezeu nu'), (('0:00:49.10', '0:00:49.92'), 'pentru putere'), (('0:00:50.14', '0:00:50.54'), 'ci pentru'), (('0:00:50.54', '0:00:52.11'), 'îndrumare Cu'), (('0:00:52.11', '0:00:52.59'), 'o mișcare'), (('0:00:52.59', '0:00:53.55'), 'rapidă a'), (('0:00:53.55', '0:00:54.33'), 'aruncat piatra'), (('0:00:54.33', '0:00:54.76'), 'în aer'), (('0:00:55.60', '0:00:56.23'), 'Timpul părea'), (('0:00:56.23', '0:00:56.48'), 'să se'), (('0:00:56.48', '0:00:56.96'), 'oprească în'), (('0:00:56.96', '0:00:57.25'), 'timp ce'), (('0:00:57.25', '0:00:57.91'), 'piatra zbura'), (('0:00:57.91', '0:00:58.60'), 'prin cer'), (('0:00:58.83', '0:00:59.44'), 'lovindu-l pe'), (('0:00:59.44', '0:01:00.15'), 'Goliat drept'), (('0:01:00.15', '0:01:00.74'), 'în frunte'), (('0:01:01.57', '0:01:02.21'), 'Uriașul s-a'), (('0:01:02.21', '0:01:03.64'), 'clătinat genunchii'), (('0:01:03.64', '0:01:03.89'), 'i s-au'), (('0:01:03.89', '0:01:04.85'), 'înmuiat și'), (('0:01:04.85', '0:01:05.03'), 'cu un'), (('0:01:05.03', '0:01:06.16'), 'zgomot asurzitor'), (('0:01:06.35', '0:01:06.81'), 'a căzut'), (('0:01:06.81', '0:01:07.45'), 'la pământ'), (('0:01:08.29', '0:01:08.79'), 'Mulțimea a'), (('0:01:08.79', '0:01:09.39'), 'rămas fără'), (('0:01:09.39', '0:01:11.10'), 'cuvinte neîncrezătoare'), (('0:01:11.10', '0:01:11.40'), 'în ceea'), (('0:01:11.40', '0:01:11.89'), 'ce tocmai'), (('0:01:11.89', '0:01:13.70'), 'văzuse David'), (('0:01:13.70', '0:01:14.50'), 'The Shepherd'), (('0:01:14.69', '0:01:15.14'), 'ținând încă'), (('0:01:15.14', '0:01:15.59'), 'praștia în'), (('0:01:15.59', '0:01:16.34'), 'mână s-a'), (('0:01:16.34', '0:01:16.85'), 'apropiat de'), (('0:01:16.85', '0:01:17.84'), 'uriașul căzut'), (('0:01:18.02', '0:01:18.85'), 'ridicând sabia'), (('0:01:18.85', '0:01:19.34'), 'masivă a'), (('0:01:19.34', '0:01:19.88'), 'lui Goliat'), (('0:01:19.88', '0:01:20.36'), 'și tăindu-i'), (('0:01:20.36', '0:01:21.68'), 'capul semnalând'), (('0:01:21.68', '0:01:22.25'), 'victoria lui'), (('0:01:22.25', '0:01:24.39'), 'Israel Filistenii'), (('0:01:24.55', '0:01:25.24'), 'paralizați de'), (('0:01:25.24', '0:01:26.66'), 'înfrângerea neașteptată'), (('0:01:26.82', '0:01:27.29'), 'au fugit'), (('0:01:27.29', '0:01:27.51'), 'de pe'), (('0:01:27.51', '0:01:27.94'), 'câmpul de'), (('0:01:27.94', '0:01:29.71'), 'luptă Victoria'), (('0:01:29.71', '0:01:30.36'), 'lui David'), (('0:01:30.36', '0:01:31.11'), 'The Shepherd'), (('0:01:31.11', '0:01:31.34'), 'nu a'), (('0:01:31.34', '0:01:31.86'), 'fost doar'), (('0:01:31.86', '0:01:32.16'), 'una de'), (('0:01:32.16', '0:01:33.14'), 'forță ci'), (('0:01:33.14', '0:01:33.89'), 'de credință'), (('0:01:34.73', '0:01:35.01'), 'El a'), (('0:01:35.01', '0:01:35.96'), 'demonstrat că'), (('0:01:36.12', '0:01:36.64'), 'oricât de'), (('0:01:36.64', '0:01:37.05'), 'mic sau'), (('0:01:37.05', '0:01:37.96'), 'nesemnificativ ai'), (('0:01:37.96', '0:01:38.69'), 'părea cu'), (('0:01:38.69', '0:01:39.12'), 'curaj și'), (('0:01:39.12', '0:01:39.74'), 'încredere într-o'), (('0:01:39.74', '0:01:40.23'), 'putere mai'), (('0:01:40.23', '0:01:41.02'), 'mare chiar'), (('0:01:41.02', '0:01:41.41'), 'și cei'), (('0:01:41.41', '0:01:41.77'), 'mai mari'), (('0:01:41.77', '0:01:42.36'), 'uriași pot'), (('0:01:42.36', '0:01:44.09'), 'cădea Povestea'), (('0:01:44.09', '0:01:44.56'), 'lui David'), (('0:01:44.56', '0:01:45.23'), 'The Shepherd'), (('0:01:45.23', '0:01:45.90'), 'și Goliat'), (('0:01:45.90', '0:01:46.35'), 'a devenit'), (('0:01:46.35', '0:01:46.83'), 'un simbol'), (('0:01:46.83', '0:01:47.42'), 'al speranței'), (('0:01:47.42', '0:01:47.89'), 'de-a lungul'), (('0:01:47.89', '0:01:48.96'), 'vremurilor o'), (('0:01:48.96', '0:01:49.45'), 'amintire că'), (('0:01:49.45', '0:01:50.27'), 'prin credință'), (('0:01:50.46', '0:01:51.49'), 'imposibilul poate'), (('0:01:51.49', '0:01:52.56'), 'deveni realitate')]
+2024-09-13 15:48:30,926 - INFO - new captiosn: [(('0:00:00.10', '0:00:00.71'), 'În deșertul'), (('0:00:00.71', '0:00:01.81'), 'arzător un'), (('0:00:01.81', '0:00:02.44'), 'tânăr păstor'), (('0:00:02.44', '0:00:02.77'), 'pe nume'), (('0:00:02.77', '0:00:03.20'), 'David The'), (('0:00:03.20', '0:00:04.12'), 'Shepherd stătea'), (('0:00:04.12', '0:00:04.47'), 'în fața'), (('0:00:04.47', '0:00:06.45'), 'uriașului Goliat'), (('0:00:06.45', '0:00:06.81'), 'Inima îi'), (('0:00:06.81', '0:00:07.19'), 'bătea cu'), (('0:00:07.19', '0:00:08.14'), 'putere nu'), (('0:00:08.14', '0:00:08.95'), 'de frică'), (('0:00:08.95', '0:00:09.22'), 'ci din'), (('0:00:09.22', '0:00:09.93'), 'convingerea că'), (('0:00:09.93', '0:00:10.61'), 'credința sa'), (('0:00:10.61', '0:00:12.18'), 'va triumfa'), (('0:00:12.18', '0:00:12.81'), 'Armatele lui'), (('0:00:12.81', '0:00:13.82'), 'Israel tremurau'), (('0:00:13.82', '0:00:14.16'), 'în umbra'), (('0:00:14.16', '0:00:15.70'), 'războinicului filistean'), (('0:00:15.70', '0:00:16.19'), 'care părea'), (('0:00:16.19', '0:00:16.75'), 'de neînvins'), (('0:00:16.75', '0:00:17.20'), 'cu armura'), (('0:00:17.20', '0:00:17.50'), 'sa de'), (('0:00:17.50', '0:00:18.05'), 'fier și'), (('0:00:18.05', '0:00:19.81'), 'vocea tunătoare'), (('0:00:19.81', '0:00:20.23'), 'Zi de'), (('0:00:20.23', '0:00:21.16'), 'zi Goliat'), (('0:00:21.16', '0:00:21.57'), 'își bătea'), (('0:00:21.57', '0:00:21.91'), 'joc de'), (('0:00:21.91', '0:00:23.52'), 'israeliți provocându-i'), (('0:00:23.52', '0:00:25.15'), 'să-l înfrunte'), (('0:00:25.15', '0:00:25.56'), 'Nimeni nu'), (('0:00:25.56', '0:00:26.61'), 'îndrăznea până'), (('0:00:26.61', '0:00:27.09'), 'când David'), (('0:00:27.09', '0:00:28.04'), 'The Shepherd'), (('0:00:28.04', '0:00:28.89'), 'înarmat doar'), (('0:00:28.89', '0:00:29.02'), 'cu o'), (('0:00:29.02', '0:00:29.71'), 'praștie și'), (('0:00:29.71', '0:00:30.20'), 'o credință'), (('0:00:30.20', '0:00:31.12'), 'de neclintit'), (('0:00:31.12', '0:00:31.56'), 'a pășit'), (('0:00:31.56', '0:00:33.21'), 'înainte Sunt'), (('0:00:33.21', '0:00:34.16'), 'eu câine'), (('0:00:34.16', '0:00:34.42'), 'de vii'), (('0:00:34.42', '0:00:34.75'), 'la mine'), (('0:00:34.75', '0:00:36.52'), 'cu bețe'), (('0:00:36.52', '0:00:37.56'), 'tună Goliat'), (('0:00:37.56', '0:00:38.21'), 'râsul său'), (('0:00:38.21', '0:00:38.88'), 'răsunând în'), (('0:00:38.88', '0:00:40.31'), 'vale Dar'), (('0:00:40.31', '0:00:40.77'), 'David The'), (('0:00:40.77', '0:00:41.77'), 'Shepherd cu'), (('0:00:41.77', '0:00:43.08'), 'mâinile neclintite'), (('0:00:43.08', '0:00:43.60'), 'și-a băgat'), (('0:00:43.60', '0:00:43.94'), 'mâna în'), (('0:00:43.94', '0:00:44.52'), 'traistă și'), (('0:00:44.52', '0:00:44.91'), 'a scos'), (('0:00:44.91', '0:00:45.31'), 'o piatră'), (('0:00:45.31', '0:00:46.79'), 'netedă A'), (('0:00:46.79', '0:00:47.21'), 'șoptit o'), (('0:00:47.21', '0:00:48.01'), 'rugăciune către'), (('0:00:48.01', '0:00:49.10'), 'Dumnezeu nu'), (('0:00:49.10', '0:00:50.14'), 'pentru putere'), (('0:00:50.14', '0:00:50.54'), 'ci pentru'), (('0:00:50.54', '0:00:52.11'), 'îndrumare Cu'), (('0:00:52.11', '0:00:52.59'), 'o mișcare'), (('0:00:52.59', '0:00:53.55'), 'rapidă a'), (('0:00:53.55', '0:00:54.33'), 'aruncat piatra'), (('0:00:54.33', '0:00:55.60'), 'în aer'), (('0:00:55.60', '0:00:56.23'), 'Timpul părea'), (('0:00:56.23', '0:00:56.48'), 'să se'), (('0:00:56.48', '0:00:56.96'), 'oprească în'), (('0:00:56.96', '0:00:57.25'), 'timp ce'), (('0:00:57.25', '0:00:57.91'), 'piatra zbura'), (('0:00:57.91', '0:00:58.83'), 'prin cer'), (('0:00:58.83', '0:00:59.44'), 'lovindu-l pe'), (('0:00:59.44', '0:01:00.15'), 'Goliat drept'), (('0:01:00.15', '0:01:01.57'), 'în frunte'), (('0:01:01.57', '0:01:02.21'), 'Uriașul s-a'), (('0:01:02.21', '0:01:03.64'), 'clătinat genunchii'), (('0:01:03.64', '0:01:03.89'), 'i s-au'), (('0:01:03.89', '0:01:04.85'), 'înmuiat și'), (('0:01:04.85', '0:01:05.03'), 'cu un'), (('0:01:05.03', '0:01:06.35'), 'zgomot asurzitor'), (('0:01:06.35', '0:01:06.81'), 'a căzut'), (('0:01:06.81', '0:01:08.29'), 'la pământ'), (('0:01:08.29', '0:01:08.79'), 'Mulțimea a'), (('0:01:08.79', '0:01:09.39'), 'rămas fără'), (('0:01:09.39', '0:01:11.10'), 'cuvinte neîncrezătoare'), (('0:01:11.10', '0:01:11.40'), 'în ceea'), (('0:01:11.40', '0:01:11.89'), 'ce tocmai'), (('0:01:11.89', '0:01:13.70'), 'văzuse David'), (('0:01:13.70', '0:01:14.69'), 'The Shepherd'), (('0:01:14.69', '0:01:15.14'), 'ținând încă'), (('0:01:15.14', '0:01:15.59'), 'praștia în'), (('0:01:15.59', '0:01:16.34'), 'mână s-a'), (('0:01:16.34', '0:01:16.85'), 'apropiat de'), (('0:01:16.85', '0:01:18.02'), 'uriașul căzut'), (('0:01:18.02', '0:01:18.85'), 'ridicând sabia'), (('0:01:18.85', '0:01:19.34'), 'masivă a'), (('0:01:19.34', '0:01:19.88'), 'lui Goliat'), (('0:01:19.88', '0:01:20.36'), 'și tăindu-i'), (('0:01:20.36', '0:01:21.68'), 'capul semnalând'), (('0:01:21.68', '0:01:22.25'), 'victoria lui'), (('0:01:22.25', '0:01:24.55'), 'Israel Filistenii'), (('0:01:24.55', '0:01:25.24'), 'paralizați de'), (('0:01:25.24', '0:01:26.82'), 'înfrângerea neașteptată'), (('0:01:26.82', '0:01:27.29'), 'au fugit'), (('0:01:27.29', '0:01:27.51'), 'de pe'), (('0:01:27.51', '0:01:27.94'), 'câmpul de'), (('0:01:27.94', '0:01:29.71'), 'luptă Victoria'), (('0:01:29.71', '0:01:30.36'), 'lui David'), (('0:01:30.36', '0:01:31.11'), 'The Shepherd'), (('0:01:31.11', '0:01:31.34'), 'nu a'), (('0:01:31.34', '0:01:31.86'), 'fost doar'), (('0:01:31.86', '0:01:32.16'), 'una de'), (('0:01:32.16', '0:01:33.14'), 'forță ci'), (('0:01:33.14', '0:01:34.73'), 'de credință'), (('0:01:34.73', '0:01:35.01'), 'El a'), (('0:01:35.01', '0:01:36.12'), 'demonstrat că'), (('0:01:36.12', '0:01:36.64'), 'oricât de'), (('0:01:36.64', '0:01:37.05'), 'mic sau'), (('0:01:37.05', '0:01:37.96'), 'nesemnificativ ai'), (('0:01:37.96', '0:01:38.69'), 'părea cu'), (('0:01:38.69', '0:01:39.12'), 'curaj și'), (('0:01:39.12', '0:01:39.74'), 'încredere într-o'), (('0:01:39.74', '0:01:40.23'), 'putere mai'), (('0:01:40.23', '0:01:41.02'), 'mare chiar'), (('0:01:41.02', '0:01:41.41'), 'și cei'), (('0:01:41.41', '0:01:41.77'), 'mai mari'), (('0:01:41.77', '0:01:42.36'), 'uriași pot'), (('0:01:42.36', '0:01:44.09'), 'cădea Povestea'), (('0:01:44.09', '0:01:44.56'), 'lui David'), (('0:01:44.56', '0:01:45.23'), 'The Shepherd'), (('0:01:45.23', '0:01:45.90'), 'și Goliat'), (('0:01:45.90', '0:01:46.35'), 'a devenit'), (('0:01:46.35', '0:01:46.83'), 'un simbol'), (('0:01:46.83', '0:01:47.42'), 'al speranței'), (('0:01:47.42', '0:01:47.89'), 'de-a lungul'), (('0:01:47.89', '0:01:48.96'), 'vremurilor o'), (('0:01:48.96', '0:01:49.45'), 'amintire că'), (('0:01:49.45', '0:01:50.46'), 'prin credință'), (('0:01:50.46', '0:01:51.49'), 'imposibilul poate'), (('0:01:51.49', '0:01:53.56'), 'deveni realitate')]
+2024-09-13 15:48:30,926 - INFO - Timed captions mini generated: [(('0:00:00.10', '0:00:00.71'), 'În deșertul'), (('0:00:00.71', '0:00:01.81'), 'arzător un'), (('0:00:01.81', '0:00:02.44'), 'tânăr păstor'), (('0:00:02.44', '0:00:02.77'), 'pe nume'), (('0:00:02.77', '0:00:03.20'), 'David The'), (('0:00:03.20', '0:00:04.12'), 'Shepherd stătea'), (('0:00:04.12', '0:00:04.47'), 'în fața'), (('0:00:04.47', '0:00:06.45'), 'uriașului Goliat'), (('0:00:06.45', '0:00:06.81'), 'Inima îi'), (('0:00:06.81', '0:00:07.19'), 'bătea cu'), (('0:00:07.19', '0:00:08.14'), 'putere nu'), (('0:00:08.14', '0:00:08.95'), 'de frică'), (('0:00:08.95', '0:00:09.22'), 'ci din'), (('0:00:09.22', '0:00:09.93'), 'convingerea că'), (('0:00:09.93', '0:00:10.61'), 'credința sa'), (('0:00:10.61', '0:00:12.18'), 'va triumfa'), (('0:00:12.18', '0:00:12.81'), 'Armatele lui'), (('0:00:12.81', '0:00:13.82'), 'Israel tremurau'), (('0:00:13.82', '0:00:14.16'), 'în umbra'), (('0:00:14.16', '0:00:15.70'), 'războinicului filistean'), (('0:00:15.70', '0:00:16.19'), 'care părea'), (('0:00:16.19', '0:00:16.75'), 'de neînvins'), (('0:00:16.75', '0:00:17.20'), 'cu armura'), (('0:00:17.20', '0:00:17.50'), 'sa de'), (('0:00:17.50', '0:00:18.05'), 'fier și'), (('0:00:18.05', '0:00:19.81'), 'vocea tunătoare'), (('0:00:19.81', '0:00:20.23'), 'Zi de'), (('0:00:20.23', '0:00:21.16'), 'zi Goliat'), (('0:00:21.16', '0:00:21.57'), 'își bătea'), (('0:00:21.57', '0:00:21.91'), 'joc de'), (('0:00:21.91', '0:00:23.52'), 'israeliți provocându-i'), (('0:00:23.52', '0:00:25.15'), 'să-l înfrunte'), (('0:00:25.15', '0:00:25.56'), 'Nimeni nu'), (('0:00:25.56', '0:00:26.61'), 'îndrăznea până'), (('0:00:26.61', '0:00:27.09'), 'când David'), (('0:00:27.09', '0:00:28.04'), 'The Shepherd'), (('0:00:28.04', '0:00:28.89'), 'înarmat doar'), (('0:00:28.89', '0:00:29.02'), 'cu o'), (('0:00:29.02', '0:00:29.71'), 'praștie și'), (('0:00:29.71', '0:00:30.20'), 'o credință'), (('0:00:30.20', '0:00:31.12'), 'de neclintit'), (('0:00:31.12', '0:00:31.56'), 'a pășit'), (('0:00:31.56', '0:00:33.21'), 'înainte Sunt'), (('0:00:33.21', '0:00:34.16'), 'eu câine'), (('0:00:34.16', '0:00:34.42'), 'de vii'), (('0:00:34.42', '0:00:34.75'), 'la mine'), (('0:00:34.75', '0:00:36.52'), 'cu bețe'), (('0:00:36.52', '0:00:37.56'), 'tună Goliat'), (('0:00:37.56', '0:00:38.21'), 'râsul său'), (('0:00:38.21', '0:00:38.88'), 'răsunând în'), (('0:00:38.88', '0:00:40.31'), 'vale Dar'), (('0:00:40.31', '0:00:40.77'), 'David The'), (('0:00:40.77', '0:00:41.77'), 'Shepherd cu'), (('0:00:41.77', '0:00:43.08'), 'mâinile neclintite'), (('0:00:43.08', '0:00:43.60'), 'și-a băgat'), (('0:00:43.60', '0:00:43.94'), 'mâna în'), (('0:00:43.94', '0:00:44.52'), 'traistă și'), (('0:00:44.52', '0:00:44.91'), 'a scos'), (('0:00:44.91', '0:00:45.31'), 'o piatră'), (('0:00:45.31', '0:00:46.79'), 'netedă A'), (('0:00:46.79', '0:00:47.21'), 'șoptit o'), (('0:00:47.21', '0:00:48.01'), 'rugăciune către'), (('0:00:48.01', '0:00:49.10'), 'Dumnezeu nu'), (('0:00:49.10', '0:00:50.14'), 'pentru putere'), (('0:00:50.14', '0:00:50.54'), 'ci pentru'), (('0:00:50.54', '0:00:52.11'), 'îndrumare Cu'), (('0:00:52.11', '0:00:52.59'), 'o mișcare'), (('0:00:52.59', '0:00:53.55'), 'rapidă a'), (('0:00:53.55', '0:00:54.33'), 'aruncat piatra'), (('0:00:54.33', '0:00:55.60'), 'în aer'), (('0:00:55.60', '0:00:56.23'), 'Timpul părea'), (('0:00:56.23', '0:00:56.48'), 'să se'), (('0:00:56.48', '0:00:56.96'), 'oprească în'), (('0:00:56.96', '0:00:57.25'), 'timp ce'), (('0:00:57.25', '0:00:57.91'), 'piatra zbura'), (('0:00:57.91', '0:00:58.83'), 'prin cer'), (('0:00:58.83', '0:00:59.44'), 'lovindu-l pe'), (('0:00:59.44', '0:01:00.15'), 'Goliat drept'), (('0:01:00.15', '0:01:01.57'), 'în frunte'), (('0:01:01.57', '0:01:02.21'), 'Uriașul s-a'), (('0:01:02.21', '0:01:03.64'), 'clătinat genunchii'), (('0:01:03.64', '0:01:03.89'), 'i s-au'), (('0:01:03.89', '0:01:04.85'), 'înmuiat și'), (('0:01:04.85', '0:01:05.03'), 'cu un'), (('0:01:05.03', '0:01:06.35'), 'zgomot asurzitor'), (('0:01:06.35', '0:01:06.81'), 'a căzut'), (('0:01:06.81', '0:01:08.29'), 'la pământ'), (('0:01:08.29', '0:01:08.79'), 'Mulțimea a'), (('0:01:08.79', '0:01:09.39'), 'rămas fără'), (('0:01:09.39', '0:01:11.10'), 'cuvinte neîncrezătoare'), (('0:01:11.10', '0:01:11.40'), 'în ceea'), (('0:01:11.40', '0:01:11.89'), 'ce tocmai'), (('0:01:11.89', '0:01:13.70'), 'văzuse David'), (('0:01:13.70', '0:01:14.69'), 'The Shepherd'), (('0:01:14.69', '0:01:15.14'), 'ținând încă'), (('0:01:15.14', '0:01:15.59'), 'praștia în'), (('0:01:15.59', '0:01:16.34'), 'mână s-a'), (('0:01:16.34', '0:01:16.85'), 'apropiat de'), (('0:01:16.85', '0:01:18.02'), 'uriașul căzut'), (('0:01:18.02', '0:01:18.85'), 'ridicând sabia'), (('0:01:18.85', '0:01:19.34'), 'masivă a'), (('0:01:19.34', '0:01:19.88'), 'lui Goliat'), (('0:01:19.88', '0:01:20.36'), 'și tăindu-i'), (('0:01:20.36', '0:01:21.68'), 'capul semnalând'), (('0:01:21.68', '0:01:22.25'), 'victoria lui'), (('0:01:22.25', '0:01:24.55'), 'Israel Filistenii'), (('0:01:24.55', '0:01:25.24'), 'paralizați de'), (('0:01:25.24', '0:01:26.82'), 'înfrângerea neașteptată'), (('0:01:26.82', '0:01:27.29'), 'au fugit'), (('0:01:27.29', '0:01:27.51'), 'de pe'), (('0:01:27.51', '0:01:27.94'), 'câmpul de'), (('0:01:27.94', '0:01:29.71'), 'luptă Victoria'), (('0:01:29.71', '0:01:30.36'), 'lui David'), (('0:01:30.36', '0:01:31.11'), 'The Shepherd'), (('0:01:31.11', '0:01:31.34'), 'nu a'), (('0:01:31.34', '0:01:31.86'), 'fost doar'), (('0:01:31.86', '0:01:32.16'), 'una de'), (('0:01:32.16', '0:01:33.14'), 'forță ci'), (('0:01:33.14', '0:01:34.73'), 'de credință'), (('0:01:34.73', '0:01:35.01'), 'El a'), (('0:01:35.01', '0:01:36.12'), 'demonstrat că'), (('0:01:36.12', '0:01:36.64'), 'oricât de'), (('0:01:36.64', '0:01:37.05'), 'mic sau'), (('0:01:37.05', '0:01:37.96'), 'nesemnificativ ai'), (('0:01:37.96', '0:01:38.69'), 'părea cu'), (('0:01:38.69', '0:01:39.12'), 'curaj și'), (('0:01:39.12', '0:01:39.74'), 'încredere într-o'), (('0:01:39.74', '0:01:40.23'), 'putere mai'), (('0:01:40.23', '0:01:41.02'), 'mare chiar'), (('0:01:41.02', '0:01:41.41'), 'și cei'), (('0:01:41.41', '0:01:41.77'), 'mai mari'), (('0:01:41.77', '0:01:42.36'), 'uriași pot'), (('0:01:42.36', '0:01:44.09'), 'cădea Povestea'), (('0:01:44.09', '0:01:44.56'), 'lui David'), (('0:01:44.56', '0:01:45.23'), 'The Shepherd'), (('0:01:45.23', '0:01:45.90'), 'și Goliat'), (('0:01:45.90', '0:01:46.35'), 'a devenit'), (('0:01:46.35', '0:01:46.83'), 'un simbol'), (('0:01:46.83', '0:01:47.42'), 'al speranței'), (('0:01:47.42', '0:01:47.89'), 'de-a lungul'), (('0:01:47.89', '0:01:48.96'), 'vremurilor o'), (('0:01:48.96', '0:01:49.45'), 'amintire că'), (('0:01:49.45', '0:01:50.46'), 'prin credință'), (('0:01:50.46', '0:01:51.49'), 'imposibilul poate'), (('0:01:51.49', '0:01:53.56'), 'deveni realitate')]
+2024-09-13 15:48:30,927 - INFO - Search terms generated: [[[0, 2.82], ['meeting ex', 'relationship start', 'two years']], [[2.82, 5.24], ['ex-girlfriend', 'couple years', 'time together']], [[5.24, 7.54], ['boob job', 'surgery discussion', 'breast enhancement']], [[7.54, 9.24], ['previous partners', 'dating history', 'opinion on surgery']], [[9.24, 11.84], ['personal preference', 'dislikes surgery', 'deal breaker']]]
+2024-09-13 15:48:30,927 - INFO - Background videos generated: [[[0, 118.82], 'http://104.154.18.51:3000/video/90']]
+2024-09-13 15:48:30,927 - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-09-13 15:48:32,054 - DEBUG - applying descrambler
+2024-09-13 15:48:32,060 - DEBUG - finding initial function name
+2024-09-13 15:48:32,063 - DEBUG - Pattern failed: ytplayer\.config\s*=\s*
+2024-09-13 15:48:32,063 - DEBUG - Could not parse object.
+2024-09-13 15:48:32,106 - DEBUG - finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+2024-09-13 15:48:32,815 - DEBUG - finding initial function name
+2024-09-13 15:48:33,174 - DEBUG - finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+2024-09-13 15:48:33,174 - DEBUG - getting transform plan
+2024-09-13 15:48:33,175 - DEBUG - matched regex search: eCa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+2024-09-13 15:48:33,175 - DEBUG - getting transform object
+2024-09-13 15:48:33,177 - DEBUG - Finding throttling function name
+2024-09-13 15:48:33,183 - DEBUG - finding initial function name
+2024-09-13 15:48:33,184 - DEBUG - Pattern failed: ytplayer\.config\s*=\s*
+2024-09-13 15:48:33,184 - DEBUG - Could not parse object.
+2024-09-13 15:48:33,206 - DEBUG - finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+2024-09-13 15:48:33,929 - DEBUG - finding initial function name
+2024-09-13 15:48:34,280 - DEBUG - finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+2024-09-13 15:48:34,280 - DEBUG - getting transform plan
+2024-09-13 15:48:34,281 - DEBUG - matched regex search: eCa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+2024-09-13 15:48:34,281 - DEBUG - getting transform object
+2024-09-13 15:48:34,282 - DEBUG - Finding throttling function name
+2024-09-13 15:48:34,287 - INFO - An error occurred: get_throttling_function_name: could not find match for multiple
+2024-09-13 15:48:44,102 - INFO - Audio downloaded successfully: audio_background
+2024-09-13 15:48:44,104 - INFO - Background audio path audio_background.mp3
+2024-09-13 15:49:37,366 - INFO - Created video /tmp/tmpzkd1rcl2
+2024-09-13 15:55:58,061 - INFO - Video generation completed
+2024-09-13 15:55:58,061 - INFO - Process completed for topic: În deșertul arzător, un tânăr păstor pe nume David The Shepherd stătea în fața uriașului Goliat. Inima îi bătea cu putere, nu de frică, ci din convingerea că credința sa va triumfa. Armatele lui Israel tremurau în umbra războinicului filistean, care părea de neînvins cu armura sa de fier și vocea tunătoare. Zi de zi, Goliat își bătea joc de israeliți, provocându-i să-l înfrunte. Nimeni nu îndrăznea, până când David The Shepherd, înarmat doar cu o praștie și o credință de neclintit, a pășit înainte. „Sunt eu câine, de vii la mine cu bețe?” tună Goliat, râsul său răsunând în vale. Dar David The Shepherd, cu mâinile neclintite, și-a băgat mâna în traistă și a scos o piatră netedă. A șoptit o rugăciune către Dumnezeu, nu pentru putere, ci pentru îndrumare. Cu o mișcare rapidă, a aruncat piatra în aer. Timpul părea să se oprească în timp ce piatra zbura prin cer, lovindu-l pe Goliat drept în frunte. Uriașul s-a clătinat, genunchii i s-au înmuiat, și cu un zgomot asurzitor, a căzut la pământ. Mulțimea a rămas fără cuvinte, neîncrezătoare în ceea ce tocmai văzuse. David The Shepherd, ținând încă praștia în mână, s-a apropiat de uriașul căzut, ridicând sabia masivă a lui Goliat și tăindu-i capul, semnalând victoria lui Israel. Filistenii, paralizați de înfrângerea neașteptată, au fugit de pe câmpul de luptă. Victoria lui David The Shepherd nu a fost doar una de forță, ci de credință. El a demonstrat că, oricât de mic sau nesemnificativ ai părea, cu curaj și încredere într-o putere mai mare, chiar și cei mai mari uriași pot cădea. Povestea lui David The Shepherd și Goliat a devenit un simbol al speranței de-a lungul vremurilor, o amintire că prin credință, imposibilul poate deveni realitate.
+2024-09-13 16:35:57,897 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 16:35:57,898 - DEBUG - load_verify_locations cafile='/home/dani/.local/lib/python3.11/site-packages/certifi/cacert.pem'
+2024-09-13 16:35:57,947 - INFO - Generating script for topic: Știai povestea lui David și Goliat? În deșertul arzător, un tânăr păstor pe nume David stătea în fața uriașului Goliat. Inima îi bătea cu putere, nu de frică, ci din convingerea că credința sa va triumfa. Armatele lui Israel tremurau în umbra războinicului filistean, care părea de neînvins cu armura sa de fier și vocea tunătoare. Zi de zi, Goliat își bătea joc de israeliți, provocându-i să-l înfrunte. Nimeni nu îndrăznea, până când David, înarmat doar cu o praștie și o credință de neclintit, a pășit înainte. „Sunt eu câine, de vii la mine cu bețe?” tună Goliat, râsul său răsunând în vale. Dar David, cu mâinile neclintite, și-a băgat mâna în traistă și a scos o piatră netedă. A șoptit o rugăciune către Dumnezeu, nu pentru putere, ci pentru îndrumare. Cu o mișcare rapidă, a aruncat piatra în aer. Timpul părea să se oprească în timp ce piatra zbura prin cer, lovindu-l pe Goliat drept în frunte. Uriașul s-a clătinat, genunchii i s-au înmuiat, și cu un zgomot asurzitor, a căzut la pământ. Mulțimea a rămas fără cuvinte, neîncrezătoare în ceea ce tocmai văzuse. David, ținând încă praștia în mână, s-a apropiat de uriașul căzut, ridicând sabia masivă a lui Goliat și tăindu-i capul, semnalând victoria lui Israel. Filistenii, paralizați de înfrângerea neașteptată, au fugit de pe câmpul de luptă. Victoria lui David nu a fost doar una de forță, ci de credință. El a demonstrat că, oricât de mic sau nesemnificativ ai părea, cu curaj și încredere într-o putere mai mare, chiar și cei mai mari uriași pot cădea. Povestea lui David și Goliat a devenit un simbol al speranței de-a lungul vremurilor, o amintire că prin credință, imposibilul poate deveni realitate.
+2024-09-13 16:35:57,947 - DEBUG - Using selector: EpollSelector
+2024-09-13 16:35:59,071 - INFO - Line Știai povestea lui David și Goliat În deșertul arzător un
+2024-09-13 16:35:59,071 - INFO - Line 
+2024-09-13 16:35:59,071 - INFO - Line tânăr păstor pe nume David stătea în fața uriașului Goliat
+2024-09-13 16:35:59,071 - INFO - Line 
+2024-09-13 16:35:59,072 - INFO - Line Inima îi bătea cu putere nu de frică ci din
+2024-09-13 16:35:59,072 - INFO - Line 
+2024-09-13 16:35:59,072 - INFO - Line convingerea că credința sa va triumfa Armatele lui Israel tremurau
+2024-09-13 16:35:59,072 - INFO - Line 
+2024-09-13 16:35:59,072 - INFO - Line în umbra războinicului filistean care părea de neînvins cu armura
+2024-09-13 16:35:59,072 - INFO - Line 
+2024-09-13 16:35:59,072 - INFO - Line sa de fier și vocea tunătoare Zi de zi Goliat
+2024-09-13 16:35:59,073 - INFO - Line 
+2024-09-13 16:35:59,073 - INFO - Line își bătea joc de israeliți provocându-i să-l înfrunte Nimeni nu
+2024-09-13 16:35:59,073 - INFO - Line 
+2024-09-13 16:35:59,073 - INFO - Line îndrăznea până când David înarmat doar cu o praștie și
+2024-09-13 16:35:59,073 - INFO - Line 
+2024-09-13 16:35:59,073 - INFO - Line o credință de neclintit a pășit înainte Sunt eu câine
+2024-09-13 16:35:59,073 - INFO - Line 
+2024-09-13 16:35:59,073 - INFO - Line de vii la mine cu bețe tună Goliat râsul său
+2024-09-13 16:35:59,073 - INFO - Line 
+2024-09-13 16:35:59,074 - INFO - Line răsunând în vale Dar David cu mâinile neclintite și-a băgat
+2024-09-13 16:35:59,074 - INFO - Line 
+2024-09-13 16:35:59,074 - INFO - Line mâna în traistă și a scos o piatră netedă A
+2024-09-13 16:35:59,074 - INFO - Line 
+2024-09-13 16:35:59,074 - INFO - Line șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru
+2024-09-13 16:35:59,074 - INFO - Line 
+2024-09-13 16:35:59,074 - INFO - Line îndrumare Cu o mișcare rapidă a aruncat piatra în aer
+2024-09-13 16:35:59,074 - INFO - Line 
+2024-09-13 16:35:59,074 - INFO - Line Timpul părea să se oprească în timp ce piatra zbura
+2024-09-13 16:35:59,075 - INFO - Line 
+2024-09-13 16:35:59,075 - INFO - Line prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a
+2024-09-13 16:35:59,075 - INFO - Line 
+2024-09-13 16:35:59,075 - INFO - Line clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor
+2024-09-13 16:35:59,075 - INFO - Line 
+2024-09-13 16:35:59,075 - INFO - Line a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare
+2024-09-13 16:35:59,075 - INFO - Line 
+2024-09-13 16:35:59,075 - INFO - Line în ceea ce tocmai văzuse David ținând încă praștia în
+2024-09-13 16:35:59,076 - INFO - Line 
+2024-09-13 16:35:59,076 - INFO - Line mână s-a apropiat de uriașul căzut ridicând sabia masivă a
+2024-09-13 16:35:59,076 - INFO - Line 
+2024-09-13 16:35:59,076 - INFO - Line lui Goliat și tăindu-i capul semnalând victoria lui Israel Filistenii
+2024-09-13 16:35:59,076 - INFO - Line 
+2024-09-13 16:35:59,076 - INFO - Line paralizați de înfrângerea neașteptată au fugit de pe câmpul de
+2024-09-13 16:35:59,076 - INFO - Line 
+2024-09-13 16:35:59,076 - INFO - Line luptă Victoria lui David nu a fost doar una de
+2024-09-13 16:35:59,076 - INFO - Line 
+2024-09-13 16:35:59,077 - INFO - Line forță ci de credință El a demonstrat că oricât de
+2024-09-13 16:35:59,077 - INFO - Line 
+2024-09-13 16:35:59,077 - INFO - Line mic sau nesemnificativ ai părea cu curaj și încredere într-o
+2024-09-13 16:35:59,077 - INFO - Line 
+2024-09-13 16:35:59,077 - INFO - Line putere mai mare chiar și cei mai mari uriași pot
+2024-09-13 16:35:59,077 - INFO - Line 
+2024-09-13 16:35:59,077 - INFO - Line cădea Povestea lui David și Goliat a devenit un simbol
+2024-09-13 16:35:59,077 - INFO - Line 
+2024-09-13 16:35:59,077 - INFO - Line al speranței de-a lungul vremurilor o amintire că prin credință
+2024-09-13 16:35:59,078 - INFO - Line 
+2024-09-13 16:35:59,078 - INFO - Line imposibilul poate deveni realitate
+2024-09-13 16:35:59,078 - INFO - Line 
+2024-09-13 16:35:59,078 - INFO - [(('0:00:00.10', '0:00:05.08'), 'Știai povestea lui David și Goliat În deșertul arzător un'), (('0:00:05.08', '0:00:08.35'), 'tânăr păstor pe nume David stătea în fața uriașului Goliat'), (('0:00:09.19', '0:00:11.97'), 'Inima îi bătea cu putere nu de frică ci din'), (('0:00:11.97', '0:00:16.57'), 'convingerea că credința sa va triumfa Armatele lui Israel tremurau'), (('0:00:16.57', '0:00:19.95'), 'în umbra războinicului filistean care părea de neînvins cu armura'), (('0:00:19.95', '0:00:23.91'), 'sa de fier și vocea tunătoare Zi de zi Goliat'), (('0:00:23.91', '0:00:28.32'), 'își bătea joc de israeliți provocându-i să-l înfrunte Nimeni nu'), (('0:00:28.32', '0:00:31.96'), 'îndrăznea până când David înarmat doar cu o praștie și'), (('0:00:31.96', '0:00:36.12'), 'o credință de neclintit a pășit înainte Sunt eu câine'), (('0:00:36.41', '0:00:40.45'), 'de vii la mine cu bețe tună Goliat râsul său'), (('0:00:40.45', '0:00:45.29'), 'răsunând în vale Dar David cu mâinile neclintite și-a băgat'), (('0:00:45.29', '0:00:48.51'), 'mâna în traistă și a scos o piatră netedă A'), (('0:00:48.51', '0:00:52.26'), 'șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru'), (('0:00:52.26', '0:00:56.49'), 'îndrumare Cu o mișcare rapidă a aruncat piatra în aer'), (('0:00:57.33', '0:00:59.64'), 'Timpul părea să se oprească în timp ce piatra zbura'), (('0:00:59.64', '0:01:03.94'), 'prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a'), (('0:01:03.94', '0:01:07.89'), 'clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor'), (('0:01:08.07', '0:01:12.82'), 'a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare'), (('0:01:12.82', '0:01:16.80'), 'în ceea ce tocmai văzuse David ținând încă praștia în'), (('0:01:16.80', '0:01:20.57'), 'mână s-a apropiat de uriașul căzut ridicând sabia masivă a'), (('0:01:20.57', '0:01:25.64'), 'lui Goliat și tăindu-i capul semnalând victoria lui Israel Filistenii'), (('0:01:25.80', '0:01:29.19'), 'paralizați de înfrângerea neașteptată au fugit de pe câmpul de'), (('0:01:29.19', '0:01:32.64'), 'luptă Victoria lui David nu a fost doar una de'), (('0:01:32.64', '0:01:37.16'), 'forță ci de credință El a demonstrat că oricât de'), (('0:01:37.16', '0:01:40.26'), 'mic sau nesemnificativ ai părea cu curaj și încredere într-o'), (('0:01:40.26', '0:01:42.88'), 'putere mai mare chiar și cei mai mari uriași pot'), (('0:01:42.88', '0:01:46.61'), 'cădea Povestea lui David și Goliat a devenit un simbol'), (('0:01:46.61', '0:01:50.08'), 'al speranței de-a lungul vremurilor o amintire că prin credință'), (('0:01:50.26', '0:01:52.36'), 'imposibilul poate deveni realitate')]
+2024-09-13 16:35:59,079 - INFO - new captiosn: [(('0:00:00.10', '0:00:05.08'), 'Știai povestea lui David și Goliat În deșertul arzător un'), (('0:00:05.08', '0:00:09.19'), 'tânăr păstor pe nume David stătea în fața uriașului Goliat'), (('0:00:09.19', '0:00:11.97'), 'Inima îi bătea cu putere nu de frică ci din'), (('0:00:11.97', '0:00:16.57'), 'convingerea că credința sa va triumfa Armatele lui Israel tremurau'), (('0:00:16.57', '0:00:19.95'), 'în umbra războinicului filistean care părea de neînvins cu armura'), (('0:00:19.95', '0:00:23.91'), 'sa de fier și vocea tunătoare Zi de zi Goliat'), (('0:00:23.91', '0:00:28.32'), 'își bătea joc de israeliți provocându-i să-l înfrunte Nimeni nu'), (('0:00:28.32', '0:00:31.96'), 'îndrăznea până când David înarmat doar cu o praștie și'), (('0:00:31.96', '0:00:36.41'), 'o credință de neclintit a pășit înainte Sunt eu câine'), (('0:00:36.41', '0:00:40.45'), 'de vii la mine cu bețe tună Goliat râsul său'), (('0:00:40.45', '0:00:45.29'), 'răsunând în vale Dar David cu mâinile neclintite și-a băgat'), (('0:00:45.29', '0:00:48.51'), 'mâna în traistă și a scos o piatră netedă A'), (('0:00:48.51', '0:00:52.26'), 'șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru'), (('0:00:52.26', '0:00:57.33'), 'îndrumare Cu o mișcare rapidă a aruncat piatra în aer'), (('0:00:57.33', '0:00:59.64'), 'Timpul părea să se oprească în timp ce piatra zbura'), (('0:00:59.64', '0:01:03.94'), 'prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a'), (('0:01:03.94', '0:01:08.07'), 'clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor'), (('0:01:08.07', '0:01:12.82'), 'a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare'), (('0:01:12.82', '0:01:16.80'), 'în ceea ce tocmai văzuse David ținând încă praștia în'), (('0:01:16.80', '0:01:20.57'), 'mână s-a apropiat de uriașul căzut ridicând sabia masivă a'), (('0:01:20.57', '0:01:25.80'), 'lui Goliat și tăindu-i capul semnalând victoria lui Israel Filistenii'), (('0:01:25.80', '0:01:29.19'), 'paralizați de înfrângerea neașteptată au fugit de pe câmpul de'), (('0:01:29.19', '0:01:32.64'), 'luptă Victoria lui David nu a fost doar una de'), (('0:01:32.64', '0:01:37.16'), 'forță ci de credință El a demonstrat că oricât de'), (('0:01:37.16', '0:01:40.26'), 'mic sau nesemnificativ ai părea cu curaj și încredere într-o'), (('0:01:40.26', '0:01:42.88'), 'putere mai mare chiar și cei mai mari uriași pot'), (('0:01:42.88', '0:01:46.61'), 'cădea Povestea lui David și Goliat a devenit un simbol'), (('0:01:46.61', '0:01:50.26'), 'al speranței de-a lungul vremurilor o amintire că prin credință'), (('0:01:50.26', '0:01:53.35'), 'imposibilul poate deveni realitate')]
+2024-09-13 16:35:59,079 - INFO - Timed captions generated: [(('0:00:00.10', '0:00:05.08'), 'Știai povestea lui David și Goliat În deșertul arzător un'), (('0:00:05.08', '0:00:09.19'), 'tânăr păstor pe nume David stătea în fața uriașului Goliat'), (('0:00:09.19', '0:00:11.97'), 'Inima îi bătea cu putere nu de frică ci din'), (('0:00:11.97', '0:00:16.57'), 'convingerea că credința sa va triumfa Armatele lui Israel tremurau'), (('0:00:16.57', '0:00:19.95'), 'în umbra războinicului filistean care părea de neînvins cu armura'), (('0:00:19.95', '0:00:23.91'), 'sa de fier și vocea tunătoare Zi de zi Goliat'), (('0:00:23.91', '0:00:28.32'), 'își bătea joc de israeliți provocându-i să-l înfrunte Nimeni nu'), (('0:00:28.32', '0:00:31.96'), 'îndrăznea până când David înarmat doar cu o praștie și'), (('0:00:31.96', '0:00:36.41'), 'o credință de neclintit a pășit înainte Sunt eu câine'), (('0:00:36.41', '0:00:40.45'), 'de vii la mine cu bețe tună Goliat râsul său'), (('0:00:40.45', '0:00:45.29'), 'răsunând în vale Dar David cu mâinile neclintite și-a băgat'), (('0:00:45.29', '0:00:48.51'), 'mâna în traistă și a scos o piatră netedă A'), (('0:00:48.51', '0:00:52.26'), 'șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru'), (('0:00:52.26', '0:00:57.33'), 'îndrumare Cu o mișcare rapidă a aruncat piatra în aer'), (('0:00:57.33', '0:00:59.64'), 'Timpul părea să se oprească în timp ce piatra zbura'), (('0:00:59.64', '0:01:03.94'), 'prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a'), (('0:01:03.94', '0:01:08.07'), 'clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor'), (('0:01:08.07', '0:01:12.82'), 'a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare'), (('0:01:12.82', '0:01:16.80'), 'în ceea ce tocmai văzuse David ținând încă praștia în'), (('0:01:16.80', '0:01:20.57'), 'mână s-a apropiat de uriașul căzut ridicând sabia masivă a'), (('0:01:20.57', '0:01:25.80'), 'lui Goliat și tăindu-i capul semnalând victoria lui Israel Filistenii'), (('0:01:25.80', '0:01:29.19'), 'paralizați de înfrângerea neașteptată au fugit de pe câmpul de'), (('0:01:29.19', '0:01:32.64'), 'luptă Victoria lui David nu a fost doar una de'), (('0:01:32.64', '0:01:37.16'), 'forță ci de credință El a demonstrat că oricât de'), (('0:01:37.16', '0:01:40.26'), 'mic sau nesemnificativ ai părea cu curaj și încredere într-o'), (('0:01:40.26', '0:01:42.88'), 'putere mai mare chiar și cei mai mari uriași pot'), (('0:01:42.88', '0:01:46.61'), 'cădea Povestea lui David și Goliat a devenit un simbol'), (('0:01:46.61', '0:01:50.26'), 'al speranței de-a lungul vremurilor o amintire că prin credință'), (('0:01:50.26', '0:01:53.35'), 'imposibilul poate deveni realitate')]
+2024-09-13 16:35:59,080 - INFO - Line Știai povestea
+2024-09-13 16:35:59,080 - INFO - Line 
+2024-09-13 16:35:59,080 - INFO - Line lui David
+2024-09-13 16:35:59,080 - INFO - Line 
+2024-09-13 16:35:59,080 - INFO - Line și Goliat
+2024-09-13 16:35:59,080 - INFO - Line 
+2024-09-13 16:35:59,081 - INFO - Line În deșertul
+2024-09-13 16:35:59,081 - INFO - Line 
+2024-09-13 16:35:59,081 - INFO - Line arzător un
+2024-09-13 16:35:59,081 - INFO - Line 
+2024-09-13 16:35:59,081 - INFO - Line tânăr păstor
+2024-09-13 16:35:59,081 - INFO - Line 
+2024-09-13 16:35:59,081 - INFO - Line pe nume
+2024-09-13 16:35:59,081 - INFO - Line 
+2024-09-13 16:35:59,081 - INFO - Line David stătea
+2024-09-13 16:35:59,082 - INFO - Line 
+2024-09-13 16:35:59,082 - INFO - Line în fața
+2024-09-13 16:35:59,082 - INFO - Line 
+2024-09-13 16:35:59,082 - INFO - Line uriașului Goliat
+2024-09-13 16:35:59,082 - INFO - Line 
+2024-09-13 16:35:59,082 - INFO - Line Inima îi
+2024-09-13 16:35:59,082 - INFO - Line 
+2024-09-13 16:35:59,082 - INFO - Line bătea cu
+2024-09-13 16:35:59,082 - INFO - Line 
+2024-09-13 16:35:59,082 - INFO - Line putere nu
+2024-09-13 16:35:59,083 - INFO - Line 
+2024-09-13 16:35:59,083 - INFO - Line de frică
+2024-09-13 16:35:59,083 - INFO - Line 
+2024-09-13 16:35:59,083 - INFO - Line ci din
+2024-09-13 16:35:59,083 - INFO - Line 
+2024-09-13 16:35:59,083 - INFO - Line convingerea că
+2024-09-13 16:35:59,083 - INFO - Line 
+2024-09-13 16:35:59,083 - INFO - Line credința sa
+2024-09-13 16:35:59,084 - INFO - Line 
+2024-09-13 16:35:59,084 - INFO - Line va triumfa
+2024-09-13 16:35:59,084 - INFO - Line 
+2024-09-13 16:35:59,084 - INFO - Line Armatele lui
+2024-09-13 16:35:59,084 - INFO - Line 
+2024-09-13 16:35:59,084 - INFO - Line Israel tremurau
+2024-09-13 16:35:59,084 - INFO - Line 
+2024-09-13 16:35:59,084 - INFO - Line în umbra
+2024-09-13 16:35:59,084 - INFO - Line 
+2024-09-13 16:35:59,084 - INFO - Line războinicului filistean
+2024-09-13 16:35:59,085 - INFO - Line 
+2024-09-13 16:35:59,085 - INFO - Line care părea
+2024-09-13 16:35:59,085 - INFO - Line 
+2024-09-13 16:35:59,085 - INFO - Line de neînvins
+2024-09-13 16:35:59,085 - INFO - Line 
+2024-09-13 16:35:59,085 - INFO - Line cu armura
+2024-09-13 16:35:59,085 - INFO - Line 
+2024-09-13 16:35:59,085 - INFO - Line sa de
+2024-09-13 16:35:59,085 - INFO - Line 
+2024-09-13 16:35:59,086 - INFO - Line fier și
+2024-09-13 16:35:59,086 - INFO - Line 
+2024-09-13 16:35:59,086 - INFO - Line vocea tunătoare
+2024-09-13 16:35:59,086 - INFO - Line 
+2024-09-13 16:35:59,086 - INFO - Line Zi de
+2024-09-13 16:35:59,086 - INFO - Line 
+2024-09-13 16:35:59,086 - INFO - Line zi Goliat
+2024-09-13 16:35:59,086 - INFO - Line 
+2024-09-13 16:35:59,086 - INFO - Line își bătea
+2024-09-13 16:35:59,087 - INFO - Line 
+2024-09-13 16:35:59,087 - INFO - Line joc de
+2024-09-13 16:35:59,087 - INFO - Line 
+2024-09-13 16:35:59,087 - INFO - Line israeliți provocându-i
+2024-09-13 16:35:59,087 - INFO - Line 
+2024-09-13 16:35:59,087 - INFO - Line să-l înfrunte
+2024-09-13 16:35:59,087 - INFO - Line 
+2024-09-13 16:35:59,087 - INFO - Line Nimeni nu
+2024-09-13 16:35:59,087 - INFO - Line 
+2024-09-13 16:35:59,088 - INFO - Line îndrăznea până
+2024-09-13 16:35:59,088 - INFO - Line 
+2024-09-13 16:35:59,088 - INFO - Line când David
+2024-09-13 16:35:59,088 - INFO - Line 
+2024-09-13 16:35:59,088 - INFO - Line înarmat doar
+2024-09-13 16:35:59,088 - INFO - Line 
+2024-09-13 16:35:59,088 - INFO - Line cu o
+2024-09-13 16:35:59,088 - INFO - Line 
+2024-09-13 16:35:59,088 - INFO - Line praștie și
+2024-09-13 16:35:59,088 - INFO - Line 
+2024-09-13 16:35:59,089 - INFO - Line o credință
+2024-09-13 16:35:59,089 - INFO - Line 
+2024-09-13 16:35:59,089 - INFO - Line de neclintit
+2024-09-13 16:35:59,089 - INFO - Line 
+2024-09-13 16:35:59,089 - INFO - Line a pășit
+2024-09-13 16:35:59,089 - INFO - Line 
+2024-09-13 16:35:59,089 - INFO - Line înainte Sunt
+2024-09-13 16:35:59,089 - INFO - Line 
+2024-09-13 16:35:59,089 - INFO - Line eu câine
+2024-09-13 16:35:59,090 - INFO - Line 
+2024-09-13 16:35:59,090 - INFO - Line de vii
+2024-09-13 16:35:59,090 - INFO - Line 
+2024-09-13 16:35:59,090 - INFO - Line la mine
+2024-09-13 16:35:59,090 - INFO - Line 
+2024-09-13 16:35:59,090 - INFO - Line cu bețe
+2024-09-13 16:35:59,090 - INFO - Line 
+2024-09-13 16:35:59,090 - INFO - Line tună Goliat
+2024-09-13 16:35:59,090 - INFO - Line 
+2024-09-13 16:35:59,091 - INFO - Line râsul său
+2024-09-13 16:35:59,091 - INFO - Line 
+2024-09-13 16:35:59,091 - INFO - Line răsunând în
+2024-09-13 16:35:59,091 - INFO - Line 
+2024-09-13 16:35:59,091 - INFO - Line vale Dar
+2024-09-13 16:35:59,091 - INFO - Line 
+2024-09-13 16:35:59,091 - INFO - Line David cu
+2024-09-13 16:35:59,091 - INFO - Line 
+2024-09-13 16:35:59,091 - INFO - Line mâinile neclintite
+2024-09-13 16:35:59,091 - INFO - Line 
+2024-09-13 16:35:59,091 - INFO - Line și-a băgat
+2024-09-13 16:35:59,091 - INFO - Line 
+2024-09-13 16:35:59,092 - INFO - Line mâna în
+2024-09-13 16:35:59,092 - INFO - Line 
+2024-09-13 16:35:59,092 - INFO - Line traistă și
+2024-09-13 16:35:59,092 - INFO - Line 
+2024-09-13 16:35:59,092 - INFO - Line a scos
+2024-09-13 16:35:59,092 - INFO - Line 
+2024-09-13 16:35:59,092 - INFO - Line o piatră
+2024-09-13 16:35:59,092 - INFO - Line 
+2024-09-13 16:35:59,092 - INFO - Line netedă A
+2024-09-13 16:35:59,092 - INFO - Line 
+2024-09-13 16:35:59,092 - INFO - Line șoptit o
+2024-09-13 16:35:59,092 - INFO - Line 
+2024-09-13 16:35:59,092 - INFO - Line rugăciune către
+2024-09-13 16:35:59,093 - INFO - Line 
+2024-09-13 16:35:59,093 - INFO - Line Dumnezeu nu
+2024-09-13 16:35:59,093 - INFO - Line 
+2024-09-13 16:35:59,093 - INFO - Line pentru putere
+2024-09-13 16:35:59,093 - INFO - Line 
+2024-09-13 16:35:59,093 - INFO - Line ci pentru
+2024-09-13 16:35:59,093 - INFO - Line 
+2024-09-13 16:35:59,093 - INFO - Line îndrumare Cu
+2024-09-13 16:35:59,093 - INFO - Line 
+2024-09-13 16:35:59,093 - INFO - Line o mișcare
+2024-09-13 16:35:59,093 - INFO - Line 
+2024-09-13 16:35:59,093 - INFO - Line rapidă a
+2024-09-13 16:35:59,093 - INFO - Line 
+2024-09-13 16:35:59,093 - INFO - Line aruncat piatra
+2024-09-13 16:35:59,094 - INFO - Line 
+2024-09-13 16:35:59,094 - INFO - Line în aer
+2024-09-13 16:35:59,094 - INFO - Line 
+2024-09-13 16:35:59,094 - INFO - Line Timpul părea
+2024-09-13 16:35:59,094 - INFO - Line 
+2024-09-13 16:35:59,094 - INFO - Line să se
+2024-09-13 16:35:59,094 - INFO - Line 
+2024-09-13 16:35:59,094 - INFO - Line oprească în
+2024-09-13 16:35:59,094 - INFO - Line 
+2024-09-13 16:35:59,094 - INFO - Line timp ce
+2024-09-13 16:35:59,094 - INFO - Line 
+2024-09-13 16:35:59,094 - INFO - Line piatra zbura
+2024-09-13 16:35:59,094 - INFO - Line 
+2024-09-13 16:35:59,095 - INFO - Line prin cer
+2024-09-13 16:35:59,095 - INFO - Line 
+2024-09-13 16:35:59,095 - INFO - Line lovindu-l pe
+2024-09-13 16:35:59,095 - INFO - Line 
+2024-09-13 16:35:59,095 - INFO - Line Goliat drept
+2024-09-13 16:35:59,095 - INFO - Line 
+2024-09-13 16:35:59,095 - INFO - Line în frunte
+2024-09-13 16:35:59,095 - INFO - Line 
+2024-09-13 16:35:59,095 - INFO - Line Uriașul s-a
+2024-09-13 16:35:59,095 - INFO - Line 
+2024-09-13 16:35:59,095 - INFO - Line clătinat genunchii
+2024-09-13 16:35:59,095 - INFO - Line 
+2024-09-13 16:35:59,095 - INFO - Line i s-au
+2024-09-13 16:35:59,096 - INFO - Line 
+2024-09-13 16:35:59,096 - INFO - Line înmuiat și
+2024-09-13 16:35:59,096 - INFO - Line 
+2024-09-13 16:35:59,096 - INFO - Line cu un
+2024-09-13 16:35:59,096 - INFO - Line 
+2024-09-13 16:35:59,096 - INFO - Line zgomot asurzitor
+2024-09-13 16:35:59,096 - INFO - Line 
+2024-09-13 16:35:59,096 - INFO - Line a căzut
+2024-09-13 16:35:59,096 - INFO - Line 
+2024-09-13 16:35:59,096 - INFO - Line la pământ
+2024-09-13 16:35:59,096 - INFO - Line 
+2024-09-13 16:35:59,096 - INFO - Line Mulțimea a
+2024-09-13 16:35:59,096 - INFO - Line 
+2024-09-13 16:35:59,096 - INFO - Line rămas fără
+2024-09-13 16:35:59,096 - INFO - Line 
+2024-09-13 16:35:59,096 - INFO - Line cuvinte neîncrezătoare
+2024-09-13 16:35:59,097 - INFO - Line 
+2024-09-13 16:35:59,097 - INFO - Line în ceea
+2024-09-13 16:35:59,097 - INFO - Line 
+2024-09-13 16:35:59,097 - INFO - Line ce tocmai
+2024-09-13 16:35:59,097 - INFO - Line 
+2024-09-13 16:35:59,097 - INFO - Line văzuse David
+2024-09-13 16:35:59,097 - INFO - Line 
+2024-09-13 16:35:59,097 - INFO - Line ținând încă
+2024-09-13 16:35:59,097 - INFO - Line 
+2024-09-13 16:35:59,097 - INFO - Line praștia în
+2024-09-13 16:35:59,097 - INFO - Line 
+2024-09-13 16:35:59,097 - INFO - Line mână s-a
+2024-09-13 16:35:59,097 - INFO - Line 
+2024-09-13 16:35:59,097 - INFO - Line apropiat de
+2024-09-13 16:35:59,097 - INFO - Line 
+2024-09-13 16:35:59,097 - INFO - Line uriașul căzut
+2024-09-13 16:35:59,097 - INFO - Line 
+2024-09-13 16:35:59,097 - INFO - Line ridicând sabia
+2024-09-13 16:35:59,098 - INFO - Line 
+2024-09-13 16:35:59,098 - INFO - Line masivă a
+2024-09-13 16:35:59,098 - INFO - Line 
+2024-09-13 16:35:59,098 - INFO - Line lui Goliat
+2024-09-13 16:35:59,098 - INFO - Line 
+2024-09-13 16:35:59,098 - INFO - Line și tăindu-i
+2024-09-13 16:35:59,098 - INFO - Line 
+2024-09-13 16:35:59,098 - INFO - Line capul semnalând
+2024-09-13 16:35:59,098 - INFO - Line 
+2024-09-13 16:35:59,098 - INFO - Line victoria lui
+2024-09-13 16:35:59,098 - INFO - Line 
+2024-09-13 16:35:59,098 - INFO - Line Israel Filistenii
+2024-09-13 16:35:59,098 - INFO - Line 
+2024-09-13 16:35:59,098 - INFO - Line paralizați de
+2024-09-13 16:35:59,098 - INFO - Line 
+2024-09-13 16:35:59,098 - INFO - Line înfrângerea neașteptată
+2024-09-13 16:35:59,098 - INFO - Line 
+2024-09-13 16:35:59,098 - INFO - Line au fugit
+2024-09-13 16:35:59,099 - INFO - Line 
+2024-09-13 16:35:59,099 - INFO - Line de pe
+2024-09-13 16:35:59,099 - INFO - Line 
+2024-09-13 16:35:59,099 - INFO - Line câmpul de
+2024-09-13 16:35:59,099 - INFO - Line 
+2024-09-13 16:35:59,099 - INFO - Line luptă Victoria
+2024-09-13 16:35:59,099 - INFO - Line 
+2024-09-13 16:35:59,099 - INFO - Line lui David
+2024-09-13 16:35:59,099 - INFO - Line 
+2024-09-13 16:35:59,099 - INFO - Line nu a
+2024-09-13 16:35:59,099 - INFO - Line 
+2024-09-13 16:35:59,099 - INFO - Line fost doar
+2024-09-13 16:35:59,099 - INFO - Line 
+2024-09-13 16:35:59,099 - INFO - Line una de
+2024-09-13 16:35:59,099 - INFO - Line 
+2024-09-13 16:35:59,099 - INFO - Line forță ci
+2024-09-13 16:35:59,099 - INFO - Line 
+2024-09-13 16:35:59,100 - INFO - Line de credință
+2024-09-13 16:35:59,100 - INFO - Line 
+2024-09-13 16:35:59,100 - INFO - Line El a
+2024-09-13 16:35:59,100 - INFO - Line 
+2024-09-13 16:35:59,100 - INFO - Line demonstrat că
+2024-09-13 16:35:59,100 - INFO - Line 
+2024-09-13 16:35:59,100 - INFO - Line oricât de
+2024-09-13 16:35:59,100 - INFO - Line 
+2024-09-13 16:35:59,100 - INFO - Line mic sau
+2024-09-13 16:35:59,100 - INFO - Line 
+2024-09-13 16:35:59,100 - INFO - Line nesemnificativ ai
+2024-09-13 16:35:59,100 - INFO - Line 
+2024-09-13 16:35:59,100 - INFO - Line părea cu
+2024-09-13 16:35:59,100 - INFO - Line 
+2024-09-13 16:35:59,100 - INFO - Line curaj și
+2024-09-13 16:35:59,100 - INFO - Line 
+2024-09-13 16:35:59,100 - INFO - Line încredere într-o
+2024-09-13 16:35:59,100 - INFO - Line 
+2024-09-13 16:35:59,101 - INFO - Line putere mai
+2024-09-13 16:35:59,101 - INFO - Line 
+2024-09-13 16:35:59,101 - INFO - Line mare chiar
+2024-09-13 16:35:59,101 - INFO - Line 
+2024-09-13 16:35:59,101 - INFO - Line și cei
+2024-09-13 16:35:59,101 - INFO - Line 
+2024-09-13 16:35:59,101 - INFO - Line mai mari
+2024-09-13 16:35:59,101 - INFO - Line 
+2024-09-13 16:35:59,101 - INFO - Line uriași pot
+2024-09-13 16:35:59,101 - INFO - Line 
+2024-09-13 16:35:59,101 - INFO - Line cădea Povestea
+2024-09-13 16:35:59,101 - INFO - Line 
+2024-09-13 16:35:59,101 - INFO - Line lui David
+2024-09-13 16:35:59,101 - INFO - Line 
+2024-09-13 16:35:59,101 - INFO - Line și Goliat
+2024-09-13 16:35:59,101 - INFO - Line 
+2024-09-13 16:35:59,101 - INFO - Line a devenit
+2024-09-13 16:35:59,101 - INFO - Line 
+2024-09-13 16:35:59,101 - INFO - Line un simbol
+2024-09-13 16:35:59,101 - INFO - Line 
+2024-09-13 16:35:59,102 - INFO - Line al speranței
+2024-09-13 16:35:59,102 - INFO - Line 
+2024-09-13 16:35:59,102 - INFO - Line de-a lungul
+2024-09-13 16:35:59,102 - INFO - Line 
+2024-09-13 16:35:59,102 - INFO - Line vremurilor o
+2024-09-13 16:35:59,102 - INFO - Line 
+2024-09-13 16:35:59,102 - INFO - Line amintire că
+2024-09-13 16:35:59,102 - INFO - Line 
+2024-09-13 16:35:59,102 - INFO - Line prin credință
+2024-09-13 16:35:59,102 - INFO - Line 
+2024-09-13 16:35:59,102 - INFO - Line imposibilul poate
+2024-09-13 16:35:59,102 - INFO - Line 
+2024-09-13 16:35:59,102 - INFO - Line deveni realitate
+2024-09-13 16:35:59,102 - INFO - Line 
+2024-09-13 16:35:59,102 - INFO - [(('0:00:00.10', '0:00:01.02'), 'Știai povestea'), (('0:00:01.02', '0:00:01.75'), 'lui David'), (('0:00:01.75', '0:00:02.51'), 'și Goliat'), (('0:00:03.35', '0:00:03.96'), 'În deșertul'), (('0:00:03.96', '0:00:05.08'), 'arzător un'), (('0:00:05.08', '0:00:05.70'), 'tânăr păstor'), (('0:00:05.70', '0:00:06.03'), 'pe nume'), (('0:00:06.03', '0:00:06.85'), 'David stătea'), (('0:00:06.85', '0:00:07.20'), 'în fața'), (('0:00:07.20', '0:00:08.35'), 'uriașului Goliat'), (('0:00:09.19', '0:00:09.55'), 'Inima îi'), (('0:00:09.55', '0:00:09.93'), 'bătea cu'), (('0:00:09.93', '0:00:10.88'), 'putere nu'), (('0:00:10.88', '0:00:11.50'), 'de frică'), (('0:00:11.70', '0:00:11.97'), 'ci din'), (('0:00:11.97', '0:00:12.68'), 'convingerea că'), (('0:00:12.68', '0:00:13.36'), 'credința sa'), (('0:00:13.36', '0:00:14.09'), 'va triumfa'), (('0:00:14.93', '0:00:15.56'), 'Armatele lui'), (('0:00:15.56', '0:00:16.57'), 'Israel tremurau'), (('0:00:16.57', '0:00:16.91'), 'în umbra'), (('0:00:16.91', '0:00:18.26'), 'războinicului filistean'), (('0:00:18.45', '0:00:18.94'), 'care părea'), (('0:00:18.94', '0:00:19.50'), 'de neînvins'), (('0:00:19.50', '0:00:19.95'), 'cu armura'), (('0:00:19.95', '0:00:20.25'), 'sa de'), (('0:00:20.25', '0:00:20.80'), 'fier și'), (('0:00:20.80', '0:00:21.73'), 'vocea tunătoare'), (('0:00:22.56', '0:00:22.98'), 'Zi de'), (('0:00:22.98', '0:00:23.91'), 'zi Goliat'), (('0:00:23.91', '0:00:24.32'), 'își bătea'), (('0:00:24.32', '0:00:24.66'), 'joc de'), (('0:00:24.66', '0:00:26.27'), 'israeliți provocându-i'), (('0:00:26.27', '0:00:27.07'), 'să-l înfrunte'), (('0:00:27.91', '0:00:28.32'), 'Nimeni nu'), (('0:00:28.32', '0:00:29.38'), 'îndrăznea până'), (('0:00:29.38', '0:00:30.11'), 'când David'), (('0:00:30.31', '0:00:31.12'), 'înarmat doar'), (('0:00:31.12', '0:00:31.26'), 'cu o'), (('0:00:31.26', '0:00:31.96'), 'praștie și'), (('0:00:31.96', '0:00:32.45'), 'o credință'), (('0:00:32.45', '0:00:33.19'), 'de neclintit'), (('0:00:33.38', '0:00:33.81'), 'a pășit'), (('0:00:33.81', '0:00:35.46'), 'înainte Sunt'), (('0:00:35.46', '0:00:36.12'), 'eu câine'), (('0:00:36.41', '0:00:36.67'), 'de vii'), (('0:00:36.67', '0:00:37.00'), 'la mine'), (('0:00:37.00', '0:00:37.59'), 'cu bețe'), (('0:00:38.77', '0:00:39.61'), 'tună Goliat'), (('0:00:39.80', '0:00:40.45'), 'râsul său'), (('0:00:40.45', '0:00:41.11'), 'răsunând în'), (('0:00:41.11', '0:00:42.55'), 'vale Dar'), (('0:00:42.55', '0:00:43.45'), 'David cu'), (('0:00:43.45', '0:00:44.59'), 'mâinile neclintite'), (('0:00:44.76', '0:00:45.29'), 'și-a băgat'), (('0:00:45.29', '0:00:45.62'), 'mâna în'), (('0:00:45.62', '0:00:46.24'), 'traistă și'), (('0:00:46.24', '0:00:46.62'), 'a scos'), (('0:00:46.62', '0:00:47.04'), 'o piatră'), (('0:00:47.04', '0:00:48.51'), 'netedă A'), (('0:00:48.51', '0:00:48.94'), 'șoptit o'), (('0:00:48.94', '0:00:49.74'), 'rugăciune către'), (('0:00:49.74', '0:00:50.83'), 'Dumnezeu nu'), (('0:00:50.83', '0:00:51.65'), 'pentru putere'), (('0:00:51.86', '0:00:52.26'), 'ci pentru'), (('0:00:52.26', '0:00:53.84'), 'îndrumare Cu'), (('0:00:53.84', '0:00:54.31'), 'o mișcare'), (('0:00:54.31', '0:00:55.27'), 'rapidă a'), (('0:00:55.27', '0:00:56.05'), 'aruncat piatra'), (('0:00:56.05', '0:00:56.49'), 'în aer'), (('0:00:57.33', '0:00:57.95'), 'Timpul părea'), (('0:00:57.95', '0:00:58.20'), 'să se'), (('0:00:58.20', '0:00:58.69'), 'oprească în'), (('0:00:58.69', '0:00:58.98'), 'timp ce'), (('0:00:58.98', '0:00:59.64'), 'piatra zbura'), (('0:00:59.64', '0:01:00.33'), 'prin cer'), (('0:01:00.55', '0:01:01.16'), 'lovindu-l pe'), (('0:01:01.16', '0:01:01.88'), 'Goliat drept'), (('0:01:01.88', '0:01:02.46'), 'în frunte'), (('0:01:03.30', '0:01:03.94'), 'Uriașul s-a'), (('0:01:03.94', '0:01:05.36'), 'clătinat genunchii'), (('0:01:05.36', '0:01:05.61'), 'i s-au'), (('0:01:05.61', '0:01:06.58'), 'înmuiat și'), (('0:01:06.58', '0:01:06.75'), 'cu un'), (('0:01:06.75', '0:01:07.89'), 'zgomot asurzitor'), (('0:01:08.07', '0:01:08.54'), 'a căzut'), (('0:01:08.54', '0:01:09.18'), 'la pământ'), (('0:01:10.01', '0:01:10.51'), 'Mulțimea a'), (('0:01:10.51', '0:01:11.11'), 'rămas fără'), (('0:01:11.11', '0:01:12.82'), 'cuvinte neîncrezătoare'), (('0:01:12.82', '0:01:13.12'), 'în ceea'), (('0:01:13.12', '0:01:13.61'), 'ce tocmai'), (('0:01:13.61', '0:01:15.68'), 'văzuse David'), (('0:01:15.86', '0:01:16.35'), 'ținând încă'), (('0:01:16.35', '0:01:16.80'), 'praștia în'), (('0:01:16.80', '0:01:17.55'), 'mână s-a'), (('0:01:17.55', '0:01:18.07'), 'apropiat de'), (('0:01:18.07', '0:01:19.07'), 'uriașul căzut'), (('0:01:19.26', '0:01:20.09'), 'ridicând sabia'), (('0:01:20.09', '0:01:20.57'), 'masivă a'), (('0:01:20.57', '0:01:21.11'), 'lui Goliat'), (('0:01:21.11', '0:01:21.61'), 'și tăindu-i'), (('0:01:21.61', '0:01:22.93'), 'capul semnalând'), (('0:01:22.93', '0:01:23.50'), 'victoria lui'), (('0:01:23.50', '0:01:25.64'), 'Israel Filistenii'), (('0:01:25.80', '0:01:26.49'), 'paralizați de'), (('0:01:26.49', '0:01:27.91'), 'înfrângerea neașteptată'), (('0:01:28.07', '0:01:28.54'), 'au fugit'), (('0:01:28.54', '0:01:28.76'), 'de pe'), (('0:01:28.76', '0:01:29.19'), 'câmpul de'), (('0:01:29.19', '0:01:30.96'), 'luptă Victoria'), (('0:01:30.96', '0:01:31.62'), 'lui David'), (('0:01:31.62', '0:01:31.82'), 'nu a'), (('0:01:31.82', '0:01:32.35'), 'fost doar'), (('0:01:32.35', '0:01:32.64'), 'una de'), (('0:01:32.64', '0:01:33.64'), 'forță ci'), (('0:01:33.64', '0:01:34.41'), 'de credință'), (('0:01:35.25', '0:01:35.54'), 'El a'), (('0:01:35.54', '0:01:36.49'), 'demonstrat că'), (('0:01:36.65', '0:01:37.16'), 'oricât de'), (('0:01:37.16', '0:01:37.58'), 'mic sau'), (('0:01:37.58', '0:01:38.49'), 'nesemnificativ ai'), (('0:01:38.49', '0:01:39.21'), 'părea cu'), (('0:01:39.21', '0:01:39.65'), 'curaj și'), (('0:01:39.65', '0:01:40.26'), 'încredere într-o'), (('0:01:40.26', '0:01:40.74'), 'putere mai'), (('0:01:40.74', '0:01:41.54'), 'mare chiar'), (('0:01:41.54', '0:01:41.92'), 'și cei'), (('0:01:41.92', '0:01:42.29'), 'mai mari'), (('0:01:42.29', '0:01:42.88'), 'uriași pot'), (('0:01:42.88', '0:01:44.60'), 'cădea Povestea'), (('0:01:44.60', '0:01:45.08'), 'lui David'), (('0:01:45.08', '0:01:45.71'), 'și Goliat'), (('0:01:45.71', '0:01:46.15'), 'a devenit'), (('0:01:46.15', '0:01:46.61'), 'un simbol'), (('0:01:46.61', '0:01:47.23'), 'al speranței'), (('0:01:47.23', '0:01:47.66'), 'de-a lungul'), (('0:01:47.66', '0:01:48.74'), 'vremurilor o'), (('0:01:48.74', '0:01:49.23'), 'amintire că'), (('0:01:49.23', '0:01:50.08'), 'prin credință'), (('0:01:50.26', '0:01:51.29'), 'imposibilul poate'), (('0:01:51.29', '0:01:52.36'), 'deveni realitate')]
+2024-09-13 16:35:59,103 - INFO - new captiosn: [(('0:00:00.10', '0:00:01.02'), 'Știai povestea'), (('0:00:01.02', '0:00:01.75'), 'lui David'), (('0:00:01.75', '0:00:03.35'), 'și Goliat'), (('0:00:03.35', '0:00:03.96'), 'În deșertul'), (('0:00:03.96', '0:00:05.08'), 'arzător un'), (('0:00:05.08', '0:00:05.70'), 'tânăr păstor'), (('0:00:05.70', '0:00:06.03'), 'pe nume'), (('0:00:06.03', '0:00:06.85'), 'David stătea'), (('0:00:06.85', '0:00:07.20'), 'în fața'), (('0:00:07.20', '0:00:09.19'), 'uriașului Goliat'), (('0:00:09.19', '0:00:09.55'), 'Inima îi'), (('0:00:09.55', '0:00:09.93'), 'bătea cu'), (('0:00:09.93', '0:00:10.88'), 'putere nu'), (('0:00:10.88', '0:00:11.70'), 'de frică'), (('0:00:11.70', '0:00:11.97'), 'ci din'), (('0:00:11.97', '0:00:12.68'), 'convingerea că'), (('0:00:12.68', '0:00:13.36'), 'credința sa'), (('0:00:13.36', '0:00:14.93'), 'va triumfa'), (('0:00:14.93', '0:00:15.56'), 'Armatele lui'), (('0:00:15.56', '0:00:16.57'), 'Israel tremurau'), (('0:00:16.57', '0:00:16.91'), 'în umbra'), (('0:00:16.91', '0:00:18.45'), 'războinicului filistean'), (('0:00:18.45', '0:00:18.94'), 'care părea'), (('0:00:18.94', '0:00:19.50'), 'de neînvins'), (('0:00:19.50', '0:00:19.95'), 'cu armura'), (('0:00:19.95', '0:00:20.25'), 'sa de'), (('0:00:20.25', '0:00:20.80'), 'fier și'), (('0:00:20.80', '0:00:22.56'), 'vocea tunătoare'), (('0:00:22.56', '0:00:22.98'), 'Zi de'), (('0:00:22.98', '0:00:23.91'), 'zi Goliat'), (('0:00:23.91', '0:00:24.32'), 'își bătea'), (('0:00:24.32', '0:00:24.66'), 'joc de'), (('0:00:24.66', '0:00:26.27'), 'israeliți provocându-i'), (('0:00:26.27', '0:00:27.91'), 'să-l înfrunte'), (('0:00:27.91', '0:00:28.32'), 'Nimeni nu'), (('0:00:28.32', '0:00:29.38'), 'îndrăznea până'), (('0:00:29.38', '0:00:30.31'), 'când David'), (('0:00:30.31', '0:00:31.12'), 'înarmat doar'), (('0:00:31.12', '0:00:31.26'), 'cu o'), (('0:00:31.26', '0:00:31.96'), 'praștie și'), (('0:00:31.96', '0:00:32.45'), 'o credință'), (('0:00:32.45', '0:00:33.38'), 'de neclintit'), (('0:00:33.38', '0:00:33.81'), 'a pășit'), (('0:00:33.81', '0:00:35.46'), 'înainte Sunt'), (('0:00:35.46', '0:00:36.41'), 'eu câine'), (('0:00:36.41', '0:00:36.67'), 'de vii'), (('0:00:36.67', '0:00:37.00'), 'la mine'), (('0:00:37.00', '0:00:38.77'), 'cu bețe'), (('0:00:38.77', '0:00:39.80'), 'tună Goliat'), (('0:00:39.80', '0:00:40.45'), 'râsul său'), (('0:00:40.45', '0:00:41.11'), 'răsunând în'), (('0:00:41.11', '0:00:42.55'), 'vale Dar'), (('0:00:42.55', '0:00:43.45'), 'David cu'), (('0:00:43.45', '0:00:44.76'), 'mâinile neclintite'), (('0:00:44.76', '0:00:45.29'), 'și-a băgat'), (('0:00:45.29', '0:00:45.62'), 'mâna în'), (('0:00:45.62', '0:00:46.24'), 'traistă și'), (('0:00:46.24', '0:00:46.62'), 'a scos'), (('0:00:46.62', '0:00:47.04'), 'o piatră'), (('0:00:47.04', '0:00:48.51'), 'netedă A'), (('0:00:48.51', '0:00:48.94'), 'șoptit o'), (('0:00:48.94', '0:00:49.74'), 'rugăciune către'), (('0:00:49.74', '0:00:50.83'), 'Dumnezeu nu'), (('0:00:50.83', '0:00:51.86'), 'pentru putere'), (('0:00:51.86', '0:00:52.26'), 'ci pentru'), (('0:00:52.26', '0:00:53.84'), 'îndrumare Cu'), (('0:00:53.84', '0:00:54.31'), 'o mișcare'), (('0:00:54.31', '0:00:55.27'), 'rapidă a'), (('0:00:55.27', '0:00:56.05'), 'aruncat piatra'), (('0:00:56.05', '0:00:57.33'), 'în aer'), (('0:00:57.33', '0:00:57.95'), 'Timpul părea'), (('0:00:57.95', '0:00:58.20'), 'să se'), (('0:00:58.20', '0:00:58.69'), 'oprească în'), (('0:00:58.69', '0:00:58.98'), 'timp ce'), (('0:00:58.98', '0:00:59.64'), 'piatra zbura'), (('0:00:59.64', '0:01:00.55'), 'prin cer'), (('0:01:00.55', '0:01:01.16'), 'lovindu-l pe'), (('0:01:01.16', '0:01:01.88'), 'Goliat drept'), (('0:01:01.88', '0:01:03.30'), 'în frunte'), (('0:01:03.30', '0:01:03.94'), 'Uriașul s-a'), (('0:01:03.94', '0:01:05.36'), 'clătinat genunchii'), (('0:01:05.36', '0:01:05.61'), 'i s-au'), (('0:01:05.61', '0:01:06.58'), 'înmuiat și'), (('0:01:06.58', '0:01:06.75'), 'cu un'), (('0:01:06.75', '0:01:08.07'), 'zgomot asurzitor'), (('0:01:08.07', '0:01:08.54'), 'a căzut'), (('0:01:08.54', '0:01:10.01'), 'la pământ'), (('0:01:10.01', '0:01:10.51'), 'Mulțimea a'), (('0:01:10.51', '0:01:11.11'), 'rămas fără'), (('0:01:11.11', '0:01:12.82'), 'cuvinte neîncrezătoare'), (('0:01:12.82', '0:01:13.12'), 'în ceea'), (('0:01:13.12', '0:01:13.61'), 'ce tocmai'), (('0:01:13.61', '0:01:15.86'), 'văzuse David'), (('0:01:15.86', '0:01:16.35'), 'ținând încă'), (('0:01:16.35', '0:01:16.80'), 'praștia în'), (('0:01:16.80', '0:01:17.55'), 'mână s-a'), (('0:01:17.55', '0:01:18.07'), 'apropiat de'), (('0:01:18.07', '0:01:19.26'), 'uriașul căzut'), (('0:01:19.26', '0:01:20.09'), 'ridicând sabia'), (('0:01:20.09', '0:01:20.57'), 'masivă a'), (('0:01:20.57', '0:01:21.11'), 'lui Goliat'), (('0:01:21.11', '0:01:21.61'), 'și tăindu-i'), (('0:01:21.61', '0:01:22.93'), 'capul semnalând'), (('0:01:22.93', '0:01:23.50'), 'victoria lui'), (('0:01:23.50', '0:01:25.80'), 'Israel Filistenii'), (('0:01:25.80', '0:01:26.49'), 'paralizați de'), (('0:01:26.49', '0:01:28.07'), 'înfrângerea neașteptată'), (('0:01:28.07', '0:01:28.54'), 'au fugit'), (('0:01:28.54', '0:01:28.76'), 'de pe'), (('0:01:28.76', '0:01:29.19'), 'câmpul de'), (('0:01:29.19', '0:01:30.96'), 'luptă Victoria'), (('0:01:30.96', '0:01:31.62'), 'lui David'), (('0:01:31.62', '0:01:31.82'), 'nu a'), (('0:01:31.82', '0:01:32.35'), 'fost doar'), (('0:01:32.35', '0:01:32.64'), 'una de'), (('0:01:32.64', '0:01:33.64'), 'forță ci'), (('0:01:33.64', '0:01:35.25'), 'de credință'), (('0:01:35.25', '0:01:35.54'), 'El a'), (('0:01:35.54', '0:01:36.65'), 'demonstrat că'), (('0:01:36.65', '0:01:37.16'), 'oricât de'), (('0:01:37.16', '0:01:37.58'), 'mic sau'), (('0:01:37.58', '0:01:38.49'), 'nesemnificativ ai'), (('0:01:38.49', '0:01:39.21'), 'părea cu'), (('0:01:39.21', '0:01:39.65'), 'curaj și'), (('0:01:39.65', '0:01:40.26'), 'încredere într-o'), (('0:01:40.26', '0:01:40.74'), 'putere mai'), (('0:01:40.74', '0:01:41.54'), 'mare chiar'), (('0:01:41.54', '0:01:41.92'), 'și cei'), (('0:01:41.92', '0:01:42.29'), 'mai mari'), (('0:01:42.29', '0:01:42.88'), 'uriași pot'), (('0:01:42.88', '0:01:44.60'), 'cădea Povestea'), (('0:01:44.60', '0:01:45.08'), 'lui David'), (('0:01:45.08', '0:01:45.71'), 'și Goliat'), (('0:01:45.71', '0:01:46.15'), 'a devenit'), (('0:01:46.15', '0:01:46.61'), 'un simbol'), (('0:01:46.61', '0:01:47.23'), 'al speranței'), (('0:01:47.23', '0:01:47.66'), 'de-a lungul'), (('0:01:47.66', '0:01:48.74'), 'vremurilor o'), (('0:01:48.74', '0:01:49.23'), 'amintire că'), (('0:01:49.23', '0:01:50.26'), 'prin credință'), (('0:01:50.26', '0:01:51.29'), 'imposibilul poate'), (('0:01:51.29', '0:01:53.35'), 'deveni realitate')]
+2024-09-13 16:35:59,103 - INFO - Timed captions mini generated: [(('0:00:00.10', '0:00:01.02'), 'Știai povestea'), (('0:00:01.02', '0:00:01.75'), 'lui David'), (('0:00:01.75', '0:00:03.35'), 'și Goliat'), (('0:00:03.35', '0:00:03.96'), 'În deșertul'), (('0:00:03.96', '0:00:05.08'), 'arzător un'), (('0:00:05.08', '0:00:05.70'), 'tânăr păstor'), (('0:00:05.70', '0:00:06.03'), 'pe nume'), (('0:00:06.03', '0:00:06.85'), 'David stătea'), (('0:00:06.85', '0:00:07.20'), 'în fața'), (('0:00:07.20', '0:00:09.19'), 'uriașului Goliat'), (('0:00:09.19', '0:00:09.55'), 'Inima îi'), (('0:00:09.55', '0:00:09.93'), 'bătea cu'), (('0:00:09.93', '0:00:10.88'), 'putere nu'), (('0:00:10.88', '0:00:11.70'), 'de frică'), (('0:00:11.70', '0:00:11.97'), 'ci din'), (('0:00:11.97', '0:00:12.68'), 'convingerea că'), (('0:00:12.68', '0:00:13.36'), 'credința sa'), (('0:00:13.36', '0:00:14.93'), 'va triumfa'), (('0:00:14.93', '0:00:15.56'), 'Armatele lui'), (('0:00:15.56', '0:00:16.57'), 'Israel tremurau'), (('0:00:16.57', '0:00:16.91'), 'în umbra'), (('0:00:16.91', '0:00:18.45'), 'războinicului filistean'), (('0:00:18.45', '0:00:18.94'), 'care părea'), (('0:00:18.94', '0:00:19.50'), 'de neînvins'), (('0:00:19.50', '0:00:19.95'), 'cu armura'), (('0:00:19.95', '0:00:20.25'), 'sa de'), (('0:00:20.25', '0:00:20.80'), 'fier și'), (('0:00:20.80', '0:00:22.56'), 'vocea tunătoare'), (('0:00:22.56', '0:00:22.98'), 'Zi de'), (('0:00:22.98', '0:00:23.91'), 'zi Goliat'), (('0:00:23.91', '0:00:24.32'), 'își bătea'), (('0:00:24.32', '0:00:24.66'), 'joc de'), (('0:00:24.66', '0:00:26.27'), 'israeliți provocându-i'), (('0:00:26.27', '0:00:27.91'), 'să-l înfrunte'), (('0:00:27.91', '0:00:28.32'), 'Nimeni nu'), (('0:00:28.32', '0:00:29.38'), 'îndrăznea până'), (('0:00:29.38', '0:00:30.31'), 'când David'), (('0:00:30.31', '0:00:31.12'), 'înarmat doar'), (('0:00:31.12', '0:00:31.26'), 'cu o'), (('0:00:31.26', '0:00:31.96'), 'praștie și'), (('0:00:31.96', '0:00:32.45'), 'o credință'), (('0:00:32.45', '0:00:33.38'), 'de neclintit'), (('0:00:33.38', '0:00:33.81'), 'a pășit'), (('0:00:33.81', '0:00:35.46'), 'înainte Sunt'), (('0:00:35.46', '0:00:36.41'), 'eu câine'), (('0:00:36.41', '0:00:36.67'), 'de vii'), (('0:00:36.67', '0:00:37.00'), 'la mine'), (('0:00:37.00', '0:00:38.77'), 'cu bețe'), (('0:00:38.77', '0:00:39.80'), 'tună Goliat'), (('0:00:39.80', '0:00:40.45'), 'râsul său'), (('0:00:40.45', '0:00:41.11'), 'răsunând în'), (('0:00:41.11', '0:00:42.55'), 'vale Dar'), (('0:00:42.55', '0:00:43.45'), 'David cu'), (('0:00:43.45', '0:00:44.76'), 'mâinile neclintite'), (('0:00:44.76', '0:00:45.29'), 'și-a băgat'), (('0:00:45.29', '0:00:45.62'), 'mâna în'), (('0:00:45.62', '0:00:46.24'), 'traistă și'), (('0:00:46.24', '0:00:46.62'), 'a scos'), (('0:00:46.62', '0:00:47.04'), 'o piatră'), (('0:00:47.04', '0:00:48.51'), 'netedă A'), (('0:00:48.51', '0:00:48.94'), 'șoptit o'), (('0:00:48.94', '0:00:49.74'), 'rugăciune către'), (('0:00:49.74', '0:00:50.83'), 'Dumnezeu nu'), (('0:00:50.83', '0:00:51.86'), 'pentru putere'), (('0:00:51.86', '0:00:52.26'), 'ci pentru'), (('0:00:52.26', '0:00:53.84'), 'îndrumare Cu'), (('0:00:53.84', '0:00:54.31'), 'o mișcare'), (('0:00:54.31', '0:00:55.27'), 'rapidă a'), (('0:00:55.27', '0:00:56.05'), 'aruncat piatra'), (('0:00:56.05', '0:00:57.33'), 'în aer'), (('0:00:57.33', '0:00:57.95'), 'Timpul părea'), (('0:00:57.95', '0:00:58.20'), 'să se'), (('0:00:58.20', '0:00:58.69'), 'oprească în'), (('0:00:58.69', '0:00:58.98'), 'timp ce'), (('0:00:58.98', '0:00:59.64'), 'piatra zbura'), (('0:00:59.64', '0:01:00.55'), 'prin cer'), (('0:01:00.55', '0:01:01.16'), 'lovindu-l pe'), (('0:01:01.16', '0:01:01.88'), 'Goliat drept'), (('0:01:01.88', '0:01:03.30'), 'în frunte'), (('0:01:03.30', '0:01:03.94'), 'Uriașul s-a'), (('0:01:03.94', '0:01:05.36'), 'clătinat genunchii'), (('0:01:05.36', '0:01:05.61'), 'i s-au'), (('0:01:05.61', '0:01:06.58'), 'înmuiat și'), (('0:01:06.58', '0:01:06.75'), 'cu un'), (('0:01:06.75', '0:01:08.07'), 'zgomot asurzitor'), (('0:01:08.07', '0:01:08.54'), 'a căzut'), (('0:01:08.54', '0:01:10.01'), 'la pământ'), (('0:01:10.01', '0:01:10.51'), 'Mulțimea a'), (('0:01:10.51', '0:01:11.11'), 'rămas fără'), (('0:01:11.11', '0:01:12.82'), 'cuvinte neîncrezătoare'), (('0:01:12.82', '0:01:13.12'), 'în ceea'), (('0:01:13.12', '0:01:13.61'), 'ce tocmai'), (('0:01:13.61', '0:01:15.86'), 'văzuse David'), (('0:01:15.86', '0:01:16.35'), 'ținând încă'), (('0:01:16.35', '0:01:16.80'), 'praștia în'), (('0:01:16.80', '0:01:17.55'), 'mână s-a'), (('0:01:17.55', '0:01:18.07'), 'apropiat de'), (('0:01:18.07', '0:01:19.26'), 'uriașul căzut'), (('0:01:19.26', '0:01:20.09'), 'ridicând sabia'), (('0:01:20.09', '0:01:20.57'), 'masivă a'), (('0:01:20.57', '0:01:21.11'), 'lui Goliat'), (('0:01:21.11', '0:01:21.61'), 'și tăindu-i'), (('0:01:21.61', '0:01:22.93'), 'capul semnalând'), (('0:01:22.93', '0:01:23.50'), 'victoria lui'), (('0:01:23.50', '0:01:25.80'), 'Israel Filistenii'), (('0:01:25.80', '0:01:26.49'), 'paralizați de'), (('0:01:26.49', '0:01:28.07'), 'înfrângerea neașteptată'), (('0:01:28.07', '0:01:28.54'), 'au fugit'), (('0:01:28.54', '0:01:28.76'), 'de pe'), (('0:01:28.76', '0:01:29.19'), 'câmpul de'), (('0:01:29.19', '0:01:30.96'), 'luptă Victoria'), (('0:01:30.96', '0:01:31.62'), 'lui David'), (('0:01:31.62', '0:01:31.82'), 'nu a'), (('0:01:31.82', '0:01:32.35'), 'fost doar'), (('0:01:32.35', '0:01:32.64'), 'una de'), (('0:01:32.64', '0:01:33.64'), 'forță ci'), (('0:01:33.64', '0:01:35.25'), 'de credință'), (('0:01:35.25', '0:01:35.54'), 'El a'), (('0:01:35.54', '0:01:36.65'), 'demonstrat că'), (('0:01:36.65', '0:01:37.16'), 'oricât de'), (('0:01:37.16', '0:01:37.58'), 'mic sau'), (('0:01:37.58', '0:01:38.49'), 'nesemnificativ ai'), (('0:01:38.49', '0:01:39.21'), 'părea cu'), (('0:01:39.21', '0:01:39.65'), 'curaj și'), (('0:01:39.65', '0:01:40.26'), 'încredere într-o'), (('0:01:40.26', '0:01:40.74'), 'putere mai'), (('0:01:40.74', '0:01:41.54'), 'mare chiar'), (('0:01:41.54', '0:01:41.92'), 'și cei'), (('0:01:41.92', '0:01:42.29'), 'mai mari'), (('0:01:42.29', '0:01:42.88'), 'uriași pot'), (('0:01:42.88', '0:01:44.60'), 'cădea Povestea'), (('0:01:44.60', '0:01:45.08'), 'lui David'), (('0:01:45.08', '0:01:45.71'), 'și Goliat'), (('0:01:45.71', '0:01:46.15'), 'a devenit'), (('0:01:46.15', '0:01:46.61'), 'un simbol'), (('0:01:46.61', '0:01:47.23'), 'al speranței'), (('0:01:47.23', '0:01:47.66'), 'de-a lungul'), (('0:01:47.66', '0:01:48.74'), 'vremurilor o'), (('0:01:48.74', '0:01:49.23'), 'amintire că'), (('0:01:49.23', '0:01:50.26'), 'prin credință'), (('0:01:50.26', '0:01:51.29'), 'imposibilul poate'), (('0:01:51.29', '0:01:53.35'), 'deveni realitate')]
+2024-09-13 16:35:59,103 - INFO - Search terms generated: [[[0, 2.82], ['meeting ex', 'relationship start', 'two years']], [[2.82, 5.24], ['ex-girlfriend', 'couple years', 'time together']], [[5.24, 7.54], ['boob job', 'surgery discussion', 'breast enhancement']], [[7.54, 9.24], ['previous partners', 'dating history', 'opinion on surgery']], [[9.24, 11.84], ['personal preference', 'dislikes surgery', 'deal breaker']]]
+2024-09-13 16:35:59,103 - INFO - Background videos generated: [[[0, 118.82], 'http://104.154.18.51:3000/video/90']]
+2024-09-13 16:35:59,103 - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-09-13 16:36:00,501 - DEBUG - applying descrambler
+2024-09-13 16:36:00,507 - DEBUG - finding initial function name
+2024-09-13 16:36:00,510 - DEBUG - Pattern failed: ytplayer\.config\s*=\s*
+2024-09-13 16:36:00,510 - DEBUG - Could not parse object.
+2024-09-13 16:36:00,554 - DEBUG - finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+2024-09-13 16:36:01,196 - DEBUG - finding initial function name
+2024-09-13 16:36:01,544 - DEBUG - finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+2024-09-13 16:36:01,544 - DEBUG - getting transform plan
+2024-09-13 16:36:01,545 - DEBUG - matched regex search: eCa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+2024-09-13 16:36:01,545 - DEBUG - getting transform object
+2024-09-13 16:36:01,547 - DEBUG - Finding throttling function name
+2024-09-13 16:36:01,553 - DEBUG - finding initial function name
+2024-09-13 16:36:01,554 - DEBUG - Pattern failed: ytplayer\.config\s*=\s*
+2024-09-13 16:36:01,554 - DEBUG - Could not parse object.
+2024-09-13 16:36:01,576 - DEBUG - finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+2024-09-13 16:36:02,231 - DEBUG - finding initial function name
+2024-09-13 16:36:02,598 - DEBUG - finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+2024-09-13 16:36:02,598 - DEBUG - getting transform plan
+2024-09-13 16:36:02,599 - DEBUG - matched regex search: eCa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+2024-09-13 16:36:02,599 - DEBUG - getting transform object
+2024-09-13 16:36:02,600 - DEBUG - Finding throttling function name
+2024-09-13 16:36:02,604 - INFO - An error occurred: get_throttling_function_name: could not find match for multiple
+2024-09-13 16:36:23,526 - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-09-13 16:36:23,526 - DEBUG - load_verify_locations cafile='/home/dani/.local/lib/python3.11/site-packages/certifi/cacert.pem'
+2024-09-13 16:36:23,589 - INFO - Generating script for topic: Știai povestea lui David și Goliat? În deșertul arzător, un tânăr păstor pe nume David stătea în fața uriașului Goliat. Inima îi bătea cu putere, nu de frică, ci din convingerea că credința sa va triumfa. Armatele lui Israel tremurau în umbra războinicului filistean, care părea de neînvins cu armura sa de fier și vocea tunătoare. Zi de zi, Goliat își bătea joc de israeliți, provocându-i să-l înfrunte. Nimeni nu îndrăznea, până când David, înarmat doar cu o praștie și o credință de neclintit, a pășit înainte. „Sunt eu câine, de vii la mine cu bețe?” tună Goliat, râsul său răsunând în vale. Dar David, cu mâinile neclintite, și-a băgat mâna în traistă și a scos o piatră netedă. A șoptit o rugăciune către Dumnezeu, nu pentru putere, ci pentru îndrumare. Cu o mișcare rapidă, a aruncat piatra în aer. Timpul părea să se oprească în timp ce piatra zbura prin cer, lovindu-l pe Goliat drept în frunte. Uriașul s-a clătinat, genunchii i s-au înmuiat, și cu un zgomot asurzitor, a căzut la pământ. Mulțimea a rămas fără cuvinte, neîncrezătoare în ceea ce tocmai văzuse. David, ținând încă praștia în mână, s-a apropiat de uriașul căzut, ridicând sabia masivă a lui Goliat și tăindu-i capul, semnalând victoria lui Israel. Filistenii, paralizați de înfrângerea neașteptată, au fugit de pe câmpul de luptă. Victoria lui David nu a fost doar una de forță, ci de credință. El a demonstrat că, oricât de mic sau nesemnificativ ai părea, cu curaj și încredere într-o putere mai mare, chiar și cei mai mari uriași pot cădea. Povestea lui David și Goliat a devenit un simbol al speranței de-a lungul vremurilor, o amintire că prin credință, imposibilul poate deveni realitate.
+2024-09-13 16:36:23,589 - DEBUG - Using selector: EpollSelector
+2024-09-13 16:36:28,164 - INFO - Line Știai povestea lui David și Goliat În deșertul arzător un
+2024-09-13 16:36:28,164 - INFO - Line 
+2024-09-13 16:36:28,164 - INFO - Line tânăr păstor pe nume David stătea în fața uriașului Goliat
+2024-09-13 16:36:28,164 - INFO - Line 
+2024-09-13 16:36:28,164 - INFO - Line Inima îi bătea cu putere nu de frică ci din
+2024-09-13 16:36:28,164 - INFO - Line 
+2024-09-13 16:36:28,164 - INFO - Line convingerea că credința sa va triumfa Armatele lui Israel tremurau
+2024-09-13 16:36:28,164 - INFO - Line 
+2024-09-13 16:36:28,164 - INFO - Line în umbra războinicului filistean care părea de neînvins cu armura
+2024-09-13 16:36:28,164 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line sa de fier și vocea tunătoare Zi de zi Goliat
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line își bătea joc de israeliți provocându-i să-l înfrunte Nimeni nu
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line îndrăznea până când David înarmat doar cu o praștie și
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line o credință de neclintit a pășit înainte Sunt eu câine
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line de vii la mine cu bețe tună Goliat râsul său
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line răsunând în vale Dar David cu mâinile neclintite și-a băgat
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line mâna în traistă și a scos o piatră netedă A
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line îndrumare Cu o mișcare rapidă a aruncat piatra în aer
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line Timpul părea să se oprească în timp ce piatra zbura
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,165 - INFO - Line a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare
+2024-09-13 16:36:28,165 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line în ceea ce tocmai văzuse David ținând încă praștia în
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line mână s-a apropiat de uriașul căzut ridicând sabia masivă a
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line lui Goliat și tăindu-i capul semnalând victoria lui Israel Filistenii
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line paralizați de înfrângerea neașteptată au fugit de pe câmpul de
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line luptă Victoria lui David nu a fost doar una de
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line forță ci de credință El a demonstrat că oricât de
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line mic sau nesemnificativ ai părea cu curaj și încredere într-o
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line putere mai mare chiar și cei mai mari uriași pot
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line cădea Povestea lui David și Goliat a devenit un simbol
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line al speranței de-a lungul vremurilor o amintire că prin credință
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - Line imposibilul poate deveni realitate
+2024-09-13 16:36:28,166 - INFO - Line 
+2024-09-13 16:36:28,166 - INFO - [(('0:00:00.10', '0:00:04.67'), 'Știai povestea lui David și Goliat În deșertul arzător un'), (('0:00:04.67', '0:00:08.10'), 'tânăr păstor pe nume David stătea în fața uriașului Goliat'), (('0:00:08.94', '0:00:11.88'), 'Inima îi bătea cu putere nu de frică ci din'), (('0:00:11.88', '0:00:16.60'), 'convingerea că credința sa va triumfa Armatele lui Israel tremurau'), (('0:00:16.60', '0:00:19.99'), 'în umbra războinicului filistean care părea de neînvins cu armura'), (('0:00:19.99', '0:00:23.93'), 'sa de fier și vocea tunătoare Zi de zi Goliat'), (('0:00:23.93', '0:00:28.48'), 'își bătea joc de israeliți provocându-i să-l înfrunte Nimeni nu'), (('0:00:28.48', '0:00:31.80'), 'îndrăznea până când David înarmat doar cu o praștie și'), (('0:00:31.80', '0:00:36.26'), 'o credință de neclintit a pășit înainte Sunt eu câine'), (('0:00:36.33', '0:00:40.67'), 'de vii la mine cu bețe tună Goliat râsul său'), (('0:00:40.67', '0:00:45.51'), 'răsunând în vale Dar David cu mâinile neclintite și-a băgat'), (('0:00:45.51', '0:00:48.69'), 'mâna în traistă și a scos o piatră netedă A'), (('0:00:48.69', '0:00:52.42'), 'șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru'), (('0:00:52.42', '0:00:56.84'), 'îndrumare Cu o mișcare rapidă a aruncat piatra în aer'), (('0:00:57.67', '0:01:00.07'), 'Timpul părea să se oprească în timp ce piatra zbura'), (('0:01:00.07', '0:01:04.49'), 'prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a'), (('0:01:04.49', '0:01:08.51'), 'clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor'), (('0:01:08.75', '0:01:13.69'), 'a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare'), (('0:01:13.69', '0:01:17.88'), 'în ceea ce tocmai văzuse David ținând încă praștia în'), (('0:01:17.88', '0:01:21.66'), 'mână s-a apropiat de uriașul căzut ridicând sabia masivă a'), (('0:01:21.66', '0:01:27.14'), 'lui Goliat și tăindu-i capul semnalând victoria lui Israel Filistenii'), (('0:01:27.20', '0:01:30.76'), 'paralizați de înfrângerea neașteptată au fugit de pe câmpul de'), (('0:01:30.76', '0:01:34.35'), 'luptă Victoria lui David nu a fost doar una de'), (('0:01:34.35', '0:01:38.48'), 'forță ci de credință El a demonstrat că oricât de'), (('0:01:38.48', '0:01:41.55'), 'mic sau nesemnificativ ai părea cu curaj și încredere într-o'), (('0:01:41.55', '0:01:44.20'), 'putere mai mare chiar și cei mai mari uriași pot'), (('0:01:44.20', '0:01:47.90'), 'cădea Povestea lui David și Goliat a devenit un simbol'), (('0:01:47.90', '0:01:51.40'), 'al speranței de-a lungul vremurilor o amintire că prin credință'), (('0:01:51.64', '0:01:53.92'), 'imposibilul poate deveni realitate')]
+2024-09-13 16:36:28,167 - INFO - new captiosn: [(('0:00:00.10', '0:00:04.67'), 'Știai povestea lui David și Goliat În deșertul arzător un'), (('0:00:04.67', '0:00:08.94'), 'tânăr păstor pe nume David stătea în fața uriașului Goliat'), (('0:00:08.94', '0:00:11.88'), 'Inima îi bătea cu putere nu de frică ci din'), (('0:00:11.88', '0:00:16.60'), 'convingerea că credința sa va triumfa Armatele lui Israel tremurau'), (('0:00:16.60', '0:00:19.99'), 'în umbra războinicului filistean care părea de neînvins cu armura'), (('0:00:19.99', '0:00:23.93'), 'sa de fier și vocea tunătoare Zi de zi Goliat'), (('0:00:23.93', '0:00:28.48'), 'își bătea joc de israeliți provocându-i să-l înfrunte Nimeni nu'), (('0:00:28.48', '0:00:31.80'), 'îndrăznea până când David înarmat doar cu o praștie și'), (('0:00:31.80', '0:00:36.33'), 'o credință de neclintit a pășit înainte Sunt eu câine'), (('0:00:36.33', '0:00:40.67'), 'de vii la mine cu bețe tună Goliat râsul său'), (('0:00:40.67', '0:00:45.51'), 'răsunând în vale Dar David cu mâinile neclintite și-a băgat'), (('0:00:45.51', '0:00:48.69'), 'mâna în traistă și a scos o piatră netedă A'), (('0:00:48.69', '0:00:52.42'), 'șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru'), (('0:00:52.42', '0:00:57.67'), 'îndrumare Cu o mișcare rapidă a aruncat piatra în aer'), (('0:00:57.67', '0:01:00.07'), 'Timpul părea să se oprească în timp ce piatra zbura'), (('0:01:00.07', '0:01:04.49'), 'prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a'), (('0:01:04.49', '0:01:08.75'), 'clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor'), (('0:01:08.75', '0:01:13.69'), 'a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare'), (('0:01:13.69', '0:01:17.88'), 'în ceea ce tocmai văzuse David ținând încă praștia în'), (('0:01:17.88', '0:01:21.66'), 'mână s-a apropiat de uriașul căzut ridicând sabia masivă a'), (('0:01:21.66', '0:01:27.20'), 'lui Goliat și tăindu-i capul semnalând victoria lui Israel Filistenii'), (('0:01:27.20', '0:01:30.76'), 'paralizați de înfrângerea neașteptată au fugit de pe câmpul de'), (('0:01:30.76', '0:01:34.35'), 'luptă Victoria lui David nu a fost doar una de'), (('0:01:34.35', '0:01:38.48'), 'forță ci de credință El a demonstrat că oricât de'), (('0:01:38.48', '0:01:41.55'), 'mic sau nesemnificativ ai părea cu curaj și încredere într-o'), (('0:01:41.55', '0:01:44.20'), 'putere mai mare chiar și cei mai mari uriași pot'), (('0:01:44.20', '0:01:47.90'), 'cădea Povestea lui David și Goliat a devenit un simbol'), (('0:01:47.90', '0:01:51.64'), 'al speranței de-a lungul vremurilor o amintire că prin credință'), (('0:01:51.64', '0:01:54.92'), 'imposibilul poate deveni realitate')]
+2024-09-13 16:36:28,167 - INFO - Timed captions generated: [(('0:00:00.10', '0:00:04.67'), 'Știai povestea lui David și Goliat În deșertul arzător un'), (('0:00:04.67', '0:00:08.94'), 'tânăr păstor pe nume David stătea în fața uriașului Goliat'), (('0:00:08.94', '0:00:11.88'), 'Inima îi bătea cu putere nu de frică ci din'), (('0:00:11.88', '0:00:16.60'), 'convingerea că credința sa va triumfa Armatele lui Israel tremurau'), (('0:00:16.60', '0:00:19.99'), 'în umbra războinicului filistean care părea de neînvins cu armura'), (('0:00:19.99', '0:00:23.93'), 'sa de fier și vocea tunătoare Zi de zi Goliat'), (('0:00:23.93', '0:00:28.48'), 'își bătea joc de israeliți provocându-i să-l înfrunte Nimeni nu'), (('0:00:28.48', '0:00:31.80'), 'îndrăznea până când David înarmat doar cu o praștie și'), (('0:00:31.80', '0:00:36.33'), 'o credință de neclintit a pășit înainte Sunt eu câine'), (('0:00:36.33', '0:00:40.67'), 'de vii la mine cu bețe tună Goliat râsul său'), (('0:00:40.67', '0:00:45.51'), 'răsunând în vale Dar David cu mâinile neclintite și-a băgat'), (('0:00:45.51', '0:00:48.69'), 'mâna în traistă și a scos o piatră netedă A'), (('0:00:48.69', '0:00:52.42'), 'șoptit o rugăciune către Dumnezeu nu pentru putere ci pentru'), (('0:00:52.42', '0:00:57.67'), 'îndrumare Cu o mișcare rapidă a aruncat piatra în aer'), (('0:00:57.67', '0:01:00.07'), 'Timpul părea să se oprească în timp ce piatra zbura'), (('0:01:00.07', '0:01:04.49'), 'prin cer lovindu-l pe Goliat drept în frunte Uriașul s-a'), (('0:01:04.49', '0:01:08.75'), 'clătinat genunchii i s-au înmuiat și cu un zgomot asurzitor'), (('0:01:08.75', '0:01:13.69'), 'a căzut la pământ Mulțimea a rămas fără cuvinte neîncrezătoare'), (('0:01:13.69', '0:01:17.88'), 'în ceea ce tocmai văzuse David ținând încă praștia în'), (('0:01:17.88', '0:01:21.66'), 'mână s-a apropiat de uriașul căzut ridicând sabia masivă a'), (('0:01:21.66', '0:01:27.20'), 'lui Goliat și tăindu-i capul semnalând victoria lui Israel Filistenii'), (('0:01:27.20', '0:01:30.76'), 'paralizați de înfrângerea neașteptată au fugit de pe câmpul de'), (('0:01:30.76', '0:01:34.35'), 'luptă Victoria lui David nu a fost doar una de'), (('0:01:34.35', '0:01:38.48'), 'forță ci de credință El a demonstrat că oricât de'), (('0:01:38.48', '0:01:41.55'), 'mic sau nesemnificativ ai părea cu curaj și încredere într-o'), (('0:01:41.55', '0:01:44.20'), 'putere mai mare chiar și cei mai mari uriași pot'), (('0:01:44.20', '0:01:47.90'), 'cădea Povestea lui David și Goliat a devenit un simbol'), (('0:01:47.90', '0:01:51.64'), 'al speranței de-a lungul vremurilor o amintire că prin credință'), (('0:01:51.64', '0:01:54.92'), 'imposibilul poate deveni realitate')]
+2024-09-13 16:36:28,167 - INFO - Line Știai povestea
+2024-09-13 16:36:28,167 - INFO - Line 
+2024-09-13 16:36:28,167 - INFO - Line lui David
+2024-09-13 16:36:28,167 - INFO - Line 
+2024-09-13 16:36:28,167 - INFO - Line și Goliat
+2024-09-13 16:36:28,167 - INFO - Line 
+2024-09-13 16:36:28,167 - INFO - Line În deșertul
+2024-09-13 16:36:28,167 - INFO - Line 
+2024-09-13 16:36:28,167 - INFO - Line arzător un
+2024-09-13 16:36:28,167 - INFO - Line 
+2024-09-13 16:36:28,167 - INFO - Line tânăr păstor
+2024-09-13 16:36:28,167 - INFO - Line 
+2024-09-13 16:36:28,167 - INFO - Line pe nume
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line David stătea
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line în fața
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line uriașului Goliat
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line Inima îi
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line bătea cu
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line putere nu
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line de frică
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line ci din
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line convingerea că
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line credința sa
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line va triumfa
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line Armatele lui
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line Israel tremurau
+2024-09-13 16:36:28,168 - INFO - Line 
+2024-09-13 16:36:28,168 - INFO - Line în umbra
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line războinicului filistean
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line care părea
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line de neînvins
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line cu armura
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line sa de
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line fier și
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line vocea tunătoare
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line Zi de
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line zi Goliat
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line își bătea
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line joc de
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line israeliți provocându-i
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line să-l înfrunte
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,169 - INFO - Line Nimeni nu
+2024-09-13 16:36:28,169 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line îndrăznea până
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line când David
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line înarmat doar
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line cu o
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line praștie și
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line o credință
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line de neclintit
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line a pășit
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line înainte Sunt
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line eu câine
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,170 - INFO - Line de vii
+2024-09-13 16:36:28,170 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line la mine
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line cu bețe
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line tună Goliat
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line râsul său
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line răsunând în
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line vale Dar
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line David cu
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line mâinile neclintite
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line și-a băgat
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line mâna în
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line traistă și
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line a scos
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,171 - INFO - Line o piatră
+2024-09-13 16:36:28,171 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line netedă A
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line șoptit o
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line rugăciune către
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line Dumnezeu nu
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line pentru putere
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line ci pentru
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line îndrumare Cu
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line o mișcare
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line rapidă a
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line aruncat piatra
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line în aer
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line Timpul părea
+2024-09-13 16:36:28,172 - INFO - Line 
+2024-09-13 16:36:28,172 - INFO - Line să se
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line oprească în
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line timp ce
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line piatra zbura
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line prin cer
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line lovindu-l pe
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line Goliat drept
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line în frunte
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line Uriașul s-a
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line clătinat genunchii
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line i s-au
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line înmuiat și
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line cu un
+2024-09-13 16:36:28,173 - INFO - Line 
+2024-09-13 16:36:28,173 - INFO - Line zgomot asurzitor
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line a căzut
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line la pământ
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line Mulțimea a
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line rămas fără
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line cuvinte neîncrezătoare
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line în ceea
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line ce tocmai
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line văzuse David
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line ținând încă
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line praștia în
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line mână s-a
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line apropiat de
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,174 - INFO - Line uriașul căzut
+2024-09-13 16:36:28,174 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line ridicând sabia
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line masivă a
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line lui Goliat
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line și tăindu-i
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line capul semnalând
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line victoria lui
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line Israel Filistenii
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line paralizați de
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line înfrângerea neașteptată
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line au fugit
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line de pe
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line câmpul de
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line luptă Victoria
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,175 - INFO - Line lui David
+2024-09-13 16:36:28,175 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line nu a
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line fost doar
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line una de
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line forță ci
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line de credință
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line El a
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line demonstrat că
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line oricât de
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line mic sau
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line nesemnificativ ai
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line părea cu
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line curaj și
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line încredere într-o
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line putere mai
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,176 - INFO - Line mare chiar
+2024-09-13 16:36:28,176 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line și cei
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line mai mari
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line uriași pot
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line cădea Povestea
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line lui David
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line și Goliat
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line a devenit
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line un simbol
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line al speranței
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line de-a lungul
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line vremurilor o
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line amintire că
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line prin credință
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line imposibilul poate
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,177 - INFO - Line deveni realitate
+2024-09-13 16:36:28,177 - INFO - Line 
+2024-09-13 16:36:28,178 - INFO - [(('0:00:00.10', '0:00:00.99'), 'Știai povestea'), (('0:00:00.99', '0:00:01.48'), 'lui David'), (('0:00:01.48', '0:00:02.16'), 'și Goliat'), (('0:00:03.00', '0:00:03.66'), 'În deșertul'), (('0:00:03.66', '0:00:04.67'), 'arzător un'), (('0:00:04.67', '0:00:05.33'), 'tânăr păstor'), (('0:00:05.33', '0:00:05.70'), 'pe nume'), (('0:00:05.70', '0:00:06.41'), 'David stătea'), (('0:00:06.41', '0:00:06.90'), 'în fața'), (('0:00:06.90', '0:00:08.10'), 'uriașului Goliat'), (('0:00:08.94', '0:00:09.55'), 'Inima îi'), (('0:00:09.55', '0:00:09.94'), 'bătea cu'), (('0:00:09.94', '0:00:10.80'), 'putere nu'), (('0:00:10.80', '0:00:11.45'), 'de frică'), (('0:00:11.62', '0:00:11.88'), 'ci din'), (('0:00:11.88', '0:00:12.59'), 'convingerea că'), (('0:00:12.59', '0:00:13.26'), 'credința sa'), (('0:00:13.26', '0:00:13.99'), 'va triumfa'), (('0:00:14.82', '0:00:15.59'), 'Armatele lui'), (('0:00:15.59', '0:00:16.60'), 'Israel tremurau'), (('0:00:16.60', '0:00:16.95'), 'în umbra'), (('0:00:16.95', '0:00:18.23'), 'războinicului filistean'), (('0:00:18.45', '0:00:18.94'), 'care părea'), (('0:00:18.94', '0:00:19.50'), 'de neînvins'), (('0:00:19.50', '0:00:19.99'), 'cu armura'), (('0:00:19.99', '0:00:20.25'), 'sa de'), (('0:00:20.25', '0:00:20.69'), 'fier și'), (('0:00:20.69', '0:00:21.71'), 'vocea tunătoare'), (('0:00:22.55', '0:00:22.91'), 'Zi de'), (('0:00:22.91', '0:00:23.93'), 'zi Goliat'), (('0:00:23.93', '0:00:24.35'), 'își bătea'), (('0:00:24.35', '0:00:24.66'), 'joc de'), (('0:00:24.66', '0:00:26.26'), 'israeliți provocându-i'), (('0:00:26.26', '0:00:27.04'), 'să-l înfrunte'), (('0:00:27.88', '0:00:28.48'), 'Nimeni nu'), (('0:00:28.48', '0:00:29.51'), 'îndrăznea până'), (('0:00:29.51', '0:00:30.20'), 'când David'), (('0:00:30.38', '0:00:31.11'), 'înarmat doar'), (('0:00:31.11', '0:00:31.24'), 'cu o'), (('0:00:31.24', '0:00:31.80'), 'praștie și'), (('0:00:31.80', '0:00:32.29'), 'o credință'), (('0:00:32.29', '0:00:32.98'), 'de neclintit'), (('0:00:33.26', '0:00:33.71'), 'a pășit'), (('0:00:33.71', '0:00:35.56'), 'înainte Sunt'), (('0:00:35.56', '0:00:36.26'), 'eu câine'), (('0:00:36.33', '0:00:36.66'), 'de vii'), (('0:00:36.66', '0:00:37.00'), 'la mine'), (('0:00:37.00', '0:00:37.61'), 'cu bețe'), (('0:00:38.83', '0:00:39.73'), 'tună Goliat'), (('0:00:39.98', '0:00:40.67'), 'râsul său'), (('0:00:40.67', '0:00:41.26'), 'răsunând în'), (('0:00:41.26', '0:00:42.86'), 'vale Dar'), (('0:00:42.86', '0:00:43.66'), 'David cu'), (('0:00:43.66', '0:00:44.79'), 'mâinile neclintite'), (('0:00:44.98', '0:00:45.51'), 'și-a băgat'), (('0:00:45.51', '0:00:45.89'), 'mâna în'), (('0:00:45.89', '0:00:46.40'), 'traistă și'), (('0:00:46.40', '0:00:46.76'), 'a scos'), (('0:00:46.76', '0:00:47.16'), 'o piatră'), (('0:00:47.16', '0:00:48.69'), 'netedă A'), (('0:00:48.69', '0:00:49.12'), 'șoptit o'), (('0:00:49.12', '0:00:49.85'), 'rugăciune către'), (('0:00:49.85', '0:00:50.91'), 'Dumnezeu nu'), (('0:00:50.91', '0:00:51.74'), 'pentru putere'), (('0:00:51.94', '0:00:52.42'), 'ci pentru'), (('0:00:52.42', '0:00:54.05'), 'îndrumare Cu'), (('0:00:54.05', '0:00:54.56'), 'o mișcare'), (('0:00:54.56', '0:00:55.49'), 'rapidă a'), (('0:00:55.49', '0:00:56.30'), 'aruncat piatra'), (('0:00:56.30', '0:00:56.84'), 'în aer'), (('0:00:57.67', '0:00:58.31'), 'Timpul părea'), (('0:00:58.31', '0:00:58.52'), 'să se'), (('0:00:58.52', '0:00:59.02'), 'oprească în'), (('0:00:59.02', '0:00:59.36'), 'timp ce'), (('0:00:59.36', '0:01:00.07'), 'piatra zbura'), (('0:01:00.07', '0:01:00.65'), 'prin cer'), (('0:01:00.85', '0:01:01.56'), 'lovindu-l pe'), (('0:01:01.56', '0:01:02.33'), 'Goliat drept'), (('0:01:02.33', '0:01:02.92'), 'în frunte'), (('0:01:03.76', '0:01:04.49'), 'Uriașul s-a'), (('0:01:04.49', '0:01:06.04'), 'clătinat genunchii'), (('0:01:06.04', '0:01:06.31'), 'i s-au'), (('0:01:06.31', '0:01:07.20'), 'înmuiat și'), (('0:01:07.20', '0:01:07.40'), 'cu un'), (('0:01:07.40', '0:01:08.51'), 'zgomot asurzitor'), (('0:01:08.75', '0:01:09.22'), 'a căzut'), (('0:01:09.22', '0:01:09.89'), 'la pământ'), (('0:01:10.72', '0:01:11.50'), 'Mulțimea a'), (('0:01:11.50', '0:01:12.06'), 'rămas fără'), (('0:01:12.06', '0:01:13.69'), 'cuvinte neîncrezătoare'), (('0:01:13.69', '0:01:14.03'), 'în ceea'), (('0:01:14.03', '0:01:14.54'), 'ce tocmai'), (('0:01:14.54', '0:01:16.64'), 'văzuse David'), (('0:01:16.70', '0:01:17.34'), 'ținând încă'), (('0:01:17.34', '0:01:17.88'), 'praștia în'), (('0:01:17.88', '0:01:18.68'), 'mână s-a'), (('0:01:18.68', '0:01:19.24'), 'apropiat de'), (('0:01:19.24', '0:01:20.20'), 'uriașul căzut'), (('0:01:20.40', '0:01:21.25'), 'ridicând sabia'), (('0:01:21.25', '0:01:21.66'), 'masivă a'), (('0:01:21.66', '0:01:22.19'), 'lui Goliat'), (('0:01:22.19', '0:01:22.75'), 'și tăindu-i'), (('0:01:22.75', '0:01:24.11'), 'capul semnalând'), (('0:01:24.11', '0:01:24.82'), 'victoria lui'), (('0:01:24.82', '0:01:27.14'), 'Israel Filistenii'), (('0:01:27.20', '0:01:27.94'), 'paralizați de'), (('0:01:27.94', '0:01:29.29'), 'înfrângerea neașteptată'), (('0:01:29.52', '0:01:30.06'), 'au fugit'), (('0:01:30.06', '0:01:30.34'), 'de pe'), (('0:01:30.34', '0:01:30.76'), 'câmpul de'), (('0:01:30.76', '0:01:32.71'), 'luptă Victoria'), (('0:01:32.71', '0:01:33.26'), 'lui David'), (('0:01:33.26', '0:01:33.52'), 'nu a'), (('0:01:33.52', '0:01:34.00'), 'fost doar'), (('0:01:34.00', '0:01:34.35'), 'una de'), (('0:01:34.35', '0:01:35.24'), 'forță ci'), (('0:01:35.24', '0:01:36.01'), 'de credință'), (('0:01:36.85', '0:01:37.17'), 'El a'), (('0:01:37.17', '0:01:38.00'), 'demonstrat că'), (('0:01:38.05', '0:01:38.48'), 'oricât de'), (('0:01:38.48', '0:01:38.89'), 'mic sau'), (('0:01:38.89', '0:01:39.73'), 'nesemnificativ ai'), (('0:01:39.73', '0:01:40.50'), 'părea cu'), (('0:01:40.50', '0:01:40.96'), 'curaj și'), (('0:01:40.96', '0:01:41.55'), 'încredere într-o'), (('0:01:41.55', '0:01:42.00'), 'putere mai'), (('0:01:42.00', '0:01:42.94'), 'mare chiar'), (('0:01:42.94', '0:01:43.27'), 'și cei'), (('0:01:43.27', '0:01:43.64'), 'mai mari'), (('0:01:43.64', '0:01:44.20'), 'uriași pot'), (('0:01:44.20', '0:01:45.90'), 'cădea Povestea'), (('0:01:45.90', '0:01:46.35'), 'lui David'), (('0:01:46.35', '0:01:46.90'), 'și Goliat'), (('0:01:46.90', '0:01:47.42'), 'a devenit'), (('0:01:47.42', '0:01:47.90'), 'un simbol'), (('0:01:47.90', '0:01:48.49'), 'al speranței'), (('0:01:48.49', '0:01:48.98'), 'de-a lungul'), (('0:01:48.98', '0:01:50.04'), 'vremurilor o'), (('0:01:50.04', '0:01:50.60'), 'amintire că'), (('0:01:50.60', '0:01:51.40'), 'prin credință'), (('0:01:51.64', '0:01:52.75'), 'imposibilul poate'), (('0:01:52.75', '0:01:53.92'), 'deveni realitate')]
+2024-09-13 16:36:28,178 - INFO - new captiosn: [(('0:00:00.10', '0:00:00.99'), 'Știai povestea'), (('0:00:00.99', '0:00:01.48'), 'lui David'), (('0:00:01.48', '0:00:03.00'), 'și Goliat'), (('0:00:03.00', '0:00:03.66'), 'În deșertul'), (('0:00:03.66', '0:00:04.67'), 'arzător un'), (('0:00:04.67', '0:00:05.33'), 'tânăr păstor'), (('0:00:05.33', '0:00:05.70'), 'pe nume'), (('0:00:05.70', '0:00:06.41'), 'David stătea'), (('0:00:06.41', '0:00:06.90'), 'în fața'), (('0:00:06.90', '0:00:08.94'), 'uriașului Goliat'), (('0:00:08.94', '0:00:09.55'), 'Inima îi'), (('0:00:09.55', '0:00:09.94'), 'bătea cu'), (('0:00:09.94', '0:00:10.80'), 'putere nu'), (('0:00:10.80', '0:00:11.62'), 'de frică'), (('0:00:11.62', '0:00:11.88'), 'ci din'), (('0:00:11.88', '0:00:12.59'), 'convingerea că'), (('0:00:12.59', '0:00:13.26'), 'credința sa'), (('0:00:13.26', '0:00:14.82'), 'va triumfa'), (('0:00:14.82', '0:00:15.59'), 'Armatele lui'), (('0:00:15.59', '0:00:16.60'), 'Israel tremurau'), (('0:00:16.60', '0:00:16.95'), 'în umbra'), (('0:00:16.95', '0:00:18.45'), 'războinicului filistean'), (('0:00:18.45', '0:00:18.94'), 'care părea'), (('0:00:18.94', '0:00:19.50'), 'de neînvins'), (('0:00:19.50', '0:00:19.99'), 'cu armura'), (('0:00:19.99', '0:00:20.25'), 'sa de'), (('0:00:20.25', '0:00:20.69'), 'fier și'), (('0:00:20.69', '0:00:22.55'), 'vocea tunătoare'), (('0:00:22.55', '0:00:22.91'), 'Zi de'), (('0:00:22.91', '0:00:23.93'), 'zi Goliat'), (('0:00:23.93', '0:00:24.35'), 'își bătea'), (('0:00:24.35', '0:00:24.66'), 'joc de'), (('0:00:24.66', '0:00:26.26'), 'israeliți provocându-i'), (('0:00:26.26', '0:00:27.88'), 'să-l înfrunte'), (('0:00:27.88', '0:00:28.48'), 'Nimeni nu'), (('0:00:28.48', '0:00:29.51'), 'îndrăznea până'), (('0:00:29.51', '0:00:30.38'), 'când David'), (('0:00:30.38', '0:00:31.11'), 'înarmat doar'), (('0:00:31.11', '0:00:31.24'), 'cu o'), (('0:00:31.24', '0:00:31.80'), 'praștie și'), (('0:00:31.80', '0:00:32.29'), 'o credință'), (('0:00:32.29', '0:00:33.26'), 'de neclintit'), (('0:00:33.26', '0:00:33.71'), 'a pășit'), (('0:00:33.71', '0:00:35.56'), 'înainte Sunt'), (('0:00:35.56', '0:00:36.33'), 'eu câine'), (('0:00:36.33', '0:00:36.66'), 'de vii'), (('0:00:36.66', '0:00:37.00'), 'la mine'), (('0:00:37.00', '0:00:38.83'), 'cu bețe'), (('0:00:38.83', '0:00:39.98'), 'tună Goliat'), (('0:00:39.98', '0:00:40.67'), 'râsul său'), (('0:00:40.67', '0:00:41.26'), 'răsunând în'), (('0:00:41.26', '0:00:42.86'), 'vale Dar'), (('0:00:42.86', '0:00:43.66'), 'David cu'), (('0:00:43.66', '0:00:44.98'), 'mâinile neclintite'), (('0:00:44.98', '0:00:45.51'), 'și-a băgat'), (('0:00:45.51', '0:00:45.89'), 'mâna în'), (('0:00:45.89', '0:00:46.40'), 'traistă și'), (('0:00:46.40', '0:00:46.76'), 'a scos'), (('0:00:46.76', '0:00:47.16'), 'o piatră'), (('0:00:47.16', '0:00:48.69'), 'netedă A'), (('0:00:48.69', '0:00:49.12'), 'șoptit o'), (('0:00:49.12', '0:00:49.85'), 'rugăciune către'), (('0:00:49.85', '0:00:50.91'), 'Dumnezeu nu'), (('0:00:50.91', '0:00:51.94'), 'pentru putere'), (('0:00:51.94', '0:00:52.42'), 'ci pentru'), (('0:00:52.42', '0:00:54.05'), 'îndrumare Cu'), (('0:00:54.05', '0:00:54.56'), 'o mișcare'), (('0:00:54.56', '0:00:55.49'), 'rapidă a'), (('0:00:55.49', '0:00:56.30'), 'aruncat piatra'), (('0:00:56.30', '0:00:57.67'), 'în aer'), (('0:00:57.67', '0:00:58.31'), 'Timpul părea'), (('0:00:58.31', '0:00:58.52'), 'să se'), (('0:00:58.52', '0:00:59.02'), 'oprească în'), (('0:00:59.02', '0:00:59.36'), 'timp ce'), (('0:00:59.36', '0:01:00.07'), 'piatra zbura'), (('0:01:00.07', '0:01:00.85'), 'prin cer'), (('0:01:00.85', '0:01:01.56'), 'lovindu-l pe'), (('0:01:01.56', '0:01:02.33'), 'Goliat drept'), (('0:01:02.33', '0:01:03.76'), 'în frunte'), (('0:01:03.76', '0:01:04.49'), 'Uriașul s-a'), (('0:01:04.49', '0:01:06.04'), 'clătinat genunchii'), (('0:01:06.04', '0:01:06.31'), 'i s-au'), (('0:01:06.31', '0:01:07.20'), 'înmuiat și'), (('0:01:07.20', '0:01:07.40'), 'cu un'), (('0:01:07.40', '0:01:08.75'), 'zgomot asurzitor'), (('0:01:08.75', '0:01:09.22'), 'a căzut'), (('0:01:09.22', '0:01:10.72'), 'la pământ'), (('0:01:10.72', '0:01:11.50'), 'Mulțimea a'), (('0:01:11.50', '0:01:12.06'), 'rămas fără'), (('0:01:12.06', '0:01:13.69'), 'cuvinte neîncrezătoare'), (('0:01:13.69', '0:01:14.03'), 'în ceea'), (('0:01:14.03', '0:01:14.54'), 'ce tocmai'), (('0:01:14.54', '0:01:16.70'), 'văzuse David'), (('0:01:16.70', '0:01:17.34'), 'ținând încă'), (('0:01:17.34', '0:01:17.88'), 'praștia în'), (('0:01:17.88', '0:01:18.68'), 'mână s-a'), (('0:01:18.68', '0:01:19.24'), 'apropiat de'), (('0:01:19.24', '0:01:20.40'), 'uriașul căzut'), (('0:01:20.40', '0:01:21.25'), 'ridicând sabia'), (('0:01:21.25', '0:01:21.66'), 'masivă a'), (('0:01:21.66', '0:01:22.19'), 'lui Goliat'), (('0:01:22.19', '0:01:22.75'), 'și tăindu-i'), (('0:01:22.75', '0:01:24.11'), 'capul semnalând'), (('0:01:24.11', '0:01:24.82'), 'victoria lui'), (('0:01:24.82', '0:01:27.20'), 'Israel Filistenii'), (('0:01:27.20', '0:01:27.94'), 'paralizați de'), (('0:01:27.94', '0:01:29.52'), 'înfrângerea neașteptată'), (('0:01:29.52', '0:01:30.06'), 'au fugit'), (('0:01:30.06', '0:01:30.34'), 'de pe'), (('0:01:30.34', '0:01:30.76'), 'câmpul de'), (('0:01:30.76', '0:01:32.71'), 'luptă Victoria'), (('0:01:32.71', '0:01:33.26'), 'lui David'), (('0:01:33.26', '0:01:33.52'), 'nu a'), (('0:01:33.52', '0:01:34.00'), 'fost doar'), (('0:01:34.00', '0:01:34.35'), 'una de'), (('0:01:34.35', '0:01:35.24'), 'forță ci'), (('0:01:35.24', '0:01:36.85'), 'de credință'), (('0:01:36.85', '0:01:37.17'), 'El a'), (('0:01:37.17', '0:01:38.05'), 'demonstrat că'), (('0:01:38.05', '0:01:38.48'), 'oricât de'), (('0:01:38.48', '0:01:38.89'), 'mic sau'), (('0:01:38.89', '0:01:39.73'), 'nesemnificativ ai'), (('0:01:39.73', '0:01:40.50'), 'părea cu'), (('0:01:40.50', '0:01:40.96'), 'curaj și'), (('0:01:40.96', '0:01:41.55'), 'încredere într-o'), (('0:01:41.55', '0:01:42.00'), 'putere mai'), (('0:01:42.00', '0:01:42.94'), 'mare chiar'), (('0:01:42.94', '0:01:43.27'), 'și cei'), (('0:01:43.27', '0:01:43.64'), 'mai mari'), (('0:01:43.64', '0:01:44.20'), 'uriași pot'), (('0:01:44.20', '0:01:45.90'), 'cădea Povestea'), (('0:01:45.90', '0:01:46.35'), 'lui David'), (('0:01:46.35', '0:01:46.90'), 'și Goliat'), (('0:01:46.90', '0:01:47.42'), 'a devenit'), (('0:01:47.42', '0:01:47.90'), 'un simbol'), (('0:01:47.90', '0:01:48.49'), 'al speranței'), (('0:01:48.49', '0:01:48.98'), 'de-a lungul'), (('0:01:48.98', '0:01:50.04'), 'vremurilor o'), (('0:01:50.04', '0:01:50.60'), 'amintire că'), (('0:01:50.60', '0:01:51.64'), 'prin credință'), (('0:01:51.64', '0:01:52.75'), 'imposibilul poate'), (('0:01:52.75', '0:01:54.92'), 'deveni realitate')]
+2024-09-13 16:36:28,178 - INFO - Timed captions mini generated: [(('0:00:00.10', '0:00:00.99'), 'Știai povestea'), (('0:00:00.99', '0:00:01.48'), 'lui David'), (('0:00:01.48', '0:00:03.00'), 'și Goliat'), (('0:00:03.00', '0:00:03.66'), 'În deșertul'), (('0:00:03.66', '0:00:04.67'), 'arzător un'), (('0:00:04.67', '0:00:05.33'), 'tânăr păstor'), (('0:00:05.33', '0:00:05.70'), 'pe nume'), (('0:00:05.70', '0:00:06.41'), 'David stătea'), (('0:00:06.41', '0:00:06.90'), 'în fața'), (('0:00:06.90', '0:00:08.94'), 'uriașului Goliat'), (('0:00:08.94', '0:00:09.55'), 'Inima îi'), (('0:00:09.55', '0:00:09.94'), 'bătea cu'), (('0:00:09.94', '0:00:10.80'), 'putere nu'), (('0:00:10.80', '0:00:11.62'), 'de frică'), (('0:00:11.62', '0:00:11.88'), 'ci din'), (('0:00:11.88', '0:00:12.59'), 'convingerea că'), (('0:00:12.59', '0:00:13.26'), 'credința sa'), (('0:00:13.26', '0:00:14.82'), 'va triumfa'), (('0:00:14.82', '0:00:15.59'), 'Armatele lui'), (('0:00:15.59', '0:00:16.60'), 'Israel tremurau'), (('0:00:16.60', '0:00:16.95'), 'în umbra'), (('0:00:16.95', '0:00:18.45'), 'războinicului filistean'), (('0:00:18.45', '0:00:18.94'), 'care părea'), (('0:00:18.94', '0:00:19.50'), 'de neînvins'), (('0:00:19.50', '0:00:19.99'), 'cu armura'), (('0:00:19.99', '0:00:20.25'), 'sa de'), (('0:00:20.25', '0:00:20.69'), 'fier și'), (('0:00:20.69', '0:00:22.55'), 'vocea tunătoare'), (('0:00:22.55', '0:00:22.91'), 'Zi de'), (('0:00:22.91', '0:00:23.93'), 'zi Goliat'), (('0:00:23.93', '0:00:24.35'), 'își bătea'), (('0:00:24.35', '0:00:24.66'), 'joc de'), (('0:00:24.66', '0:00:26.26'), 'israeliți provocându-i'), (('0:00:26.26', '0:00:27.88'), 'să-l înfrunte'), (('0:00:27.88', '0:00:28.48'), 'Nimeni nu'), (('0:00:28.48', '0:00:29.51'), 'îndrăznea până'), (('0:00:29.51', '0:00:30.38'), 'când David'), (('0:00:30.38', '0:00:31.11'), 'înarmat doar'), (('0:00:31.11', '0:00:31.24'), 'cu o'), (('0:00:31.24', '0:00:31.80'), 'praștie și'), (('0:00:31.80', '0:00:32.29'), 'o credință'), (('0:00:32.29', '0:00:33.26'), 'de neclintit'), (('0:00:33.26', '0:00:33.71'), 'a pășit'), (('0:00:33.71', '0:00:35.56'), 'înainte Sunt'), (('0:00:35.56', '0:00:36.33'), 'eu câine'), (('0:00:36.33', '0:00:36.66'), 'de vii'), (('0:00:36.66', '0:00:37.00'), 'la mine'), (('0:00:37.00', '0:00:38.83'), 'cu bețe'), (('0:00:38.83', '0:00:39.98'), 'tună Goliat'), (('0:00:39.98', '0:00:40.67'), 'râsul său'), (('0:00:40.67', '0:00:41.26'), 'răsunând în'), (('0:00:41.26', '0:00:42.86'), 'vale Dar'), (('0:00:42.86', '0:00:43.66'), 'David cu'), (('0:00:43.66', '0:00:44.98'), 'mâinile neclintite'), (('0:00:44.98', '0:00:45.51'), 'și-a băgat'), (('0:00:45.51', '0:00:45.89'), 'mâna în'), (('0:00:45.89', '0:00:46.40'), 'traistă și'), (('0:00:46.40', '0:00:46.76'), 'a scos'), (('0:00:46.76', '0:00:47.16'), 'o piatră'), (('0:00:47.16', '0:00:48.69'), 'netedă A'), (('0:00:48.69', '0:00:49.12'), 'șoptit o'), (('0:00:49.12', '0:00:49.85'), 'rugăciune către'), (('0:00:49.85', '0:00:50.91'), 'Dumnezeu nu'), (('0:00:50.91', '0:00:51.94'), 'pentru putere'), (('0:00:51.94', '0:00:52.42'), 'ci pentru'), (('0:00:52.42', '0:00:54.05'), 'îndrumare Cu'), (('0:00:54.05', '0:00:54.56'), 'o mișcare'), (('0:00:54.56', '0:00:55.49'), 'rapidă a'), (('0:00:55.49', '0:00:56.30'), 'aruncat piatra'), (('0:00:56.30', '0:00:57.67'), 'în aer'), (('0:00:57.67', '0:00:58.31'), 'Timpul părea'), (('0:00:58.31', '0:00:58.52'), 'să se'), (('0:00:58.52', '0:00:59.02'), 'oprească în'), (('0:00:59.02', '0:00:59.36'), 'timp ce'), (('0:00:59.36', '0:01:00.07'), 'piatra zbura'), (('0:01:00.07', '0:01:00.85'), 'prin cer'), (('0:01:00.85', '0:01:01.56'), 'lovindu-l pe'), (('0:01:01.56', '0:01:02.33'), 'Goliat drept'), (('0:01:02.33', '0:01:03.76'), 'în frunte'), (('0:01:03.76', '0:01:04.49'), 'Uriașul s-a'), (('0:01:04.49', '0:01:06.04'), 'clătinat genunchii'), (('0:01:06.04', '0:01:06.31'), 'i s-au'), (('0:01:06.31', '0:01:07.20'), 'înmuiat și'), (('0:01:07.20', '0:01:07.40'), 'cu un'), (('0:01:07.40', '0:01:08.75'), 'zgomot asurzitor'), (('0:01:08.75', '0:01:09.22'), 'a căzut'), (('0:01:09.22', '0:01:10.72'), 'la pământ'), (('0:01:10.72', '0:01:11.50'), 'Mulțimea a'), (('0:01:11.50', '0:01:12.06'), 'rămas fără'), (('0:01:12.06', '0:01:13.69'), 'cuvinte neîncrezătoare'), (('0:01:13.69', '0:01:14.03'), 'în ceea'), (('0:01:14.03', '0:01:14.54'), 'ce tocmai'), (('0:01:14.54', '0:01:16.70'), 'văzuse David'), (('0:01:16.70', '0:01:17.34'), 'ținând încă'), (('0:01:17.34', '0:01:17.88'), 'praștia în'), (('0:01:17.88', '0:01:18.68'), 'mână s-a'), (('0:01:18.68', '0:01:19.24'), 'apropiat de'), (('0:01:19.24', '0:01:20.40'), 'uriașul căzut'), (('0:01:20.40', '0:01:21.25'), 'ridicând sabia'), (('0:01:21.25', '0:01:21.66'), 'masivă a'), (('0:01:21.66', '0:01:22.19'), 'lui Goliat'), (('0:01:22.19', '0:01:22.75'), 'și tăindu-i'), (('0:01:22.75', '0:01:24.11'), 'capul semnalând'), (('0:01:24.11', '0:01:24.82'), 'victoria lui'), (('0:01:24.82', '0:01:27.20'), 'Israel Filistenii'), (('0:01:27.20', '0:01:27.94'), 'paralizați de'), (('0:01:27.94', '0:01:29.52'), 'înfrângerea neașteptată'), (('0:01:29.52', '0:01:30.06'), 'au fugit'), (('0:01:30.06', '0:01:30.34'), 'de pe'), (('0:01:30.34', '0:01:30.76'), 'câmpul de'), (('0:01:30.76', '0:01:32.71'), 'luptă Victoria'), (('0:01:32.71', '0:01:33.26'), 'lui David'), (('0:01:33.26', '0:01:33.52'), 'nu a'), (('0:01:33.52', '0:01:34.00'), 'fost doar'), (('0:01:34.00', '0:01:34.35'), 'una de'), (('0:01:34.35', '0:01:35.24'), 'forță ci'), (('0:01:35.24', '0:01:36.85'), 'de credință'), (('0:01:36.85', '0:01:37.17'), 'El a'), (('0:01:37.17', '0:01:38.05'), 'demonstrat că'), (('0:01:38.05', '0:01:38.48'), 'oricât de'), (('0:01:38.48', '0:01:38.89'), 'mic sau'), (('0:01:38.89', '0:01:39.73'), 'nesemnificativ ai'), (('0:01:39.73', '0:01:40.50'), 'părea cu'), (('0:01:40.50', '0:01:40.96'), 'curaj și'), (('0:01:40.96', '0:01:41.55'), 'încredere într-o'), (('0:01:41.55', '0:01:42.00'), 'putere mai'), (('0:01:42.00', '0:01:42.94'), 'mare chiar'), (('0:01:42.94', '0:01:43.27'), 'și cei'), (('0:01:43.27', '0:01:43.64'), 'mai mari'), (('0:01:43.64', '0:01:44.20'), 'uriași pot'), (('0:01:44.20', '0:01:45.90'), 'cădea Povestea'), (('0:01:45.90', '0:01:46.35'), 'lui David'), (('0:01:46.35', '0:01:46.90'), 'și Goliat'), (('0:01:46.90', '0:01:47.42'), 'a devenit'), (('0:01:47.42', '0:01:47.90'), 'un simbol'), (('0:01:47.90', '0:01:48.49'), 'al speranței'), (('0:01:48.49', '0:01:48.98'), 'de-a lungul'), (('0:01:48.98', '0:01:50.04'), 'vremurilor o'), (('0:01:50.04', '0:01:50.60'), 'amintire că'), (('0:01:50.60', '0:01:51.64'), 'prin credință'), (('0:01:51.64', '0:01:52.75'), 'imposibilul poate'), (('0:01:52.75', '0:01:54.92'), 'deveni realitate')]
+2024-09-13 16:36:28,178 - INFO - Search terms generated: [[[0, 2.82], ['meeting ex', 'relationship start', 'two years']], [[2.82, 5.24], ['ex-girlfriend', 'couple years', 'time together']], [[5.24, 7.54], ['boob job', 'surgery discussion', 'breast enhancement']], [[7.54, 9.24], ['previous partners', 'dating history', 'opinion on surgery']], [[9.24, 11.84], ['personal preference', 'dislikes surgery', 'deal breaker']]]
+2024-09-13 16:36:28,178 - INFO - Background videos generated: [[[0, 118.82], 'http://104.154.18.51:3000/video/90']]
+2024-09-13 16:36:28,178 - DEBUG - matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+2024-09-13 16:36:29,398 - DEBUG - applying descrambler
+2024-09-13 16:36:29,400 - DEBUG - finding initial function name
+2024-09-13 16:36:29,401 - DEBUG - Pattern failed: ytplayer\.config\s*=\s*
+2024-09-13 16:36:29,401 - DEBUG - Could not parse object.
+2024-09-13 16:36:29,426 - DEBUG - finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+2024-09-13 16:36:30,095 - DEBUG - finding initial function name
+2024-09-13 16:36:30,448 - DEBUG - finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+2024-09-13 16:36:30,448 - DEBUG - getting transform plan
+2024-09-13 16:36:30,449 - DEBUG - matched regex search: eCa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+2024-09-13 16:36:30,449 - DEBUG - getting transform object
+2024-09-13 16:36:30,451 - DEBUG - Finding throttling function name
+2024-09-13 16:36:30,457 - DEBUG - finding initial function name
+2024-09-13 16:36:30,458 - DEBUG - Pattern failed: ytplayer\.config\s*=\s*
+2024-09-13 16:36:30,458 - DEBUG - Could not parse object.
+2024-09-13 16:36:30,482 - DEBUG - finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+2024-09-13 16:36:31,134 - DEBUG - finding initial function name
+2024-09-13 16:36:31,492 - DEBUG - finished regex search, matched: (?P<sig>[a-zA-Z0-9$]+)\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+2024-09-13 16:36:31,492 - DEBUG - getting transform plan
+2024-09-13 16:36:31,493 - DEBUG - matched regex search: eCa=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+2024-09-13 16:36:31,493 - DEBUG - getting transform object
+2024-09-13 16:36:31,495 - DEBUG - Finding throttling function name
+2024-09-13 16:36:31,499 - INFO - An error occurred: get_throttling_function_name: could not find match for multiple
+2024-09-13 16:36:40,619 - INFO - Audio downloaded successfully: audio_background
+2024-09-13 16:36:40,620 - INFO - Background audio path audio_background.mp3
+2024-09-13 16:37:39,068 - INFO - Created video /tmp/tmp5937f17w
+2024-09-13 16:44:15,578 - INFO - Video generation completed
+2024-09-13 16:44:15,578 - INFO - Process completed for topic: Știai povestea lui David și Goliat? În deșertul arzător, un tânăr păstor pe nume David stătea în fața uriașului Goliat. Inima îi bătea cu putere, nu de frică, ci din convingerea că credința sa va triumfa. Armatele lui Israel tremurau în umbra războinicului filistean, care părea de neînvins cu armura sa de fier și vocea tunătoare. Zi de zi, Goliat își bătea joc de israeliți, provocându-i să-l înfrunte. Nimeni nu îndrăznea, până când David, înarmat doar cu o praștie și o credință de neclintit, a pășit înainte. „Sunt eu câine, de vii la mine cu bețe?” tună Goliat, râsul său răsunând în vale. Dar David, cu mâinile neclintite, și-a băgat mâna în traistă și a scos o piatră netedă. A șoptit o rugăciune către Dumnezeu, nu pentru putere, ci pentru îndrumare. Cu o mișcare rapidă, a aruncat piatra în aer. Timpul părea să se oprească în timp ce piatra zbura prin cer, lovindu-l pe Goliat drept în frunte. Uriașul s-a clătinat, genunchii i s-au înmuiat, și cu un zgomot asurzitor, a căzut la pământ. Mulțimea a rămas fără cuvinte, neîncrezătoare în ceea ce tocmai văzuse. David, ținând încă praștia în mână, s-a apropiat de uriașul căzut, ridicând sabia masivă a lui Goliat și tăindu-i capul, semnalând victoria lui Israel. Filistenii, paralizați de înfrângerea neașteptată, au fugit de pe câmpul de luptă. Victoria lui David nu a fost doar una de forță, ci de credință. El a demonstrat că, oricât de mic sau nesemnificativ ai părea, cu curaj și încredere într-o putere mai mare, chiar și cei mai mari uriași pot cădea. Povestea lui David și Goliat a devenit un simbol al speranței de-a lungul vremurilor, o amintire că prin credință, imposibilul poate deveni realitate.
